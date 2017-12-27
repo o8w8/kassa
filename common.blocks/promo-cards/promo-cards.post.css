@@ -1,7 +1,7 @@
 .promo-cards {
 	position: relative;
 	min-height: 100vh;
-	padding: 40px;
+	padding: var(--space-xxxl);
 	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
@@ -86,10 +86,10 @@
 
 	&_view {
 		&_default {
-			background: white;
+			background: var(--color-default);
 		}
 		&_ghost {
-			background: #F5F5F5;
+			background: var(--color-ghost);
 
 			.promo-cards__description, .promo-cards__item {
 				color: black;
@@ -99,7 +99,7 @@
 			background: #2E3033;
 
 			.promo-cards__description, .promo-cards__item {
-				color: white;
+				color: var(--color-default);
 			}
 
 			.promo-cards__controls {
@@ -110,11 +110,7 @@
 
 	&__team-member {
 		position: relative;
-		color: var(--color-typo-primary);
-		text-transform: uppercase;
 		font-size: 56px;
-		font-family: 'IBM Plex Mono';
-		font-weight: bold;
 		text-decoration: none;
 
 		&:after {
@@ -140,10 +136,6 @@
 	}
 	&__new-team-member {
 		color: #FD4D68;
-		text-transform: uppercase;
-		font-size: 24px;
-		font-family: 'IBM Plex Mono';
-		font-weight: 500;
 		text-decoration: none;
 		margin-left: -72px;
 		transition: .3s ease;
@@ -169,11 +161,9 @@
 	}
 	&__theme-name {
 		position: absolute;
-		font-family: 'IBM Plex Mono';
 		font-size: 200px;
 		color: transparent;
 		-webkit-text-stroke: .2px var(--color-alert);
-		text-transform: uppercase;
 		transition: transform .4s .3s, opacity .4s .4s, color .4s .4s;
 
 		&_slide {
@@ -210,7 +200,6 @@
 	&__item {
 		position: relative;
 		width: 296px;
-		font-family: 'IBM Plex Mono' !important;
 
 		&:before {
 			content: '';
@@ -231,9 +220,7 @@
 		}
 	}
 	&__header {
-		font-family: 'IBM Plex Sans' !important;
 		font-size: 56px;
-		font-weight: bold;
 	}
 	&__card {
 		position: relative;
@@ -265,7 +252,6 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		font-family: 'IBM Plex Mono' !important;
 		transition: opacity .4s .4s;
 
 		&_slide {

@@ -90,16 +90,19 @@ module.exports = {
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'first' },
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
 				content: 'video'
 			},
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'second' },
-				content: 'text'
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
+				content: 'copy'
 			},
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'third' },
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
 				content: 'music'
 			},
 			{
@@ -432,10 +435,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: [
-							{ block: 'decorator', mods: { 'indent-b': 'xl' } },
-							{ block: 'text', mods: { font: 'sans', weight: 'bold' }, }
-						],
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Video'
 					},
 					{
@@ -450,10 +450,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: [
-							{ block: 'decorator', mods: { 'indent-b': 'xl' } },
-							{ block: 'text', mods: { font: 'sans', weight: 'bold' }, }
-						],
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Copy'
 					},
 					{
@@ -468,10 +465,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: [
-							{ block: 'decorator', mods: { 'indent-b': 'xl' } },
-							{ block: 'text', mods: { font: 'sans', weight: 'bold' }, }
-						],
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Music'
 					},
 					{
@@ -552,16 +546,19 @@ module.exports = {
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'first' },
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
 				content: 'goods'
 			},
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'second' },
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
 				content: 'brand'
 			},
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'third' },
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
 				content: 'service'
 			},
 			{
@@ -797,10 +794,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: [
-							{ block: 'decorator', mods: { 'indent-b': 'xl' } },
-							{ block: 'text', mods: { font: 'sans', weight: 'bold' }, }
-						],
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Goods'
 					},
 					{
@@ -815,10 +809,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: [
-							{ block: 'decorator', mods: { 'indent-b': 'xl' } },
-							{ block: 'text', mods: { font: 'sans', weight: 'bold' }, }
-						],
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Offers'
 					},
 					{
@@ -833,10 +824,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: [
-							{ block: 'decorator', mods: { 'indent-b': 'xl' } },
-							{ block: 'text', mods: { font: 'sans', weight: 'bold' }, }
-						],
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Service'
 					},
 					{
@@ -909,16 +897,19 @@ module.exports = {
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'first' },
-				content: 'recommendation'
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
+				content: 'collection'
 			},
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'second' },
-				content: 'good'
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
+				content: 'application'
 			},
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'third' },
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
 				content: 'developer'
 			},
 			{
@@ -1216,7 +1207,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: { block: 'decorator', mods: { 'indent-b': 'xl' } },
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Collection'
 					},
 					{
@@ -1232,7 +1223,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: { block: 'decorator', mods: { 'indent-b': 'xl' } },
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Application'
 					},
 					{
@@ -1248,7 +1239,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: { block: 'decorator', mods: { 'indent-b': 'xl' } },
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Developer'
 					},
 					{
@@ -1328,16 +1319,19 @@ module.exports = {
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'first' },
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
 				content: 'person'
 			},
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'second' },
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
 				content: 'project'
 			},
 			{
 				elem: 'theme-name',
 				elemMods: { slide: 'third' },
+				mix: { block: 'text', mods: { font: 'mono', transform: 'uppercase' } },
 				content: 'event'
 			},
 			{
@@ -1712,10 +1706,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: [
-							{ block: 'decorator', mods: { 'indent-b': 'xl' } },
-							{ block: 'text', mods: { font: 'sans', weight: 'bold' }, }
-						],
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' }, }],
 						content: 'Person'
 					},
 					{
@@ -1730,10 +1721,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: [
-							{ block: 'decorator', mods: { 'indent-b': 'xl' } },
-							{ block: 'text', mods: { font: 'sans', weight: 'bold' }, }
-						],
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Project'
 					},
 					{
@@ -1748,10 +1736,7 @@ module.exports = {
 					content: [
 					{
 						elem: 'header',
-						mix: [
-							{ block: 'decorator', mods: { 'indent-b': 'xl' } },
-							{ block: 'text', mods: { font: 'sans', weight: 'bold' }, }
-						],
+						mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }, { block: 'text', mods: { font: 'sans', weight: 'bold' } }],
 						content: 'Event'
 					},
 					{
@@ -1837,6 +1822,7 @@ module.exports = {
 							attrs: { href: 'https://github.com/Miocene' },
 							block: 'promo-cards',
 							elem: 'team-member',
+							mix: { block: 'text', mods: { view: 'primary', font: 'mono', weight: 'bold', transform: 'uppercase' } },
 							content: 'Julia Muzafarova'
 						}]
 					},
@@ -1849,6 +1835,7 @@ module.exports = {
 							attrs: { href: 'http://instagram.com/sntx_error' },
 							block: 'promo-cards',
 							elem: 'team-member',
+							mix: { block: 'text', mods: { view: 'primary', font: 'mono', weight: 'bold', transform: 'uppercase' } },
 							content: 'Leonid Motorin'
 						}]
 					},
@@ -1861,6 +1848,7 @@ module.exports = {
 							attrs: { href: 'https://www.facebook.com/kirill.back' },
 							block: 'promo-cards',
 							elem: 'team-member',
+							mix: { block: 'text', mods: { view: 'primary', font: 'mono', weight: 'bold', transform: 'uppercase' } },
 							content: 'Kirill Fedotov'
 						}]
 					},
@@ -1873,6 +1861,7 @@ module.exports = {
 							attrs: { href: 'https://dribbble.com/lerazhelezova' },
 							block: 'promo-cards',
 							elem: 'team-member',
+							mix: { block: 'text', mods: { view: 'primary', font: 'mono', weight: 'bold', transform: 'uppercase' } },
 							content: 'Lera Zhelezova'
 						}]
 					},
@@ -1885,6 +1874,7 @@ module.exports = {
 							attrs: { href: 'https://twitter.com/fooontic_' },
 							block: 'promo-cards',
 							elem: 'team-member',
+							mix: { block: 'text', mods: { view: 'primary', font: 'mono', weight: 'bold', transform: 'uppercase' } },
 							content: 'Vadim Matveev'
 						}]
 					},
@@ -1897,6 +1887,7 @@ module.exports = {
 							attrs: { href: 'https://sava.work' },
 							block: 'promo-cards',
 							elem: 'team-member',
+							mix: { block: 'text', mods: { view: 'primary', font: 'mono', weight: 'bold', transform: 'uppercase' } },
 							content: 'Saveliy Bobov'
 						}]
 					},
@@ -1909,6 +1900,7 @@ module.exports = {
 							attrs: { href: 'https://www.facebook.com/sergibysergi' },
 							block: 'promo-cards',
 							elem: 'team-member',
+							mix: { block: 'text', mods: { view: 'primary', font: 'mono', weight: 'bold', transform: 'uppercase' } },
 							content: 'Sergi Matveev'
 						}]
 					},
@@ -1921,6 +1913,7 @@ module.exports = {
 							attrs: { href: 'https://github.com/joshuan' },
 							block: 'promo-cards',
 							elem: 'team-member',
+							mix: { block: 'text', mods: { view: 'primary', font: 'mono', weight: 'bold', transform: 'uppercase' } },
 							content: 'Evgeniy Shershnev'
 						}]
 					},
@@ -1933,6 +1926,7 @@ module.exports = {
 							attrs: { href: 'https://www.facebook.com/koloskof' },
 							block: 'promo-cards',
 							elem: 'team-member',
+							mix: { block: 'text', mods: { view: 'primary', font: 'mono', weight: 'bold', transform: 'uppercase' } },
 							content: 'Misha Koloskof'
 						}]
 					},
@@ -1945,6 +1939,7 @@ module.exports = {
 							attrs: { href: 'https://github.com/bemdesign/bem-design' },
 							block: 'promo-cards',
 							elem: 'new-team-member',
+							mix: { block: 'text', mods: { size: 'xl', font: 'mono', weight: 'bold', transform: 'uppercase' } },
 							content: 'JOIN TO Our TEAM'
 						}]
 					}]
