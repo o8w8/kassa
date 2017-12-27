@@ -1,14 +1,26 @@
 @media screen and (max-width: 1199px) {
 	.demo__plug {
-		display: block;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
 		position: absolute !important;
 		top: 0;
 		bottom: 0;
 		left: 0;
 		right: 0;
+		height: 100vh;
+		width: 100vw;
 		background-color: var(--color-default);
 		z-index: 9999;
-		font-size: 5vmin;
+
+		&-card {
+			display: block;
+			height: 100vh;
+			width: 100vw;
+			max-width: 320px;
+			max-height: 568px;
+		}
 
 		&-illustration {
 			display: block;
@@ -49,6 +61,20 @@
 			}
 
 			&:hover { opacity: .8;}
+		}
+	}
+}
+
+@media screen and (min-width: 375px) {
+	.demo__plug {
+		background: #F5F5F5;
+		/* background: #2E3033; */
+
+		&-card {
+			height: 85vh;
+			width: 85vw;
+			border-radius: 12px;
+			box-shadow: 0 30px 40px -20px rgba(0, 0, 0, .4);
 		}
 	}
 }

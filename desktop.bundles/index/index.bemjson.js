@@ -16,6 +16,11 @@ module.exports = {
 	scripts: [{ elem: 'js', url: 'index.min.js' }],
 	mods: { type: 'full-screen', theme: 'islands' },
 	content: [
+		// {
+		// 	block: 'button',
+		// 	mods: { theme: 'promo', type: 'submit', view: 'plain' },
+		// 	text: 'Button'
+		// }
 	{
 		block: 'demo',
 		mix: {
@@ -1971,5 +1976,6 @@ module.exports = {
 			]
 		}]
 		//////////////////////// TEAM //
-	}]
+	}
+]
 };
