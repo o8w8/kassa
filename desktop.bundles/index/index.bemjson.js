@@ -18,10 +18,14 @@ module.exports = {
 	content: [
 	{
 		block: 'demo',
-		mix: { block: 'theme', mods: { color: 'default', space: 'default', size: 'default' }},
+		mix: [
+			{ block: 'theme', mods: { color: 'default', space: 'default', size: 'default' }},
+			{ block: 'scrollify' }
+		],
 		content: [
 		{
 			elem: 'layout',
+			cls: 'scroll-section',
 			elemMods: { view: 'default' },
 			content: [
 			{
@@ -70,7 +74,7 @@ module.exports = {
 						tag: 'a',
 						block: 'text',
 						mods: { view: 'letter' },
-						attrs: { href: 'https://t.me/bemdesign', style: 'text-decoration: none' },
+						attrs: { href: 'https://t.me/bem_design', style: 'text-decoration: none' },
 						content: 'Telegram'
 					}]
 				}]
@@ -80,6 +84,7 @@ module.exports = {
 		// MEDIA ///////////////////////
 		{
 			block: 'promo-cards',
+			cls: 'scroll-section',
 			mods: { view: 'inverse', slide: 'first' },
 			mix: { block: 'promo-cards', elem: 'media-section' },
 			content: [
@@ -532,6 +537,7 @@ module.exports = {
 		// OFFER ///////////////////////
 		{
 			block: 'promo-cards',
+			cls: 'scroll-section',
 			mix: { block: 'promo-cards', elem: 'offer-section' },
 			mods: { view: 'ghost', slide: 'first' },
 			content: [
@@ -814,7 +820,6 @@ module.exports = {
 						mix: [{ block: 'decorator', mods: { 'indent-h': 'm' } }],
 						content: {
 							block: 'text',
-							attrs: { style: 'font-family: \'IBM Plex Mono\' !important;' },
 							mix: { block: 'promo-cards', elem: 'offer-tab-1' },
 							mods: { size: 'xl', transform: 'uppercase', view: 'letter', align: 'center' },
 							content: 'Goods'
@@ -825,7 +830,6 @@ module.exports = {
 						mix: [{ block: 'decorator', mods: { 'indent-h': 'm' } }],
 						content: {
 							block: 'text',
-							attrs: { style: 'font-family: \'IBM Plex Mono\' !important;' },
 							mix: { block: 'promo-cards', elem: 'offer-tab-2' },
 							mods: { size: 'xl', transform: 'uppercase', view: 'primary', align: 'center' },
 							content: 'Brand'
@@ -836,7 +840,6 @@ module.exports = {
 						mix: [{ block: 'decorator', mods: { 'indent-h': 'm' } }],
 						content: {
 							block: 'text',
-							attrs: { style: 'font-family: \'IBM Plex Mono\' !important;' },
 							mix: { block: 'promo-cards', elem: 'offer-tab-3' },
 							mods: { size: 'xl', transform: 'uppercase', view: 'primary', align: 'center' },
 							content: 'Service'
@@ -864,6 +867,7 @@ module.exports = {
 		// APPS ////////////////////////
 		{
 			block: 'promo-cards',
+			cls: 'scroll-section',
 			mods: { view: 'inverse', slide: 'first' },
 			mix: { block: 'promo-cards', elem: 'apps-section' },
 			content: [
@@ -1286,6 +1290,7 @@ module.exports = {
 		// DONATE //////////////////////
 		{
 			block: 'promo-cards',
+			cls: 'scroll-section',
 			mix: { block: 'promo-cards', elem: 'donate-section' },
 			mods: { view: 'ghost', slide: 'first' },
 			content: [
@@ -1699,7 +1704,6 @@ module.exports = {
 						mix: [{ block: 'decorator', mods: { 'indent-h': 'm' } }],
 						content: {
 							block: 'text',
-							attrs: { style: 'font-family: \'IBM Plex Mono\' !important;' },
 							mix: { block: 'promo-cards', elem: 'donate-tab-1' },
 							mods: { size: 'xl', transform: 'uppercase', view: 'letter', align: 'center' },
 							content: 'Person'
@@ -1710,7 +1714,6 @@ module.exports = {
 						mix: [{ block: 'decorator', mods: { 'indent-h': 'm' } }],
 						content: {
 							block: 'text',
-							attrs: { style: 'font-family: \'IBM Plex Mono\' !important;' },
 							mix: { block: 'promo-cards', elem: 'donate-tab-2' },
 							mods: { size: 'xl', transform: 'uppercase', view: 'primary', align: 'center' },
 							content: 'Project'
@@ -1721,7 +1724,6 @@ module.exports = {
 						mix: [{ block: 'decorator', mods: { 'indent-h': 'm' } }],
 						content: {
 							block: 'text',
-							attrs: { style: 'font-family: \'IBM Plex Mono\' !important;' },
 							mix: { block: 'promo-cards', elem: 'donate-tab-3' },
 							mods: { size: 'xl', transform: 'uppercase', view: 'primary', align: 'center' },
 							content: 'Event'
@@ -1750,6 +1752,7 @@ module.exports = {
 		// TEAM ////////////////////////
 		{
 			block: 'promo-cards',
+			cls: 'scroll-section',
 			// mods: { view: 'inverse' },
 			content: [
 			{
