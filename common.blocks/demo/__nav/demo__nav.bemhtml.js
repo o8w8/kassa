@@ -2,15 +2,6 @@ block('demo').elem('nav')(
 	content()(function(n, ctx) {
 		return [
 			{
-				tag: 'a',
-				attrs: { 'href': 'http://bem.design' },
-				elem: 'logo',
-				content: {
-					elem: 'logo-icon',
-					elemMods: { type: 'logo' }
-				}
-			},
-			{
 				elem: 'nav-list',
 				content: [
 					{
@@ -33,12 +24,7 @@ block('demo').elem('nav')(
 					}
 
 				]
-			},
-			// {
-			// 	elem: 'nav-chat',
-			// 	tag: 'a',
-			// 	attrs: { href: 'https://t.me/bemdesign', target: '_blank' },
-			// }
+			}
 		]
 	})
 );
