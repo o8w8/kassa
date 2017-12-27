@@ -312,6 +312,9 @@ module.exports = {
 					}]
 				}]
 			}]
+		},
+		{
+			elem: 'footer'
 		}]
 	}]
 };

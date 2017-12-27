@@ -267,6 +267,9 @@ module.exports = {
 					}]
 				}]
 			}]
+		},
+		{
+			elem: 'footer'
 		}]
 	}]
 };

@@ -1083,6 +1083,9 @@ module.exports = {
 					}]
 				}]
 			}]
+		},
+		{
+			elem: 'footer'
 		}]
 	}]
 };

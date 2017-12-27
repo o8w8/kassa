@@ -14,7 +14,7 @@ module.exports = {
 			mods: { color: 'default', space: 'default', size: 'default' }
 	},
 	scripts: [{ elem: 'js', url: 'typo.min.js' }],
-	mods: { type: 'full-screen', theme: 'islands', 'vertical-align': 'center' },
+	mods: { theme: 'islands' },
 	content: [
 	{
 		block: 'demo',
@@ -938,6 +938,9 @@ module.exports = {
 					}]
 				}]
 			}]
+		},
+		{
+			elem: 'footer'
 		}]
 	}]
 };

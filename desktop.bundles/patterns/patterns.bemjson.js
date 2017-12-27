@@ -2613,7 +2613,10 @@ module.exports = {
 					/* /PT-BAGE */
 
 				]
-			}
+			},
+		{
+			elem: 'footer'
+		}
 		]
 	}]
 };

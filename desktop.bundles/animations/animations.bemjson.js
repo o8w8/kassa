@@ -278,6 +278,9 @@ module.exports = {
 					}]
 				}]
 			}]
+		},
+		{
+			elem: 'footer'
 		}]
 	}]
 };

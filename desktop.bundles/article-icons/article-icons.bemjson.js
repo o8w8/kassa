@@ -152,6 +152,9 @@ module.exports = {
 				mods: { view: 'ghost', size: 'xl', type: 'h2', weight: 'bold' },
 				content: '9. Примеры (хорошо и плохо)'
 			}]
+		},
+		{
+			elem: 'footer'
 		}]
 	}]
 };

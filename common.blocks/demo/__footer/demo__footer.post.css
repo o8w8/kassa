@@ -1,4 +1,4 @@
 .demo__footer {
+	background: var(--color-inverse);
 	text-align: center;
-	padding: var(--space-xxl) 0px;
 }

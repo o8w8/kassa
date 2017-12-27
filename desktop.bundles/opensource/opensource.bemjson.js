@@ -480,13 +480,7 @@ module.exports = {
 			}]
 		},
 		{
-			elem: 'footer',
-			content: [
-			{
-				block: 'text',
-				mods: { view: 'primary', size: 'm' },
-				content: 'Stay BEMed!'
-			}]
+			elem: 'footer'
 		}]
 	}]
 };

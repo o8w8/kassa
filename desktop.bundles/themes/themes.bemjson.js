@@ -1114,6 +1114,9 @@ module.exports = {
 				/* Spaces */
 				]
 			}]
+		},
+		{
+			elem: 'footer'
 		}]
 	}]
 };
