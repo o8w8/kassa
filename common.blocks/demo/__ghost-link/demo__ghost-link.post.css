@@ -1,8 +1,0 @@
-.demo__ghost-link {
-	color: var(--color-link) !important;
-	transition: .3s ease;
-
-	&:hover {
-		color: var(--color-typo-letter) !important;
-	}
-}

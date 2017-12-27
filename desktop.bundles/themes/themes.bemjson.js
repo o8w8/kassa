@@ -41,18 +41,13 @@ module.exports = {
 				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxxxxl' } }, { block: 'demo', elem: 'title' }],
 				content: 'Variables'
 			},
-			// {
-			//   block: 'text',
-			//   mods: { size: 'xxl', view: 'primary', width: 'default' },
-			//   mix: { block: 'decorator', mods: { 'indent-b': 'xxxxl' } },
-			//   content: 'Переменные позволяют гибко кастомизировать и масштабировать интерфейс, сохраняя консистентность блоков'
-			// },
 			{
 				elem: 'section',
 				content: [
 				/* Colors */
 				{
-					elem: 'block-colors',
+					block: 'decorator',
+					mods: { 'indent-b' : 'xxxxxl' },
 					content: [
 					{
 						block: 'row',
@@ -481,7 +476,8 @@ module.exports = {
 
 				/* Colors */
 				{
-					elem: 'typo-colors',
+					block: 'decorator',
+					mods: { 'indent-b' : 'xxxxxl' },
 					content: [
 					{
 						block: 'row',
@@ -713,7 +709,8 @@ module.exports = {
 
 				/* Colors */
 				{
-					elem: 'link-colors',
+					block: 'decorator',
+					mods: { 'indent-b' : 'xxxxxl' },
 					content: [
 					{
 						block: 'row',
