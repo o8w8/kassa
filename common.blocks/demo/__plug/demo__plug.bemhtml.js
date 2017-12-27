@@ -46,7 +46,7 @@ block('demo').elem('plug')(
 				content: [
 					{
 						block: 'button',
-						mods: { theme: 'promo', 'size': 'xl', type: 'link', view: 'action', font: 'mono', weight: 'bold' },
+						mods: { theme: 'promo', 'size': 'xl', type: 'link', view: 'action', font: 'mono', weight: 'bold', shadow: 'action' },
 						url: 'https://github.com/bemdesign',
 						mix: { block: 'demo', elem: 'plug-button' },
 						text: [
