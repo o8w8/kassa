@@ -2,6 +2,7 @@ const techs = {
         // essential
         fileProvider: require('enb/techs/file-provider'),
         fileMerge: require('enb/techs/file-merge'),
+        // fileCopy: require('enb/techs/file-copy'),
 
         // optimization
         borschik: require('enb-borschik/techs/borschik'),
@@ -114,8 +115,16 @@ module.exports = function(config) {
             // borschik
             [techs.borschik, { source: '?.js', target: '?.min.js', minify: true }],
             [techs.borschik, { source: '?.css', target: '?.min.css', minify: true }]
+
+
+            // // Copy static
+            // [techs.fileCopy, { source: '?.min.css', target: '../../?.min.css' }],
+            // [techs.fileCopy, { source: '?.min.js', target: '../../?.min.js' }],
+            // [techs.fileCopy, { source: '?.html', target: '../../?.html' }]
         ]);
 
         nodeConfig.addTargets([/* '?.bemtree.js', */ '?.html', '?.min.css', '?.min.js']);
+
+        // nodeConfig.addTargets([/* '?.bemtree.js', */ '../../?.html', '../../?.min.css', '../../?.min.js']);
     });
 };
