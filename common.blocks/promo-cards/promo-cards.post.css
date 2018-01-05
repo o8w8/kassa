@@ -110,17 +110,17 @@
 
 	&__team-member {
 		position: relative;
-		font-size: 56px;
+		font-size: 48px;
 		text-decoration: none;
 
 		&:after {
 			content: '';
 			position: absolute;
-			bottom: -4px;
+			bottom: 2px;
 			left: 0;
 			display: block;
 			width: 100%;
-			height: 4px;
+			height: 3px;
 			background: #FD4D68;
 			transform: scaleX(0);
 			transform-origin: 0 center;

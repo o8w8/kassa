@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var nav = $('.demo__nav'),
 		menu = $('.demo__menu'),
-		control = $('.demo__logo');
+		control = $('.demo__menu-close');
 
 	nav.find('.link').click(function(){
 		var section = $(this).attr('data-name');
@@ -15,16 +15,16 @@ $(document).ready(function(){
 		$('.demo__menu-sections-col[data-name='+ section +']').show();
 		
 		menu.addClass('demo__menu_open');
-		$('.demo__logo-icon').removeClass('demo__logo-icon_type_logo').addClass('demo__logo-icon_type_close');
+		$('.demo__menu-close').removeClass('demo__menu-close_state_hidden');
 	}
 
 	control.on('click', function(){
-		var type = control.find('.demo__logo-icon');
+		var type = $(this).hasClass('demo__menu-close_state_hidden');
 
-		if(type.hasClass('demo__logo-icon_type_close')) {
+		if(!type) {
 			$('.demo').attr('style', '');
 			menu.removeClass('demo__menu_open');
-			type.addClass('demo__logo-icon_type_logo').removeClass('demo__logo-icon_type_close');
+			$('.demo__menu-close').addClass('demo__menu-close_state_hidden');
 
 			return false;
 		}

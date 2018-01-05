@@ -12,6 +12,10 @@
 	background: white;
 	z-index: 10;
 
+	&-list {
+		width: var(--space-xl);
+	}
+
 	&-item {
 		writing-mode: vertical-lr;
 		margin: var(--space-xxl) 0;

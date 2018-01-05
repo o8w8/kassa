@@ -1,0 +1,31 @@
+.demo__menu-close {
+	position: absolute;
+	top: var(--space-l);
+	width: calc(var(--space-xxl) + var(--space-xxs));
+	height: calc(var(--space-xxl) + var(--space-xxs));
+	cursor: pointer;
+	transition: .3s ease;
+
+	&:before {
+		content: '';
+		position: absolute;
+		left: var(--space-s);
+		width: var(--space-s);
+		height: 100%;
+		background: #000;
+		transform: rotate(45deg);
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		left: var(--space-s);
+		width: var(--space-s);
+		height: 100%;
+		background: #000;
+		transform: rotate(-45deg);
+	}
+
+	&_state_hidden {
+		opacity: 0;
+	}
+}
