@@ -20,10 +20,6 @@ module.exports = {
 		mix: [
 			{ block: 'b-page', elem: 'content' },
 			{ block: 'icons' }],
-		params: {
-			menusection: 'tools',
-			pagename: 'icons',
-		},
 		content: [
 		{
 			elem: 'content',
@@ -34,7 +30,7 @@ module.exports = {
 			},
 			{
 				block: 'text',
-				mods: { size: 'xxxxl', weight: 'bold' },
+				mods: { size: 'xxxxl', weight: 'bold', font: 'sans' },
 				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxxxxl' } }, { block: 'demo', elem: 'title' }],
 				content: 'Icons'
 			},
@@ -63,7 +59,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'add-1'
 						}]
 					}]
@@ -89,7 +85,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'add-2'
 						}]
 					}]
@@ -115,7 +111,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'add-user'
 						}]
 					}]
@@ -141,7 +137,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'allert-2'
 						}]
 					}]
@@ -167,7 +163,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'arrow-up'
 						}]
 					}]
@@ -193,7 +189,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'double-arrow-up'
 						}]
 					}]
@@ -219,7 +215,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'arrow-down'
 						}]
 					}]
@@ -245,7 +241,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'double-arrow-down'
 						}]
 					}]
@@ -271,7 +267,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'arrow-left'
 						}]
 					}]
@@ -297,7 +293,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'arrow-right'
 						}]
 					}]
@@ -323,7 +319,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'attention'
 						}]
 					}]
@@ -349,7 +345,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'back'
 						}]
 					}]
@@ -375,7 +371,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'front'
 						}]
 					}]
@@ -401,7 +397,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'blog'
 						}]
 					}]
@@ -427,7 +423,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'comment'
 						}]
 					}]
@@ -453,7 +449,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'check'
 						}]
 					}]
@@ -479,7 +475,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'close'
 						}]
 					}]
@@ -505,7 +501,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'crop'
 						}]
 					}]
@@ -531,7 +527,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'devices'
 						}]
 					}]
@@ -557,7 +553,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'enter'
 						}]
 					}]
@@ -583,7 +579,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'export'
 						}]
 					}]
@@ -609,7 +605,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'fave-1'
 						}]
 					}]
@@ -635,7 +631,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'hamburger'
 						}]
 					}]
@@ -661,7 +657,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'help'
 						}]
 					}]
@@ -687,7 +683,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'list'
 						}]
 					}]
@@ -713,7 +709,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'lock'
 						}]
 					}]
@@ -739,7 +735,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'mail-1'
 						}]
 					}]
@@ -765,7 +761,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'marker'
 						}]
 					}]
@@ -791,7 +787,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'phone-1'
 						}]
 					}]
@@ -817,7 +813,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'photo'
 						}]
 					}]
@@ -843,7 +839,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'picture'
 						}]
 					}]
@@ -869,7 +865,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'refresh'
 						}]
 					}]
@@ -895,7 +891,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'repeat'
 						}]
 					}]
@@ -921,7 +917,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'save'
 						}]
 					}]
@@ -947,7 +943,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'search'
 						}]
 					}]
@@ -973,7 +969,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'statistic'
 						}]
 					}]
@@ -999,7 +995,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'trash'
 						}]
 					}]
@@ -1025,7 +1021,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'user'
 						}]
 					}]
@@ -1051,7 +1047,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'time'
 						}]
 					}]
@@ -1077,7 +1073,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center' },
+							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
 							content: 'wait-2'
 						}]
 					}]

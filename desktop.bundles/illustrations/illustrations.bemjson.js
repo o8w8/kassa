@@ -21,10 +21,6 @@ module.exports = {
 		mix: [
 			{ block: 'b-page', elem: 'content' },
 			{ block: 'theme' }],
-		params: {
-			menusection: 'tools',
-			pagename: 'illustrations',
-		},
 		content: [
 		{
 			elem: 'content',
@@ -35,7 +31,7 @@ module.exports = {
 			},
 			{
 				block: 'text',
-				mods: { size: 'xxxxl', weight: 'bold' },
+				mods: { size: 'xxxxl', weight: 'bold', font: 'sans' },
 				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxxxxl' } }, { block: 'demo', elem: 'title' }],
 				content: 'Illustrations'
 			},
@@ -59,7 +55,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center', font: 'sans' },
 							content: "BEM Design Team"
 						}]
 					}]
@@ -81,7 +77,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center', font: 'sans' },
 							content: "BEM Show"
 						}]
 					}]
@@ -103,7 +99,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center', font: 'sans' },
 							content: "BEM Hackathon"
 						}]
 					}]
@@ -123,7 +119,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center', font: 'sans' },
 							content: "BEM Night"
 						}]
 					}]
@@ -141,7 +137,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center', font: 'sans' },
 							content: "BEM Channel"
 						}]
 					}]
@@ -161,7 +157,7 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center', font: 'sans' },
 							content: "BEM Magazine"
 						}]
 					}]

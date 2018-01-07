@@ -5,6 +5,7 @@
 	height: calc(var(--space-xxl) + var(--space-xxs));
 	cursor: pointer;
 	transition: .3s ease;
+	visibility: visible;
 
 	&:before {
 		content: '';
@@ -27,5 +28,6 @@
 
 	&_state_hidden {
 		opacity: 0;
+		visibility: hidden;
 	}
 }

@@ -16,11 +16,6 @@ module.exports = {
 	scripts: [{ elem: 'js', url: 'index.min.js' }],
 	mods: { type: 'full-screen', theme: 'islands' },
 	content: [
-		// {
-		// 	block: 'button',
-		// 	mods: { theme: 'promo', type: 'submit', view: 'plain' },
-		// 	text: 'Button'
-		// }
 	{
 		block: 'demo',
 		mix: [
@@ -43,7 +38,7 @@ module.exports = {
 				},
 				{
 					block: 'text',
-					mods: { font: 'mono' },
+					mods: { font: 'mono', view: 'primary', weight: 'bold' },
 					content: [
 					{
 						block: 'demo',

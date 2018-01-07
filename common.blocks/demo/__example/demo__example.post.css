@@ -1,7 +1,7 @@
 .demo {
 	&__example {
 		background-color: #fcfcfc;
-		padding: $space-xxl;
+		padding: var(--space-xxl);
 
 		&_view {
 			&_inverse {

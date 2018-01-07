@@ -1,9 +1,20 @@
 ([
 	{
 		shouldDeps: [
-			{ block: 'link' },
-			{ block: 'text', mods: { view: 'inverse', size: 'm' } },
-			{ block: 'text', mods: { size: 'xs', transform: 'uppercase', view: 'primary' } }
+			{ block: 'pt-surface', mods: { view: 'tone' } },
+			{ block: 'pt-surface', elem: 'window' },
+			{ block: 'pt-surface', elem: 'content', elemMods: { size: 'full', view: 'inverse', 'space-a': 'xl' } },
+			
+			{ block: 'demo', elem: 'menu-sections-col' },
+			{ block: 'demo', elem: 'menu-section' },
+			{ block: 'demo', elem: 'menu-section-name' },
+			{ block: 'demo', elem: 'menu-item' },
+			{ block: 'demo', elem: 'menu-item-row' },
+			{ block: 'demo', elem: 'menu-item-link' },
+			
+			{ block: 'text', mods: { weight: 'bold', font: 'sans', view: 'inverse', size: ['l', 'm'] } },
+			
+			{ block: 'decorator', mods: { 'indent-b': 'xl' } }
 		]
 	}
 ])

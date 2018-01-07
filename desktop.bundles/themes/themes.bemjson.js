@@ -23,10 +23,6 @@ module.exports = {
 			block: 'theme',
 			mods: { color: 'default', space: 'default', size: 'default' }
 		},
-		params: {
-			menusection: 'tools',
-			pagename: 'themes',
-		},
 		content: [
 		{
 			elem: 'content',
@@ -37,7 +33,7 @@ module.exports = {
 			},
 			{
 				block: 'text',
-				mods: { size: 'xxxxl', weight: 'bold' },
+				mods: { size: 'xxxxl', weight: 'bold', font: 'sans' },
 				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxxxxl' } }, { block: 'demo', elem: 'title' }],
 				content: 'Variables'
 			},

@@ -21,10 +21,6 @@ module.exports = {
 		mix: [
 			{ block: 'b-page', elem: 'content' },
 			{ block: 'vectors' }],
-		params: {
-			menusection: 'tools',
-			pagename: 'logotypes',
-		},
 		content: [
 		{
 			elem: 'content',
@@ -35,7 +31,7 @@ module.exports = {
 			},
 			{
 				block: 'text',
-				mods: { size: 'xxxxl', weight: 'bold' },
+				mods: { size: 'xxxxl', weight: 'bold', font: 'sans' },
 				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxxxxl' } }, { block: 'demo', elem: 'title' }],
 				content: 'Logotypes'
 			},
@@ -52,7 +48,7 @@ module.exports = {
 					},
 					{
 						block: 'text',
-						mods: { size: 'm', view: 'primary'},
+						mods: { size: 'm', view: 'primary' },
 						content: 'Билайн'
 					},
 					{

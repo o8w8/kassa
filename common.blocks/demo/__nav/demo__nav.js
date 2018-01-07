@@ -1,32 +1,41 @@
-$(document).ready(function(){
-	var nav = $('.demo__nav'),
-		menu = $('.demo__menu'),
-		control = $('.demo__menu-close');
+var nav = document.querySelectorAll('.demo__nav-item'),
+	control = document.querySelectorAll('.demo__menu-close')[0];
 
-	nav.find('.link').click(function(){
-		var section = $(this).attr('data-name');
+// bind on every nav item
+for (i = 0, len = nav.length; i < len; i++){
+	nav[i].addEventListener('click', function() {
+		var section = this.getAttribute('data-section');
 
-		if(section) openMenu(section);
+		if(section)
+			openMenu(section);
 	});
-	function openMenu(section) {
-		$('.demo').attr('style', 'height: 100vh; overflow: hidden;');
+}
 
-		$('.demo__menu-sections-col').hide();
-		$('.demo__menu-sections-col[data-name='+ section +']').show();
-		
-		menu.addClass('demo__menu_open');
-		$('.demo__menu-close').removeClass('demo__menu-close_state_hidden');
+// open menu function
+function openMenu(section) {
+	var sections =  document.querySelectorAll('.demo__menu-sections-col');
+
+	for (i = 0, len = sections.length; i < len; i++) {
+		sections[i].style.display = 'none';
 	}
+	document.querySelectorAll('.demo__menu-sections-col[data-section='+ section +']')[0].style.display = 'block';
+	document.querySelectorAll('.demo__menu-close')[0].classList.remove('demo__menu-close_state_hidden');
+}
 
-	control.on('click', function(){
-		var type = $(this).hasClass('demo__menu-close_state_hidden');
+// hide close btn, if menu closed
+control.addEventListener('click', function() {
+	var type = this.classList.contains('demo__menu-close_state_hidden');
 
-		if(!type) {
-			$('.demo').attr('style', '');
-			menu.removeClass('demo__menu_open');
-			$('.demo__menu-close').addClass('demo__menu-close_state_hidden');
+	if(!type) {
+		control.classList.add('demo__menu-close_state_hidden');
 
-			return false;
-		}
-	});
+		return false;
+	}
+});
+
+// hide close btn, if ESC was pressed
+document.addEventListener('keydown', function(e){
+	if(e.key=='Escape'||e.key=='Esc'||e.keyCode==27){
+		control.classList.add('demo__menu-close_state_hidden');
+	}
 });

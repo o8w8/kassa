@@ -22,10 +22,6 @@ module.exports = {
 			{ block: 'b-page', elem: 'content' },
 			{ block: 'theme' }
 		],
-		params: {
-			menusection: 'tools',
-			pagename: 'patterns',
-		},
 		content: [
 		{
 			elem: 'content',

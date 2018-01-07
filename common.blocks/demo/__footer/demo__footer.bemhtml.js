@@ -7,7 +7,7 @@ block('demo').elem('footer')(
 				tag: 'a',
 				attrs: { href: 'http://bem.info' },
 				block: 'text',
-				mods: { size: 'm', view: 'primary' },
+				mods: { size: 'm', view: 'link' },
 				content: '🤙'
 			}
 		]

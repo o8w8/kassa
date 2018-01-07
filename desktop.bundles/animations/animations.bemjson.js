@@ -22,10 +22,6 @@ module.exports = {
 			{ block: 'b-page', elem: 'content' },
 			{ block: 'theme' }
 		],
-		params: {
-			menusection: 'tools',
-			pagename: 'animations',
-		},
 		content: [
 		{
 			elem: 'content',
@@ -36,7 +32,7 @@ module.exports = {
 			},
 			{
 				block: 'text',
-				mods: { size: 'xxxxl', weight: 'bold' },
+				mods: { size: 'xxxxl', weight: 'bold', view: 'primary', font: 'sans' },
 				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxxxxl' } }, { block: 'demo', elem: 'title' }],
 				content: 'Animations'
 			},
@@ -61,12 +57,12 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
 							content: "Fade In / Fade Out"
 						},
 						{
 							block: 'text',
-							mods: { size: 's', view: 'primary' },
+							mods: { size: 's', view: 'primary', font: 'sans' },
 							content: "mods: { 'fade': 'in' }   /   mods: { 'fade': 'out' }"
 						}]
 					}]
@@ -90,12 +86,12 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
 							content: "From top to bottom"
 						},
 						{
 							block: 'text',
-							mods: { size: 's', view: 'primary' },
+							mods: { size: 's', view: 'primary', font: 'sans' },
 							content: "mods: { 'from': 'top' }   /   mods: { 'to': 'bottom' }"
 						}]
 					}]
@@ -119,12 +115,12 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
 							content: "From bottom to top"
 						},
 						{
 							block: 'text',
-							mods: { size: 's', view: 'primary' },
+							mods: { size: 's', view: 'primary', font: 'sans' },
 							content: "mods: { 'from': 'bottom' }   /   mods: { 'to': 'top' }"
 						}]
 					}]
@@ -148,12 +144,12 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
 							content: "From right to left"
 						},
 						{
 							block: 'text',
-							mods: { size: 's', view: 'primary' },
+							mods: { size: 's', view: 'primary', font: 'sans' },
 							content: "mods: { 'from': 'right' }   /   mods: { 'to': 'left' }"
 						}]
 					}]
@@ -177,12 +173,12 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
 							content: "From left to right"
 						},
 						{
 							block: 'text',
-							mods: { size: 's', view: 'primary' },
+							mods: { size: 's', view: 'primary', font: 'sans' },
 							content: "mods: { 'from': 'left' }   /   mods: { 'to': 'right' }"
 						}]
 					}]
@@ -204,7 +200,7 @@ module.exports = {
 									mix: { block: 'decorator', mods: { 'space-a': 'm' } },
 									content: {
 										block: 'text',
-										mods: { size: 'm', view: 'link' },
+										mods: { size: 'm', view: 'link', font: 'sans' },
 										content: 'click me!'
 									}
 								},
@@ -213,7 +209,7 @@ module.exports = {
 									mix: { block: 'decorator', mods: { 'space-a': 'm' } },
 									content: {
 										block: 'text',
-										mods: { size: 'm', view: 'primary' },
+										mods: { size: 'm', view: 'primary', font: 'sans' },
 										content: 'here I am!'
 									}
 								}]
@@ -225,12 +221,12 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
 							content: "Accordion toggle"
 						},
 						{
 							block: 'text',
-							mods: { size: 's', view: 'primary' },
+							mods: { size: 's', view: 'primary', font: 'sans' },
 							content: "block: 'e-accordion'   /   elem: 'short'   /   elem: 'more'"
 						}]
 					}]
@@ -267,12 +263,12 @@ module.exports = {
 						content: [
 						{
 							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
+							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
 							content: "Shake"
 						},
 						{
 							block: 'text',
-							mods: { size: 's', view: 'primary' },
+							mods: { size: 's', view: 'primary', font: 'sans' },
 							content: "mods: { shake: 'horizontal' }   /   mods: { shake: 'radial' }"
 						}]
 					}]
