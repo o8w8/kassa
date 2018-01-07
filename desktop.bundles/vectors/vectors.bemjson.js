@@ -23,6 +23,7 @@ module.exports = {
 		content: [
 		{
 			elem: 'content',
+			elemMods: { size: 'm' },
 			content: [
 			{
 				block: 'demo',
@@ -49,13 +50,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 1: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 1: \'m-primary\' }'
 					}]
 				},
 				{
@@ -70,13 +67,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 2: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 2: \'m-primary\' }'
 					}]
 				},
 				{
@@ -91,13 +84,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 3: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 3: \'m-primary\' }'
 					}]
 				},
 				{
@@ -112,13 +101,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 4: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 4: \'m-primary\' }'
 					}]
 				},
 				{
@@ -133,13 +118,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 5: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 5: \'m-primary\' }'
 					}]
 				},
 				{
@@ -154,13 +135,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 6: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 6: \'m-primary\' }'
 					}]
 				},
 				{
@@ -175,13 +152,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 7: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 7: \'m-primary\' }'
 					}]
 				},
 				{
@@ -196,13 +169,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 8: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 8: \'m-primary\' }'
 					}]
 				},
 				{
@@ -217,13 +186,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 9: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 9: \'m-primary\' }'
 					}]
 				},
 				{
@@ -238,13 +203,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 10: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 10: \'m-primary\' }'
 					}]
 				},
 				{
@@ -259,13 +220,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: {11: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 11: \'m-primary\' }'
 					}]
 				},
 				{
@@ -280,13 +237,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 12: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 12: \'m-primary\' }'
 					}]
 				},
 				{
@@ -301,13 +254,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 13: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 13: \'m-primary\' }'
 					}]
 				},
 				{
@@ -322,13 +271,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 14: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 14: \'m-primary\' }'
 					}]
 				},
 				{
@@ -343,13 +288,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold' },
-							content: "mods: { 15: 'm-primary' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', align: 'center' },
+						content: 'mods: { 15: \'m-primary\' }'
 					}]
 				}]
 			}]

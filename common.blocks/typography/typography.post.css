@@ -1,23 +1,14 @@
 .typography {
-	&__item {
-		margin-bottom: $space-xl;
-	}
+	margin-bottom: var(--space-xl);
+
 	&__view {
-		margin-bottom: $space-s;
+		margin-bottom: var(--space-s);
 		box-sizing: border-box;
-		padding: $space-l;
+		padding: var(--space-l);
 		position: relative;
 		height: 96px;
 		display: flex;
 		align-items: center;
 		background-color: var(--color-ghost);
-	}
-	&__text {
-		.text {
-			margin-bottom: $space-xxs;
-			&:last-child {
-				margin-bottom: 0px;
-			}
-		}
 	}
 }

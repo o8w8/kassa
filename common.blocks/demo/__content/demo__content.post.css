@@ -1,4 +1,5 @@
 .demo__content {
+	position: relative;
 	display: block;
 	padding-top: var(--space-xxl);
 	margin: auto;

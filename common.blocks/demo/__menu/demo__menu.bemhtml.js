@@ -219,7 +219,7 @@ block('demo').elem('menu')(
 										block: 'text',
 										mods: { view: 'inverse', size: 'l', font: 'sans' },
 										tag: 'a',
-										attrs: { 'href': '../illustations/illustations.html' },
+										attrs: { 'href': '../illustrations/illustrations.html' },
 										mix: { block: 'demo', elem: 'menu-item-link' },
 										content: 'Illustrations'
 									},
@@ -314,36 +314,36 @@ block('demo').elem('menu')(
 									}]
 								}]
 							},
-							{
-								elem: 'menu-item',
-								content: [
-								{
-									elem: 'menu-item-row',
-									content: [
-									{
-										block: 'text',
-										mods: { view: 'inverse', size: 'l', font: 'sans' },
-										tag: 'a',
-										attrs: { 'href': '../opensource/opensource.html' },
-										mix: { block: 'demo', elem: 'menu-item-link' },
-										content: 'Join BEM Design'
-									},
-									{
-										block: 'text',
-										mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
-										content: 'Russian version'
-									}]
-								},
-								{
-									elem: 'menu-item-row',
-									content: [
-									{
-										block: 'text',
-										mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
-										content: '@miocene, @koloskof'
-									}]
-								}]
-							},
+							// {
+							// 	elem: 'menu-item',
+							// 	content: [
+							// 	{
+							// 		elem: 'menu-item-row',
+							// 		content: [
+							// 		{
+							// 			block: 'text',
+							// 			mods: { view: 'inverse', size: 'l', font: 'sans' },
+							// 			tag: 'a',
+							// 			attrs: { 'href': '../opensource/opensource.html' },
+							// 			mix: { block: 'demo', elem: 'menu-item-link' },
+							// 			content: 'Join BEM Design'
+							// 		},
+							// 		{
+							// 			block: 'text',
+							// 			mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
+							// 			content: 'Russian version'
+							// 		}]
+							// 	},
+							// 	{
+							// 		elem: 'menu-item-row',
+							// 		content: [
+							// 		{
+							// 			block: 'text',
+							// 			mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
+							// 			content: '@miocene, @koloskof'
+							// 		}]
+							// 	}]
+							// },
 							{
 								elem: 'menu-item',
 								content: [

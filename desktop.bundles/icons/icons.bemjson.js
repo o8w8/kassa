@@ -23,6 +23,7 @@ module.exports = {
 		content: [
 		{
 			elem: 'content',
+			elemMods: { size: 'm' },
 			content: [
 			{
 				block: 'demo',
@@ -55,13 +56,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'add-1'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'add-1'
 					}]
 				},
 				{
@@ -81,13 +78,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'add-2'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'add-2'
 					}]
 				},
 				{
@@ -107,13 +100,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'add-user'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'add-user'
 					}]
 				},
 				{
@@ -133,13 +122,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'allert-2'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'allert-2'
 					}]
 				},
 				{
@@ -159,13 +144,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'arrow-up'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'arrow-up'
 					}]
 				},
 				{
@@ -185,13 +166,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'double-arrow-up'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'double-arrow-up'
 					}]
 				},
 				{
@@ -211,13 +188,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'arrow-down'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'arrow-down'
 					}]
 				},
 				{
@@ -237,13 +210,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'double-arrow-down'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'double-arrow-down'
 					}]
 				},
 				{
@@ -263,13 +232,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'arrow-left'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'arrow-left'
 					}]
 				},
 				{
@@ -289,13 +254,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'arrow-right'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'arrow-right'
 					}]
 				},
 				{
@@ -315,13 +276,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'attention'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'attention'
 					}]
 				},
 				{
@@ -341,13 +298,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'back'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'back'
 					}]
 				},
 				{
@@ -367,13 +320,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'front'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'front'
 					}]
 				},
 				{
@@ -393,13 +342,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'blog'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'blog'
 					}]
 				},
 				{
@@ -419,13 +364,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'comment'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'comment'
 					}]
 				},
 				{
@@ -445,13 +386,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'check'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'check'
 					}]
 				},
 				{
@@ -471,13 +408,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'close'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'close'
 					}]
 				},
 				{
@@ -497,13 +430,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'crop'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'crop'
 					}]
 				},
 				{
@@ -523,13 +452,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'devices'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'devices'
 					}]
 				},
 				{
@@ -549,13 +474,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'enter'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'enter'
 					}]
 				},
 				{
@@ -575,13 +496,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'export'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'export'
 					}]
 				},
 				{
@@ -601,13 +518,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'fave-1'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'fave-1'
 					}]
 				},
 				{
@@ -627,13 +540,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'hamburger'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'hamburger'
 					}]
 				},
 				{
@@ -653,13 +562,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'help'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'help'
 					}]
 				},
 				{
@@ -679,13 +584,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'list'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'list'
 					}]
 				},
 				{
@@ -705,13 +606,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'lock'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'lock'
 					}]
 				},
 				{
@@ -731,13 +628,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'mail-1'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'mail-1'
 					}]
 				},
 				{
@@ -757,13 +650,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'marker'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'marker'
 					}]
 				},
 				{
@@ -783,13 +672,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'phone-1'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'phone-1'
 					}]
 				},
 				{
@@ -809,13 +694,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'photo'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'photo'
 					}]
 				},
 				{
@@ -835,13 +716,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'picture'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'picture'
 					}]
 				},
 				{
@@ -861,13 +738,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'refresh'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'refresh'
 					}]
 				},
 				{
@@ -887,13 +760,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'repeat'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'repeat'
 					}]
 				},
 				{
@@ -913,13 +782,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'save'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'save'
 					}]
 				},
 				{
@@ -939,13 +804,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'search'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'search'
 					}]
 				},
 				{
@@ -965,13 +826,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'statistic'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'statistic'
 					}]
 				},
 				{
@@ -991,13 +848,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'trash'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'trash'
 					}]
 				},
 				{
@@ -1017,13 +870,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'user'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'user'
 					}]
 				},
 				{
@@ -1043,13 +892,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'time'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'time'
 					}]
 				},
 				{
@@ -1069,13 +914,9 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-							content: 'wait-2'
-						}]
+						block: 'text',
+						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+						content: 'wait-2'
 					}]
 				}]
 			}]

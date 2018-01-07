@@ -1,9 +1,9 @@
 .color__image {
   width: 120px;
   height: 72px;
-  margin-bottom: 8px;
+  margin-bottom: var(--space-xs);
+  
   &_color {
-
     /* Базовые цвета */
     &_base {
       background: var(--color-base);
