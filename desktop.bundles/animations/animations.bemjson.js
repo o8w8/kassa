@@ -10,8 +10,8 @@ module.exports = {
 			{ elem: 'js', url: 'https://code.jquery.com/jquery-3.2.1.js' },
 	],
 	mix: {
-			block: 'theme',
-			mods: { color: 'default', space: 'default', size: 'default' }
+		block: 'theme',
+		mods: { color: 'default', space: 'default', size: 'default' }
 	},
 	scripts: [{ elem: 'js', url: 'animations.min.js' }],
 	mods: { theme: 'islands' },
@@ -25,6 +25,7 @@ module.exports = {
 		content: [
 		{
 			elem: 'content',
+			elemMods: { size: 'm' },
 			content: [
 			{
 				block: 'demo',
@@ -53,18 +54,14 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
-							content: "Fade In / Fade Out"
-						},
-						{
-							block: 'text',
-							mods: { size: 's', view: 'primary', font: 'sans' },
-							content: "mods: { 'fade': 'in' }   /   mods: { 'fade': 'out' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
+						content: "Fade In / Fade Out"
+					},
+					{
+						block: 'text',
+						mods: { size: 's', view: 'primary', font: 'sans' },
+						content: "mods: { 'fade': 'in' }   /   mods: { 'fade': 'out' }"
 					}]
 				},
 				{
@@ -82,18 +79,14 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
-							content: "From top to bottom"
-						},
-						{
-							block: 'text',
-							mods: { size: 's', view: 'primary', font: 'sans' },
-							content: "mods: { 'from': 'top' }   /   mods: { 'to': 'bottom' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
+						content: "From top to bottom"
+					},
+					{
+						block: 'text',
+						mods: { size: 's', view: 'primary', font: 'sans' },
+						content: "mods: { 'from': 'top' }   /   mods: { 'to': 'bottom' }"
 					}]
 				},
 				{
@@ -111,18 +104,14 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
-							content: "From bottom to top"
-						},
-						{
-							block: 'text',
-							mods: { size: 's', view: 'primary', font: 'sans' },
-							content: "mods: { 'from': 'bottom' }   /   mods: { 'to': 'top' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
+						content: "From bottom to top"
+					},
+					{
+						block: 'text',
+						mods: { size: 's', view: 'primary', font: 'sans' },
+						content: "mods: { 'from': 'bottom' }   /   mods: { 'to': 'top' }"
 					}]
 				},
 				{
@@ -140,18 +129,14 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
-							content: "From right to left"
-						},
-						{
-							block: 'text',
-							mods: { size: 's', view: 'primary', font: 'sans' },
-							content: "mods: { 'from': 'right' }   /   mods: { 'to': 'left' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
+						content: "From right to left"
+					},
+					{
+						block: 'text',
+						mods: { size: 's', view: 'primary', font: 'sans' },
+						content: "mods: { 'from': 'right' }   /   mods: { 'to': 'left' }"
 					}]
 				},
 				{
@@ -169,68 +154,64 @@ module.exports = {
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
-							content: "From left to right"
-						},
-						{
-							block: 'text',
-							mods: { size: 's', view: 'primary', font: 'sans' },
-							content: "mods: { 'from': 'left' }   /   mods: { 'to': 'right' }"
-						}]
-					}]
-				},
-				{
-					block: 'animation-item',
-					content: [
-					{
-						elem: 'view',
-						content: [
-						{
-							block: 'e-accordion',
-							content: [
-							{
-								elem: 'item',
-								content: [
-								{
-									elem: 'short',
-									mix: { block: 'decorator', mods: { 'space-a': 'm' } },
-									content: {
-										block: 'text',
-										mods: { size: 'm', view: 'link', font: 'sans' },
-										content: 'click me!'
-									}
-								},
-								{
-									elem: 'more',
-									mix: { block: 'decorator', mods: { 'space-a': 'm' } },
-									content: {
-										block: 'text',
-										mods: { size: 'm', view: 'primary', font: 'sans' },
-										content: 'here I am!'
-									}
-								}]
-							}]
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
+						content: "From left to right"
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
-							content: "Accordion toggle"
-						},
-						{
-							block: 'text',
-							mods: { size: 's', view: 'primary', font: 'sans' },
-							content: "block: 'e-accordion'   /   elem: 'short'   /   elem: 'more'"
-						}]
+						block: 'text',
+						mods: { size: 's', view: 'primary', font: 'sans' },
+						content: "mods: { 'from': 'left' }   /   mods: { 'to': 'right' }"
 					}]
 				},
+				// {
+				// 	block: 'animation-item',
+				// 	content: [
+				// 	{
+				// 		elem: 'view',
+				// 		content: [
+				// 		{
+				// 			block: 'e-accordion',
+				// 			content: [
+				// 			{
+				// 				elem: 'item',
+				// 				content: [
+				// 				{
+				// 					elem: 'short',
+				// 					mix: { block: 'decorator', mods: { 'space-a': 'm' } },
+				// 					content: {
+				// 						block: 'text',
+				// 						mods: { size: 'm', view: 'link', font: 'sans' },
+				// 						content: 'click me!'
+				// 					}
+				// 				},
+				// 				{
+				// 					elem: 'more',
+				// 					mix: { block: 'decorator', mods: { 'space-a': 'm' } },
+				// 					content: {
+				// 						block: 'text',
+				// 						mods: { size: 'm', view: 'primary', font: 'sans' },
+				// 						content: 'here I am!'
+				// 					}
+				// 				}]
+				// 			}]
+				// 		}]
+				// 	},
+				// 	{
+				// 		elem: 'name',
+				// 		content: [
+				// 		{
+				// 			block: 'text',
+				// 			mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
+				// 			content: "Accordion toggle"
+				// 		},
+				// 		{
+				// 			block: 'text',
+				// 			mods: { size: 's', view: 'primary', font: 'sans' },
+				// 			content: "block: 'e-accordion'   /   elem: 'short'   /   elem: 'more'"
+				// 		}]
+				// 	}]
+				// },
 				{
 					block: 'animation-item',
 					content: [
@@ -242,7 +223,6 @@ module.exports = {
 							mods: { 'indent-a': 's' },
 							content: {
 								block: 'button',
-								mods: { size: 'm', theme: 'normal' },
 								mix: [{ block: 'animation' }, { block: 'js-shake-horizontal' }],
 								content: 'Shake me horizontal!'
 							}
@@ -252,25 +232,20 @@ module.exports = {
 							mods: { 'indent-a': 's' },
 							content: {
 								block: 'button',
-								mods: { size: 'm', theme: 'normal' },
 								mix: [{ block: 'animation' }, { block: 'js-shake-radial' }],
 								content: 'Shake me radial!'
 							}
 						}]
 					},
 					{
-						elem: 'name',
-						content: [
-						{
-							block: 'text',
-							mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
-							content: "Shake"
-						},
-						{
-							block: 'text',
-							mods: { size: 's', view: 'primary', font: 'sans' },
-							content: "mods: { shake: 'horizontal' }   /   mods: { shake: 'radial' }"
-						}]
+						block: 'text',
+						mods: { size: 'm', view: 'primary', weight: 'bold', font: 'sans' },
+						content: "Shake"
+					},
+					{
+						block: 'text',
+						mods: { size: 's', view: 'primary', font: 'sans' },
+						content: "mods: { shake: 'horizontal' }   /   mods: { shake: 'radial' }"
 					}]
 				}]
 			}]
