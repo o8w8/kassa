@@ -22,3 +22,7 @@
 		cursor: pointer;
 	}
 }
+
+@media (max-width: 1200px) {
+	.demo__nav { display: none; }
+}
