@@ -46,6 +46,11 @@ block('demo').elem('menu')(
 									{
 										block: 'text',
 										mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
+										tag: 'a',
+										attrs: {
+											href: 'https://github.com/bemdesign/bem-themes',
+											target: '_blank'
+										},
 										content: 'Library'
 									}]
 								},
@@ -76,6 +81,11 @@ block('demo').elem('menu')(
 									{
 										block: 'text',
 										mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
+										tag: 'a',
+										attrs: {
+											href: 'https://github.com/bemdesign/bem-typo',
+											target: '_blank'
+										},
 										content: 'Library'
 									}]
 								},
@@ -106,6 +116,11 @@ block('demo').elem('menu')(
 									{
 										block: 'text',
 										mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
+										tag: 'a',
+										attrs: {
+											href: 'https://github.com/bemdesign/bem-icons',
+											target: '_blank'
+										},
 										content: 'Library'
 									}]
 								},
@@ -136,6 +151,11 @@ block('demo').elem('menu')(
 									{
 										block: 'text',
 										mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
+										tag: 'a',
+										attrs: {
+											href: 'https://github.com/bemdesign/bem-patterns',
+											target: '_blank'
+										},
 										content: 'Library'
 									}]
 								},
@@ -166,6 +186,11 @@ block('demo').elem('menu')(
 									{
 										block: 'text',
 										mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
+										tag: 'a',
+										attrs: {
+											href: 'https://github.com/bemdesign/bem-layouts',
+											target: '_blank'
+										},
 										content: 'Library'
 									}]
 								},
@@ -196,6 +221,11 @@ block('demo').elem('menu')(
 									{
 										block: 'text',
 										mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
+										tag: 'a',
+										attrs: {
+											href: 'https://github.com/bemdesign/bem-animations',
+											target: '_blank'
+										},
 										content: 'Library'
 									}]
 								},
@@ -226,6 +256,11 @@ block('demo').elem('menu')(
 									{
 										block: 'text',
 										mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
+										tag: 'a',
+										attrs: {
+											href: 'https://github.com/bemdesign/bem-illustrations',
+											target: '_blank'
+										},
 										content: 'Library'
 									}]
 								},
@@ -256,6 +291,11 @@ block('demo').elem('menu')(
 									{
 										block: 'text',
 										mods: { 'view': 'inverse', 'size': 'm', font: 'sans' },
+										tag: 'a',
+										attrs: {
+											href: 'https://github.com/bemdesign/bem-vectors',
+											target: '_blank'
+										},
 										content: 'Library'
 									}]
 								},

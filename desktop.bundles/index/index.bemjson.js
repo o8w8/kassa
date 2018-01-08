@@ -1042,6 +1042,9 @@ module.exports = {
 								block: 'image',
 								mix: { block: 'promo-cards', elem: 'apps-recommendation-photo' },
 								url: '../../assets/i/ustwo.svg',
+								attrs: {
+									'style': 'margin: auto'
+								}
 							},
 							{
 								elem: 'about',
