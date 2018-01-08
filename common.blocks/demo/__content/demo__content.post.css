@@ -1,5 +1,5 @@
 .demo__content {
-	position: relative;
+	/*position: relative;*/
 	display: block;
 	padding-top: var(--space-xxl);
 	margin: auto;
