@@ -2,19 +2,20 @@ module.exports = {
 	block: 'page',
 	title: 'BEM Design',
 	favicon: '/favicon.ico',
+	lang: 'ru',
 	head: [
 		{ elem: 'meta', attrs: { name: 'description', content: '' } },
 		{ elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
 		{ elem: 'css', url: 'index.min.css' },
-		{ elem: 'css', url: '../../assets/ibm-type/css/ibm-type.css' },
+		{ elem: 'css', url: '/assets/ibm-type/css/ibm-type.css' },
 		{ elem: 'js', url: 'https://code.jquery.com/jquery-3.2.1.js' },
 	],
+	scripts: [{ elem: 'js', url: 'index.min.js' }],
+	mods: { type: 'full-screen', theme: 'islands' },
 	mix: {
 		block: 'theme',
 		mods: { color: 'default', space: 'default', size: 'default' }
 	},
-	scripts: [{ elem: 'js', url: 'index.min.js' }],
-	mods: { type: 'full-screen', theme: 'islands' },
 	content: [
 	{
 		block: 'demo',
@@ -123,7 +124,7 @@ module.exports = {
 							content: [
 							{
 								block: 'image',
-								url: '../../assets/i/fallon.png',
+								url: '/assets/i/fallon.png',
 							},
 							{
 								elem: 'play',
@@ -232,7 +233,7 @@ module.exports = {
 							content: [
 							{
 								block: 'image',
-								url: '../../assets/i/heroes.png',
+								url: '/assets/i/heroes.png',
 							}]
 						},
 						{
@@ -284,7 +285,7 @@ module.exports = {
 							content: [
 							{
 								block: 'image',
-								url: '../../assets/i/london.png',
+								url: '/assets/i/london.png',
 							},
 							{
 								elem: 'name',
@@ -606,7 +607,7 @@ module.exports = {
 								content: [
 								{
 									block: 'image',
-									url: '../../assets/i/offer-goods-image.png'
+									url: '/assets/i/offer-goods-image.png'
 								}]
 							}]
 						},
@@ -665,7 +666,7 @@ module.exports = {
 								content: [
 								{
 									block: 'image',
-									url: '../../assets/i/offer-brand-image.png'
+									url: '/assets/i/offer-brand-image.png'
 								}]
 							},
 							{
@@ -720,7 +721,7 @@ module.exports = {
 							{
 								block: 'image',
 								mix: { block: 'promo-cards', elem: 'offer-service-photo'},
-								url: '../../assets/i/offer-service-image.png'
+								url: '/assets/i/offer-service-image.png'
 							}]
 						},
 						{
@@ -914,7 +915,7 @@ module.exports = {
 							{
 								block: 'image',
 								mix: [{ block: 'decorator', mods: { 'indent-v': 'xl' } }, { block: 'promo-cards', elem: 'apps-developer-app-cover' }],
-								url: '../../assets/i/group.png',
+								url: '/assets/i/group.png',
 							},
 							{
 								elem: 'price',
@@ -1030,7 +1031,7 @@ module.exports = {
 							content: [
 								{
 									block: 'image',
-									url: '../../assets/i/monument.png',
+									url: '/assets/i/monument.png',
 								}
 							]
 						},
@@ -1041,7 +1042,7 @@ module.exports = {
 							{
 								block: 'image',
 								mix: { block: 'promo-cards', elem: 'apps-recommendation-photo' },
-								url: '../../assets/i/ustwo.svg',
+								url: '/assets/i/ustwo.svg',
 								attrs: {
 									'style': 'margin: auto'
 								}
@@ -1121,7 +1122,7 @@ module.exports = {
 							{
 								block: 'image',
 								mix: [{ block: 'promo-cards', elem: 'apps-good-photo' }, { block: 'decorator', mods: { 'indent-b': 'xxl' } }],
-								url: '../../assets/i/good-cover.png',
+								url: '/assets/i/good-cover.png',
 							},
 							{
 								block: 'text',
@@ -1343,7 +1344,7 @@ module.exports = {
 							{
 								block: 'image',
 								mix: { block: 'promo-cards', elem: 'donate-person-image'},
-								url: '../../assets/i/donate-person-image.png'
+								url: '/assets/i/donate-person-image.png'
 							},
 							{
 								elem: 'person-avatar-wrapper',
@@ -1421,7 +1422,7 @@ module.exports = {
 							{
 								block: 'image',
 								mix: { block: 'promo-cards', elem: 'donate-project-image'},
-								url: '../../assets/i/donate-project-image.png'
+								url: '/assets/i/donate-project-image.png'
 							},
 							{
 								elem: 'project-play',
@@ -1543,7 +1544,7 @@ module.exports = {
 							content: [
 							{
 								block: 'image',
-								url: '../../assets/i/donate-event-image.png'
+								url: '/assets/i/donate-event-image.png'
 							}]
 						},
 						{

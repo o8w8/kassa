@@ -2,18 +2,20 @@ module.exports = {
 	block: 'page',
 	title: 'BEM Icons',
 	favicon: '/favicon.ico',
+	lang: 'ru',
 	head: [
-			{ elem: 'meta', attrs: { name: 'description', content: '' } },
-			{ elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
-			{ elem: 'css', url: 'icons.min.css' },
-			{ elem: 'css', url: '../../assets/ibm-type/css/ibm-type.css' },
-			{ elem: 'js', url: 'https://code.jquery.com/jquery-3.2.1.js' }],
-	mix: {
-			block: 'theme',
-			mods: { color: 'default', space: 'default', size: 'default' }
-	},
+		{ elem: 'meta', attrs: { name: 'description', content: '' } },
+		{ elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
+		{ elem: 'css', url: 'icons.min.css' },
+		{ elem: 'css', url: '/assets/ibm-type/css/ibm-type.css' },
+		{ elem: 'js', url: 'https://code.jquery.com/jquery-3.2.1.js' }
+	],
 	scripts: [{ elem: 'js', url: 'icons.min.js' }],
 	mods: { theme: 'islands' },
+	mix: {
+		block: 'theme',
+		mods: { color: 'default', space: 'default', size: 'default' }
+	},
 	content: [
 	{
 		block: 'demo',
@@ -435,28 +437,28 @@ module.exports = {
 						content: 'crop'
 					}]
 				},
-				{
-					block: 'icon-item',
-					mix: { block: 'search-source' },
-					content: [
-					{
-						elem: 'view',
-						content: [
-						{
-							block: 'icon',
-							mods: { 'devices': 's-primary' }
-						},
-						{
-							block: 'icon',
-							mods: { 'devices': 'm-primary' }
-						}]
-					},
-					{
-						block: 'text',
-						mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
-						content: 'devices'
-					}]
-				},
+				// {
+				// 	block: 'icon-item',
+				// 	mix: { block: 'search-source' },
+				// 	content: [
+				// 	{
+				// 		elem: 'view',
+				// 		content: [
+				// 		{
+				// 			block: 'icon',
+				// 			mods: { 'devices': 's-primary' }
+				// 		},
+				// 		{
+				// 			block: 'icon',
+				// 			mods: { 'devices': 'm-primary' }
+				// 		}]
+				// 	},
+				// 	{
+				// 		block: 'text',
+				// 		mods: { view: 'primary', size: 'm', align: 'center', font: 'sans' },
+				// 		content: 'devices'
+				// 	}]
+				// },
 				{
 					block: 'icon-item',
 					mix: { block: 'search-source' },

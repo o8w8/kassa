@@ -3,7 +3,6 @@
 	padding: var(--space-l) 0;
 	margin-right: var(--space-xxxl);
 	margin-bottom: var(--space-xl);
-
 	&:nth-child(4n) {
 		margin-right: 0px;
 	}

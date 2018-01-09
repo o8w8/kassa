@@ -2,6 +2,7 @@ module.exports = {
 	block: 'page',
 	title: 'BEM Illustrations',
 	favicon: '/favicon.ico',
+	lang: 'ru',
 	head: [
 			{ elem: 'meta', attrs: { name: 'description', content: '' } },
 			{ elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
@@ -45,10 +46,12 @@ module.exports = {
 						elem: 'view',
 						elemMods: { view: 'inverse' },
 						content: [
-						{
-							block: 'illustration',
-							mods: { view: 'bem-team' }
-						}]
+							{
+								block: 'image',
+								width: 400,
+								url: '/assets/i/bem-team.png'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -67,10 +70,12 @@ module.exports = {
 						elem: 'view',
 						elemMods: { view: 'inverse' },
 						content: [
-						{
-							block: 'illustration',
-							mods: { view: 'bem-show' }
-						}]
+							{
+								block: 'image',
+								width: 400,
+								url: '/assets/i/bem-show.png'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -89,10 +94,12 @@ module.exports = {
 						elem: 'view',
 						elemMods: { view: 'inverse' },
 						content: [
-						{
-							block: 'illustration',
-							mods: { view: 'bem-hackathon' }
-						}]
+							{
+								block: 'image',
+								width: 400,
+								url: '/assets/i/bem-hackathon.png'
+							}
+						]
 					},
 					{
 						elem: 'name',

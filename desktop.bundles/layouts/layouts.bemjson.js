@@ -2,18 +2,20 @@ module.exports = {
 	block: 'page',
 	title: 'BEM Layouts',
 	favicon: '/favicon.ico',
+	lang: 'ru',
 	head: [
-			{ elem: 'meta', attrs: { name: 'description', content: '' } },
-			{ elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
-			{ elem: 'css', url: 'layouts.min.css' },
-			{ elem: 'css', url: '../../assets/ibm-type/css/ibm-type.css' },
-			{ elem: 'js', url: 'https://code.jquery.com/jquery-3.2.1.js' }],
-	mix: {
-			block: 'theme',
-			mods: { color: 'default', space: 'default', size: 'default' }
-	},
+		{ elem: 'meta', attrs: { name: 'description', content: '' } },
+		{ elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
+		{ elem: 'css', url: 'layouts.min.css' },
+		{ elem: 'css', url: '/assets/ibm-type/css/ibm-type.css' },
+		{ elem: 'js', url: 'https://code.jquery.com/jquery-3.2.1.js' }
+	],
 	scripts: [{ elem: 'js', url: 'layouts.min.js' }],
 	mods: { theme: 'islands' },
+	mix: {
+		block: 'theme',
+		mods: { color: 'default', space: 'default', size: 'default' }
+	},
 	content: [
 	{
 		block: 'demo',
@@ -43,7 +45,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '32-8-4', ver: '1' }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/32_4x8_1.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -65,7 +73,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '32-8-4', ver: '2'  }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/32_4x8_2.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -87,7 +101,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '32-8-4', ver: '3'  }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/32_4x8_3.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -109,7 +129,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '32-8-4', ver: '4'  }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/32_4x8_4.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -131,7 +157,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '32-8-4', ver: '5'  }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/32_4x8_5.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -153,7 +185,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '32-8-4', ver: 'default' }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/32_4x8_default.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -180,7 +218,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '24-4-6', ver: '1' }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/24_4x6_1.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -202,7 +246,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '24-4-6', ver: '2' }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/24_4x6_2.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -224,7 +274,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '24-4-6', ver: '3' }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/24_4x6_3.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -246,7 +302,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '24-4-6', ver: '4' }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/24_4x6_4.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -268,7 +330,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '24-4-6', ver: '5' }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/24_4x6_5.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
@@ -290,7 +358,13 @@ module.exports = {
 					content: [
 					{
 						elem: 'view',
-						elemMods: { type: '24-4-6', ver: 'default' }
+						content: [
+							{
+								block: 'image',
+								width: 348,
+								url: '/assets/i/24_4x6_default.svg'
+							}
+						]
 					},
 					{
 						elem: 'name',
