@@ -364,7 +364,7 @@ block('demo').elem('menu')(
 							// 			block: 'text',
 							// 			mods: { view: 'inverse', size: 'l', font: 'sans' },
 							// 			tag: 'a',
-							// 			attrs: { 'href': '../opensource/opensource.html' },
+							// 			attrs: { 'href': '/opensource.html' },
 							// 			mix: { block: 'demo', elem: 'menu-item-link' },
 							// 			content: 'Join BEM Design'
 							// 		},
@@ -394,7 +394,7 @@ block('demo').elem('menu')(
 										block: 'text',
 										mods: { view: 'inverse', size: 'l', font: 'sans' },
 										tag: 'a',
-										attrs: { 'href': '../article-icons/article-icons.html' },
+										attrs: { 'href': '/article-icons.html' },
 										mix: { block: 'demo', elem: 'menu-item-link' },
 										content: 'How to design icons'
 									},
