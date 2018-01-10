@@ -39,7 +39,7 @@ block('demo').elem('menu')(
 										block: 'text',
 										mods: { view: 'inverse', size: 'l', font: 'sans' },
 										tag: 'a',
-										attrs: { 'href': '../themes/themes.html' },
+										attrs: { 'href': '/themes.html' },
 										mix: { block: 'demo', elem: 'menu-item-link' },
 										content: 'Themes'
 									},
@@ -74,7 +74,7 @@ block('demo').elem('menu')(
 										block: 'text',
 										mods: { view: 'inverse', size: 'l', font: 'sans' },
 										tag: 'a',
-										attrs: { 'href': '../typo/typo.html' },
+										attrs: { 'href': '/typo.html' },
 										mix: { block: 'demo', elem: 'menu-item-link' },
 										content: 'Typography'
 									},
@@ -109,7 +109,7 @@ block('demo').elem('menu')(
 										block: 'text',
 										mods: { view: 'inverse', size: 'l', font: 'sans' },
 										tag: 'a',
-										attrs: { 'href': '../icons/icons.html' },
+										attrs: { 'href': '/icons.html' },
 										mix: { block: 'demo', elem: 'menu-item-link' },
 										content: 'Icons'
 									},
@@ -144,7 +144,7 @@ block('demo').elem('menu')(
 										block: 'text',
 										mods: { view: 'inverse', size: 'l', font: 'sans' },
 										tag: 'a',
-										attrs: { 'href': '../patterns/patterns.html' },
+										attrs: { 'href': '/patterns.html' },
 										mix: { block: 'demo', elem: 'menu-item-link' },
 										content: 'Patterns'
 									},
@@ -179,7 +179,7 @@ block('demo').elem('menu')(
 										block: 'text',
 										mods: { view: 'inverse', size: 'l', font: 'sans' },
 										tag: 'a',
-										attrs: { 'href': '../layouts/layouts.html' },
+										attrs: { 'href': '/layouts.html' },
 										mix: { block: 'demo', elem: 'menu-item-link' },
 										content: 'Layouts'
 									},
@@ -214,7 +214,7 @@ block('demo').elem('menu')(
 										block: 'text',
 										mods: { view: 'inverse', size: 'l', font: 'sans' },
 										tag: 'a',
-										attrs: { 'href': '../animations/animations.html' },
+										attrs: { 'href': '/animations.html' },
 										mix: { block: 'demo', elem: 'menu-item-link' },
 										content: 'Animations'
 									},
@@ -249,7 +249,7 @@ block('demo').elem('menu')(
 										block: 'text',
 										mods: { view: 'inverse', size: 'l', font: 'sans' },
 										tag: 'a',
-										attrs: { 'href': '../illustrations/illustrations.html' },
+										attrs: { 'href': '/illustrations.html' },
 										mix: { block: 'demo', elem: 'menu-item-link' },
 										content: 'Illustrations'
 									},
@@ -284,7 +284,7 @@ block('demo').elem('menu')(
 										block: 'text',
 										mods: { view: 'inverse', size: 'l', font: 'sans' },
 										tag: 'a',
-										attrs: { 'href': '../vectors/vectors.html' },
+										attrs: { 'href': '/vectors.html' },
 										mix: { block: 'demo', elem: 'menu-item-link' },
 										content: 'Vectors'
 									},

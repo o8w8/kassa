@@ -17,7 +17,7 @@ block('demo').elem('plug')(
 					],
 					content: {
 						block: 'image',
-						url: '../../assets/i/bear.svg'
+						url: '/assets/i/bear.svg'
 					}
 				},
 				{
