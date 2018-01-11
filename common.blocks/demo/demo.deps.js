@@ -1,6 +1,7 @@
 ([
 	{
 		shouldDeps: [
+			{ elem: 'metrika' },
 			{ elem: 'plug' },
 			{ elem: 'logo' },
 			{ elem: 'logo-icon' },

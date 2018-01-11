@@ -2,6 +2,9 @@ block('demo')(
 	content()(function(n, ctx) {
 		return [
 			{
+				elem: 'metrika'
+			},
+			{
 				elem: 'plug'
 			},
 			{
