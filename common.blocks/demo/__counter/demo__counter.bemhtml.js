@@ -1,4 +1,4 @@
-block('demo').elem('metrika')(
+block('demo').elem('counter')(
 	content()(function(n, ctx) {
 		return [
       {

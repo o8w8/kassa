@@ -2,7 +2,7 @@ block('demo')(
 	content()(function(n, ctx) {
 		return [
 			{
-				elem: 'metrika'
+				elem: 'counter'
 			},
 			{
 				elem: 'plug'
