@@ -53,11 +53,11 @@
 				background-position: center center;
 			}
 			&_icon_twitter::before {
-				background-image: url('../../assets/i/twitter.svg');
+				background-image: url('../../../assets/i/twitter.svg');
 			}
 
 			&_icon_telegram::before {
-				background-image: url('../../assets/i/telegram.svg');
+				background-image: url('../../../assets/i/telegram.svg');
 			}
 
 			&:hover { opacity: .8;}
