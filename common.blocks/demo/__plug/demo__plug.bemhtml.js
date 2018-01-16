@@ -7,7 +7,7 @@ block('demo').elem('plug')(
 			content: [
 			{
 				elem: 'plug-content',
-				mix: { block: 'pt-card', elem: 'content', elemMods: {'space-a': 'xxl', 'space-t': 'xxxl'} },
+				mix: { block: 'pt-card', elem: 'content', elemMods: { 'space-a': 'xl' } },
 				content: [
 				{
 					elem: 'plug-illustration',
@@ -28,7 +28,7 @@ block('demo').elem('plug')(
 			},
 			{
 				elem: 'plug-action',
-				mix: { block: 'pt-card', elem: 'footer', elemMods: {'space-a': 'xxl', 'space-b': 'xxxl', 'align': 'between' } },
+				mix: { block: 'pt-card', elem: 'footer', elemMods: {'space-a': 'xl', 'align': 'between' } },
 				content: [
 				{
 					block: 'button',

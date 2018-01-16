@@ -120,7 +120,7 @@ module.exports = {
 						content: [
 						{
 							elem: 'video',
-							mix: [{ block: 'pt-card', elem: 'image', elemMods: { shadow: 'inverse' } }, { block: 'promo-cards', elem: 'media-video' }],
+							mix: [{ block: 'pt-card', elem: 'image', elemMods: { shadow: 'bottom-inverse' } }, { block: 'promo-cards', elem: 'media-video' }],
 							content: [
 							{
 								block: 'image',
@@ -229,7 +229,7 @@ module.exports = {
 						},
 						{
 							elem: 'screenshot',
-							mix: [{ block: 'pt-card', elem: 'image' } ],
+							mix: [{ block: 'pt-card', elem: 'image', elemMods: { shadow: 'top-inverse' } } ],
 							content: [
 							{
 								block: 'image',
@@ -281,7 +281,7 @@ module.exports = {
 						content: [
 						{
 							elem: 'cover',
-							mix: [{ block: 'pt-card', elem: 'image', elemMods: { shadow: 'inverse' } }, { block: 'promo-cards', elem: 'media-music-cover' }],
+							mix: [{ block: 'pt-card', elem: 'image', elemMods: { shadow: 'bottom-inverse' } }, { block: 'promo-cards', elem: 'media-music-cover' }],
 							content: [
 							{
 								block: 'image',
@@ -1027,7 +1027,7 @@ module.exports = {
 						content: [
 						{
 							elem: 'cover',
-							mix: [{ block: 'pt-card', elem: 'image', elemMods: { shadow: 'inverse', size: 'cover' } }, { block: 'promo-cards', elem: 'media-video' }],
+							mix: [{ block: 'pt-card', elem: 'image', elemMods: { shadow: 'bottom-inverse', size: 'cover' } }, { block: 'promo-cards', elem: 'media-video' }],
 							content: [
 								{
 									block: 'image',
@@ -1069,7 +1069,7 @@ module.exports = {
 						},
 						{
 							elem: 'item',
-							mix: [{ block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'xl' } },  { block: 'promo-cards', elem: 'apps-recommendation-footer' }, { block: 'pt-card', elem: 'item' }],
+							mix: [{ block: 'pt-card', elem: 'footer', elemMods: { 'space-h': 'xl', 'space-b': 'xl' } },  { block: 'promo-cards', elem: 'apps-recommendation-footer' }, { block: 'pt-card', elem: 'item' }],
 							content: [
 							{
 								block: 'pt-icon-plus',
@@ -1345,7 +1345,12 @@ module.exports = {
 								block: 'image',
 								mix: { block: 'promo-cards', elem: 'donate-person-image'},
 								url: '/assets/i/donate-person-image.png'
-							},
+							}]
+						},
+						{
+							elem: 'person-info',
+							mix: { block: 'pt-card', elem: 'content', elemMods: { 'space-h': 'l', 'space-t': 'xxl' } },
+							content: [
 							{
 								elem: 'person-avatar-wrapper',
 								mix: [
@@ -1359,12 +1364,7 @@ module.exports = {
 										{ block: 'promo-cards', elem: 'donate-person-avatar'},
 									]
 								}]
-							}]
-						},
-						{
-							elem: 'person-info',
-							mix: { block: 'pt-card', elem: 'content', elemMods: { 'space-h': 'l', 'space-t': 'xxxl' } },
-							content: [
+							},
 							{
 								block: 'text',
 								mix: [

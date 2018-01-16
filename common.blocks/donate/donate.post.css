@@ -13,6 +13,7 @@
     margin-top: 82px;
     background-image: url('person-avatar.png');
     background-size: 100%;
+    border-radius: 50%;
   }
 
   /* Project-donate */
