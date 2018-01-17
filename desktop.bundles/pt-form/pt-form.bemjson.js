@@ -48,10 +48,10 @@ module.exports = {
 				'pt-form']
 			},
 			// {
-			// 	block: 'text',
-			// 	mods: { size: 'm' },
-			// 	mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
-			// 	content: 'description'
+			//  block: 'text',
+			//  mods: { size: 'm' },
+			//  mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
+			//  content: 'description'
 			// },
 			{
 				block: 'pt-table',
@@ -427,12 +427,14 @@ module.exports = {
 					}]
 				}]
 			},
+			/*
 			{
 				block: 'text',
 				mods: { size: 'l', weight: 'bold', type: 'h3' },
 				mix: { block: 'decorator', mods: { 'space-b': 'l' } },
 				content: '__event'
 			},
+			*/
 			{
 				block: 'text',
 				mods: { size: 'l', weight: 'bold', type: 'h3' },
@@ -563,7 +565,111 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+					{
+						block: 'pt-form',
+						mods: { view: 'ghost' },
+						content: [
+						{
+							elem: 'item',
+							elemMods: { 'space-h': 'xl', 'space-v': 'xl', },
+							content: [
+								{
+									block: 'text',
+									mods: { view: 'primary', size: 'xxl', weight: 'bold' },
+									content: 'Free to join'
+								}
+							]
+						},
+						{
+							elem: 'item',
+							elemMods: { 'space-h': 'xl' },
+							content: [
+								{
+									elem: 'item',
+									elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+									content: [
+										{
+											elem: 'label',
+											elemMods: { 'space-a': 'l' },
+											content: [
+												{
+													block: 'text',
+													mods: { view: 'primary', size: 'm' },
+													content: 'Name'
+												}
+											]
+										},
+										{
+											block: 'input',
+											mods: { theme: 'islands', size: 'l', width: 'available' },
+											placeholder: 'John Doe'
+										}
+									]
+								},
+								{
+									elem: 'item',
+									elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+									content: [
+										{
+											elem: 'label',
+											elemMods: { 'space-a': 'l' },
+											content: [
+												{
+													block: 'text',
+													mods: { view: 'primary', size: 'm' },
+													content: 'Position'
+												}
+											]
+										},
+										{
+											block: 'input',
+											mods: { theme: 'islands', size: 'l', width: 'available' },
+											placeholder: 'designer'
+										}
+									]
+								},
+								{
+									elem: 'item',
+									elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+									content: [
+										{
+											elem: 'label',
+											elemMods: { 'space-a': 'l' },
+											content: [
+												{
+													block: 'text',
+													mods: { view: 'primary', size: 'm' },
+													content: 'E-mail'
+												}
+											]
+										},
+										{
+											block: 'input',
+											mods: { theme: 'islands', size: 'l', width: 'available' },
+											placeholder: 'jonny@bem.design'
+										}
+									]
+								}
+							]
+						},
+						{
+							elem: 'item',
+							elemMods: { 'space-a': 'xl', type: 'action', 'vertical-align': 'center' },
+							content: [
+								{
+									block: 'text',
+									mods: { view: 'link', size: 'm' },
+									content: 'Already have an account?'
+								},
+								{
+									block: 'button',
+									mods: { theme: 'islands', size: 'l', view: 'action' },
+									text: 'Sign up'
+								}
+							]
+						}]
+					}]
 				}]
 			},
 			{
@@ -611,7 +717,110 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+					{
+						block: 'pt-form',
+						mods: { view: 'default', border: 'all' },
+						content: [
+						{
+							elem: 'item',
+							elemMods: { 'space-h': 'xl', 'space-v': 'xl', },
+							content: [
+								{
+									block: 'text',
+									mods: { view: 'primary', size: 'xxl', weight: 'bold' },
+									content: 'Free to join'
+								}
+							]
+						},
+						{
+							elem: 'item',
+							elemMods: { 'space-h': 'xl' },
+							content: [
+								{
+									elem: 'item',
+									elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+									content: [
+										{
+											elem: 'label',
+											elemMods: { 'space-a': 'l' },
+											content: [
+												{
+													block: 'text',
+													mods: { view: 'primary', size: 'm' },
+													content: 'Name'
+												}
+											]
+										},
+										{
+											block: 'input',
+											mods: { theme: 'islands', size: 'l', width: 'available' },
+											placeholder: 'John Doe'
+										}
+									]
+								},
+								{
+									elem: 'item',
+									elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+									content: [
+										{
+											elem: 'label',
+											elemMods: { 'space-a': 'l' },
+											content: [
+												{
+													block: 'text',
+													mods: { view: 'primary', size: 'm' },
+													content: 'Position'
+												}
+											]
+										},
+										{
+											block: 'input',
+											mods: { theme: 'islands', size: 'l', width: 'available' },
+											placeholder: 'designer'
+										}
+									]
+								},
+								{
+									elem: 'item',
+									elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+									content: [
+										{
+											elem: 'label',
+											elemMods: { 'space-a': 'l' },
+											content: [
+												{
+													block: 'text',
+													mods: { view: 'primary', size: 'm' },
+													content: 'E-mail'
+												}
+											]
+										},
+										{
+											block: 'input',
+											mods: { theme: 'islands', size: 'l', width: 'available' },
+											placeholder: 'jonny@bem.design'
+										}
+									]
+								}
+							]
+						},
+						{
+							elem: 'item',
+							elemMods: { 'space-a': 'xl', type: 'action', 'vertical-align': 'center' },
+							content: [
+							{
+								block: 'text',
+								mods: { view: 'link', size: 'm' },
+								content: 'Already have an account?'
+							},
+							{
+								block: 'button',
+								mods: { theme: 'islands', size: 'l', view: 'action' },
+								text: 'Sign up'
+							}]
+						}]
+					}]
 				}]
 			},
 			{
@@ -659,7 +868,106 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+					{
+						block: 'pt-form',
+						mods: { view: 'default', shadow: 'cloud' },
+						content: [
+						{
+							elem: 'item',
+							elemMods: { 'space-h': 'xl', 'space-v': 'xl', },
+							content: [
+							{
+								block: 'text',
+								mods: { view: 'primary', size: 'xxl', weight: 'bold' },
+								content: 'Free to join'
+							}]
+						},
+						{
+							elem: 'item',
+							elemMods: { 'space-h': 'xl' },
+							content: [
+							{
+								elem: 'item',
+								elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+								content: [
+								{
+									elem: 'label',
+									elemMods: { 'space-a': 'l' },
+									content: [
+										{
+											block: 'text',
+											mods: { view: 'primary', size: 'm' },
+											content: 'Name'
+										}
+									]
+								},
+								{
+									block: 'input',
+									mods: { theme: 'islands', size: 'l', width: 'available' },
+									placeholder: 'John Doe'
+								}]
+							},
+							{
+								elem: 'item',
+								elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+								content: [
+									{
+										elem: 'label',
+										elemMods: { 'space-a': 'l' },
+										content: [
+											{
+												block: 'text',
+												mods: { view: 'primary', size: 'm' },
+												content: 'Position'
+											}
+										]
+									},
+									{
+										block: 'input',
+										mods: { theme: 'islands', size: 'l', width: 'available' },
+										placeholder: 'designer'
+									}
+								]
+							},
+							{
+								elem: 'item',
+								elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+								content: [
+								{
+									elem: 'label',
+									elemMods: { 'space-a': 'l' },
+									content: [
+										{
+											block: 'text',
+											mods: { view: 'primary', size: 'm' },
+											content: 'E-mail'
+										}
+									]
+								},
+								{
+									block: 'input',
+									mods: { theme: 'islands', size: 'l', width: 'available' },
+									placeholder: 'jonny@bem.design'
+								}]
+							}]
+						},
+						{
+							elem: 'item',
+							elemMods: { 'space-a': 'xl', type: 'action', 'vertical-align': 'center' },
+							content: [
+							{
+								block: 'text',
+								mods: { view: 'link', size: 'm' },
+								content: 'Already have an account?'
+							},
+							{
+								block: 'button',
+								mods: { theme: 'islands', size: 'l', view: 'action' },
+								text: 'Sign up'
+							}]
+						}]
+					}]
 				}]
 			},
 			// <--- PT-FORM MODIFICATORS //
@@ -672,10 +980,10 @@ module.exports = {
 				content: 'elem: \'item\''
 			},
 			// {
-			// 	block: 'text',
-			// 	mods: { size: 'm' },
-			// 	mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
-			// 	content: 'description'
+			//  block: 'text',
+			//  mods: { size: 'm' },
+			//  mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
+			//  content: 'description'
 			// },
 			{
 				block: 'text',
@@ -752,7 +1060,83 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+					{
+						block: 'pt-form',
+						mods: { view: 'default',},
+						content: [
+						{
+							elem: 'item',
+							elemMods: { 'space-a': 'xl' },
+							content: [
+							{
+								elem: 'item',
+								elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+								content: [
+									{
+										elem: 'label',
+										elemMods: { 'space-a': 'l' },
+										content: [
+											{
+												block: 'text',
+												mods: { view: 'primary', size: 'm' },
+												content: 'Name'
+											}
+										]
+									},
+									{
+										block: 'input',
+										mods: { theme: 'islands', size: 'l', width: 'available' },
+										placeholder: 'John Doe'
+									}
+								]
+							},
+							{
+								elem: 'item',
+								elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+								content: [
+									{
+										elem: 'label',
+										elemMods: { 'space-a': 'l' },
+										content: [
+											{
+												block: 'text',
+												mods: { view: 'primary', size: 'm' },
+												content: 'Position'
+											}
+										]
+									},
+									{
+										block: 'input',
+										mods: { theme: 'islands', size: 'l', width: 'available' },
+										placeholder: 'designer'
+									}
+								]
+							},
+							{
+								elem: 'item',
+								elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+								content: [
+									{
+										elem: 'label',
+										elemMods: { 'space-a': 'l' },
+										content: [
+											{
+												block: 'text',
+												mods: { view: 'primary', size: 'm' },
+												content: 'E-mail'
+											}
+										]
+									},
+									{
+										block: 'input',
+										mods: { theme: 'islands', size: 'l', width: 'available' },
+										placeholder: 'jonny@bem.design'
+									}
+								]
+							}]
+						}]
+					}]
 				}]
 			},
 			{
@@ -830,7 +1214,85 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block: 'pt-form',
+							mods: { view: 'default',},
+							content: [
+							{
+								elem: 'item',
+								elemMods: { 'space-a': 'xl' },
+								content: [
+									{
+										elem: 'item',
+										elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+										content: [
+											{
+												elem: 'label',
+												elemMods: { 'space-a': 'l' },
+												content: [
+													{
+														block: 'text',
+														mods: { view: 'primary', size: 'm' },
+														content: 'Name'
+													}
+												]
+											},
+											{
+												block: 'input',
+												mods: { theme: 'islands', size: 'l' },
+												placeholder: 'John Doe'
+											}
+										]
+									},
+									{
+										elem: 'item',
+										elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+										content: [
+											{
+												elem: 'label',
+												elemMods: { 'space-a': 'l' },
+												content: [
+													{
+														block: 'text',
+														mods: { view: 'primary', size: 'm' },
+														content: 'Position'
+													}
+												]
+											},
+											{
+												block: 'input',
+												mods: { theme: 'islands', size: 'l' },
+												placeholder: 'designer'
+											}
+										]
+									},
+									{
+										elem: 'item',
+										elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+										content: [
+											{
+												elem: 'label',
+												elemMods: { 'space-a': 'l' },
+												content: [
+													{
+														block: 'text',
+														mods: { view: 'primary', size: 'm' },
+														content: 'E-mail'
+													}
+												]
+											},
+											{
+												block: 'input',
+												mods: { theme: 'islands', size: 'l' },
+												placeholder: 'jonny@bem.design'
+											}
+										]
+									}
+								]
+							}
+						]
+					}]
 				}]
 			},
 			{
@@ -891,49 +1353,7 @@ module.exports = {
 						block: 'text',
 						mods: { size: 'm', font: 'mono', view: 'ghost' },
 						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
-						content: 'content: ['
-					},
-					{
-						block: 'text',
-						mods: { size: 'm', font: 'mono', view: 'ghost' },
-						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxxl' } },
-						content: 'elem: \'event\','
-					},
-					{
-						block: 'text',
-						mods: { size: 'm', font: 'mono', view: 'ghost' },
-						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxxl' } },
 						content: 'content: []'
-					},
-					{
-						block: 'text',
-						mods: { size: 'm', font: 'mono', view: 'ghost' },
-						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
-						content: '},'
-					},
-					{
-						block: 'text',
-						mods: { size: 'm', font: 'mono', view: 'ghost' },
-						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
-						content: '{'
-					},
-					{
-						block: 'text',
-						mods: { size: 'm', font: 'mono', view: 'ghost' },
-						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxxl' } },
-						content: 'elem: \'event\','
-					},
-					{
-						block: 'text',
-						mods: { size: 'm', font: 'mono', view: 'ghost' },
-						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxxl' } },
-						content: 'content: []'
-					},
-					{
-						block: 'text',
-						mods: { size: 'm', font: 'mono', view: 'ghost' },
-						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
-						content: '}]'
 					},
 					{
 						block: 'text',
@@ -950,7 +1370,27 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+					{
+						block: 'pt-form',
+						mods: { view: 'default' },
+						content: [
+						{
+							elem: 'item',
+							elemMods: { 'space-a': 'xl', type: 'action', 'vertical-align': 'center' },
+							content: [
+							{
+								block: 'text',
+								mods: { view: 'link', size: 'm' },
+								content: 'Already have an account?'
+							},
+							{
+								block: 'button',
+								mods: { theme: 'islands', size: 'l', view: 'action' },
+								text: 'Sign up'
+							}]
+						}]
+					}]
 				}]
 			},
 			{
@@ -1005,7 +1445,25 @@ module.exports = {
 						block: 'text',
 						mods: { size: 'm', font: 'mono', view: 'primary' },
 						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
-						content: 'elemMods: { \'space-a\': \'l\' },'
+						content: 'elemMods: { '
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'primary' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxl' } },
+						content: '\'space-v\': \'s\','
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'primary' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxl' } },
+						content: '\'space-h\': \'xl\''
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'primary' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
+						content: '}'
 					},
 					{
 						block: 'text',
@@ -1028,7 +1486,78 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+					{
+						block: 'pt-form',
+						mods: { view: 'default' },
+						content: [
+						{
+							elem: 'item',
+							elemMods: { 'space-h': 'xl', 'space-v': 's', 'distribute': 'between', 'vertical-align': 'center' },
+							content: [
+								{
+									elem: 'label',
+									content: [
+										{
+											block: 'text',
+											mods: { view: 'primary', size: 'm' },
+											content: 'Name'
+										}
+									]
+								},
+								{
+									block: 'input',
+									mods: { theme: 'islands', size: 'l', width: 'available' },
+									placeholder: 'John Doe'
+								}
+							]
+						},
+						{
+							elem: 'item',
+							elemMods: { 'space-h': 'xl', 'space-v': 's', 'distribute': 'between', 'vertical-align': 'center' },
+							attrs: {
+								'style': 'background:lightpink'
+							},
+							content: [
+								{
+									elem: 'label',
+									content: [
+										{
+											block: 'text',
+											mods: { view: 'primary', size: 'm' },
+											content: 'Position'
+										}
+									]
+								},
+								{
+									block: 'input',
+									mods: { theme: 'islands', size: 'l', width: 'available' },
+									placeholder: 'designer'
+								}
+							]
+						},
+						{
+							elem: 'item',
+							elemMods: { 'space-h': 'xl', 'space-v': 's', 'distribute': 'between', 'vertical-align': 'center' },
+							content: [
+								{
+									elem: 'label',
+									content: [
+										{
+											block: 'text',
+											mods: { view: 'primary', size: 'm' },
+											content: 'E-mail'
+										}
+									]
+								},
+								{
+									block: 'input',
+									mods: { theme: 'islands', size: 'l', width: 'available' },
+									placeholder: 'jonny@bem.design'
+								}
+							]
+						}]
+					}]
 				}]
 			},
 			{
@@ -1083,7 +1612,7 @@ module.exports = {
 						block: 'text',
 						mods: { size: 'm', font: 'mono', view: 'primary' },
 						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
-						content: 'elemMods: { \'indent-a\': \'l\' },'
+						content: 'elemMods: { \'indent-b\': \'l\' },'
 					},
 					{
 						block: 'text',
@@ -1106,7 +1635,78 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+					{
+						block: 'pt-form',
+						mods: { view: 'default' },
+						content: [
+						{
+							elem: 'item',
+							elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+							attrs: {
+								'style': 'background: lightpink'
+							},
+							content: [
+							{
+								elem: 'label',
+								content: [
+								{
+									block: 'text',
+									mods: { view: 'primary', size: 'm' },
+									content: 'Name'
+								}]
+							},
+							{
+								block: 'input',
+								mods: { theme: 'islands', size: 'l', width: 'available' },
+								placeholder: 'John Doe'
+							}]
+						},
+						{
+							elem: 'item',
+							elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+							attrs: {
+								'style': 'background: lightpink'
+							},
+							content: [
+							{
+								elem: 'label',
+								content: [
+								{
+									block: 'text',
+									mods: { view: 'primary', size: 'm' },
+									content: 'Position'
+								}]
+							},
+							{
+								block: 'input',
+								mods: { theme: 'islands', size: 'l', width: 'available' },
+								placeholder: 'designer'
+							}]
+						},
+						{
+							elem: 'item',
+							elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+							attrs: {
+								'style': 'background: lightpink'
+							},
+							content: [
+							{
+								elem: 'label',
+								content: [
+								{
+									block: 'text',
+									mods: { view: 'primary', size: 'm' },
+									content: 'E-mail'
+								}]
+							},
+							{
+								block: 'input',
+								mods: { theme: 'islands', size: 'l', width: 'available' },
+								placeholder: 'jonny@bem.design'
+							}]
+						}]
+					}]
 				}]
 			},
 			// <--- PT-FORM__ITEM MODIFICATORS //
@@ -1119,10 +1719,10 @@ module.exports = {
 				content: 'elem: \'label\''
 			},
 			// {
-			// 	block: 'text',
-			// 	mods: { size: 'm' },
-			// 	mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
-			// 	content: 'description'
+			//  block: 'text',
+			//  mods: { size: 'm' },
+			//  mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
+			//  content: 'description'
 			// },
 			{
 				block: 'text',
@@ -1181,19 +1781,25 @@ module.exports = {
 					{
 						block: 'text',
 						mods: { size: 'm', font: 'mono', view: 'ghost' },
-						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxxl' } },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
+						content: '{'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxl' } },
 						content: 'elem: \'label\','
 					},
 					{
 						block: 'text',
 						mods: { size: 'm', font: 'mono', view: 'primary' },
-						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxxl' } },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxl' } },
 						content: 'elemMods: { width: \'default\' },'
 					},
 					{
 						block: 'text',
 						mods: { size: 'm', font: 'mono', view: 'ghost' },
-						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxxl' } },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxxxl' } },
 						content: 'content: []'
 					},
 					{
@@ -1217,7 +1823,35 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block: 'pt-form',
+							mods: { view: 'default' },
+							content: [
+							{
+								elem: 'item',
+								elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+								content: [
+								{
+									elem: 'label',
+									attrs: {
+										'style': 'background: lightpink'
+									},
+									content: [
+									{
+										block: 'text',
+										mods: { view: 'primary', size: 'm' },
+										content: 'Name'
+									}]
+								},
+								{
+									block: 'input',
+									mods: { theme: 'islands', size: 'l', width: 'available' },
+									placeholder: 'John Doe'
+								}]
+							}]
+						}
+					]
 				}]
 			},
 			// <--- PT-FORM__LABEL MODIFICATORS //
