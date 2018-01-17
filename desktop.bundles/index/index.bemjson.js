@@ -934,7 +934,7 @@ module.exports = {
 							content: [
 							{
 								elem: 'item',
-								mix: [{ block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l' }}, { block: 'pt-card', elem: 'item' }],
+								mix: [{ block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', distribute: 'between' }}, { block: 'pt-card', elem: 'item' }],
 								content: [
 								{
 									block: 'pt-icon-plus',
@@ -977,7 +977,7 @@ module.exports = {
 							},
 							{
 								elem: 'item',
-								mix: [{ block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l' }}, { block: 'pt-card', elem: 'item' }],
+								mix: [{ block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', distribute: 'between' }}, { block: 'pt-card', elem: 'item' }],
 								content: [
 								{
 									block: 'pt-icon-plus',
@@ -1069,7 +1069,7 @@ module.exports = {
 						},
 						{
 							elem: 'item',
-							mix: [{ block: 'pt-card', elem: 'footer', elemMods: { 'space-h': 'xl', 'space-b': 'xl' } },  { block: 'promo-cards', elem: 'apps-recommendation-footer' }, { block: 'pt-card', elem: 'item' }],
+							mix: [{ block: 'pt-card', elem: 'footer', elemMods: { 'space-h': 'xl', 'space-b': 'xl', align: 'between' } },  { block: 'promo-cards', elem: 'apps-recommendation-footer' }, { block: 'pt-card', elem: 'item' }],
 							content: [
 							{
 								block: 'pt-icon-plus',
@@ -1090,7 +1090,7 @@ module.exports = {
 									{
 										block: 'text',
 										mods: { size: 's', view: 'inverse' },
-										content: 'Monument Vallet'
+										content: 'Monument Valley'
 									},
 									{
 										block: 'text',
@@ -1139,7 +1139,7 @@ module.exports = {
 						},
 						{
 							elem: 'item',
-							mix: [{ block: 'pt-card', elem: 'content', elemMods: { 'space-a': 'xl' } }, { block: 'promo-cards', elem: 'apps-good-footer' }, { block: 'pt-card', elem: 'item' }],
+							mix: [{ block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'xl', align: 'between' } }, { block: 'promo-cards', elem: 'apps-good-footer' }, { block: 'pt-card', elem: 'item' }],
 							content: [
 							{
 								block: 'pt-icon-plus',
@@ -1159,7 +1159,7 @@ module.exports = {
 									content: [
 									{
 										block: 'text',
-										content: 'Monument Vallet'
+										content: 'Monument Valley'
 									},
 									{
 										block: 'text',
