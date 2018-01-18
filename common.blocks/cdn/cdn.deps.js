@@ -202,7 +202,24 @@
 									 'time': ['m-action', 'm-inverse', 'm-link', 'm-primary', 's-action', 's-disable', 's-ghost', 's-inverse', 's-link', 's-primary', 's-secondary'],
 									 'trash': ['m-action', 'm-inverse', 'm-link', 'm-primary', 's-action', 's-disable', 's-ghost', 's-inverse', 's-link', 's-primary', 's-secondary'],
 									 'user': ['m-action', 'm-inverse', 'm-link', 'm-primary', 's-action', 's-disable', 's-ghost', 's-inverse', 's-link', 's-primary', 's-secondary'],
-									 'wait-2': ['m-action', 'm-inverse', 'm-link', 'm-primary', 's-action', 's-disable', 's-ghost', 's-inverse', 's-link', 's-primary', 's-secondary'] } }
+									 'wait-2': ['m-action', 'm-inverse', 'm-link', 'm-primary', 's-action', 's-disable', 's-ghost', 's-inverse', 's-link', 's-primary', 's-secondary'] } },
+
+
+
+			{ block: 'decorator', mods: { 'space-a': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl'],
+										  'space-v': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'space-h': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'space-t': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'space-r': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'space-b': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'space-l': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'indent-a': ['auto', 'xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'indent-v': ['auto', 'xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'indent-h': ['auto', 'xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'indent-t': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'indent-r': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'indent-b': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
+										  'indent-l': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'] } }
 		]
 	}
 ])
