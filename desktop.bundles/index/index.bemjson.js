@@ -62,7 +62,7 @@ module.exports = {
 					mods: { size: 'xxl', view: 'ghost', weight: 'bold' },
 					mix: { block: 'decorator', mods: { 'indent-t': 'xxxl' } },
 					content: [
-					'BEM Design на ',
+					'BEM Design at ',
 					{
 						tag: 'a',
 						block: 'text',
@@ -70,7 +70,7 @@ module.exports = {
 						attrs: { href: 'https://github.com/bemdesign', style: 'text-decoration: none' },
 						content: 'GitHub'
 					},
-					' в ',
+					' and ',
 					{
 						tag: 'a',
 						block: 'text',
@@ -1837,7 +1837,7 @@ module.exports = {
 						content: [
 						{
 							tag: 'a',
-							attrs: { href: 'https://sava.work' },
+							attrs: { href: 'http://sava.work' },
 							block: 'promo-cards',
 							elem: 'team-member',
 							mix: { block: 'text', mods: { view: 'primary', font: 'mono', weight: 'bold', transform: 'uppercase' } },
