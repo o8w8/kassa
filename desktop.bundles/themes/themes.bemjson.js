@@ -307,7 +307,7 @@ module.exports = {
 								{
 									block: 'text',
 									mods: { size: 'm'},
-									content: 'rgba(0,0,0,0.70)'
+									content: 'rgba(0,0,0,0.90)'
 								}]
 							}]
 						},
