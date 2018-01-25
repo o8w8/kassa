@@ -138,6 +138,13 @@ module.exports = {
 			},
 
 			// PT-AVATAR__PHOTO MODIFICATORS ---> //
+
+			{
+				block: 'text',
+				mods: { size: 'xxxl', weight: 'bold' },
+				mix: [{ block: 'decorator', mods: { 'indent-b': 'xl' } }],
+				content: 'elem: \'photo\''
+			},
 			{
 				block: 'text',
 				attrs: { id: 'photo_size' },
@@ -146,6 +153,7 @@ module.exports = {
 			},
 			{
 				block: 'example',
+				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxl' } }],
 				content: [
 				{
 					elem: 'col',
@@ -207,7 +215,171 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block: 'pt-avatar',
+							content: [
+							{
+								elem: 'photo',
+								elemMods: { size: 's' },
+								content: []
+							}]
+						}
+					]
+				}]
+			},
+			{
+				block: 'example',
+				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxl' } }],
+				content: [
+				{
+					elem: 'col',
+					elemMods: { type: 'code' },
+					content: [
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						content: '{'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'l' } },
+						content: 'block: \'pt-avatar\','
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'l' } },
+						content: 'content: ['
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'l' } },
+						content: '{'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
+						content: 'elem: \'photo\','
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'primary' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
+						content: 'elemMods: { size: \'m\' },'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
+						content: 'content: []'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'l' } },
+						content: '}]'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						content: '}'
+					}]
+				},
+				{
+					elem: 'col',
+					elemMods: { type: 'interface' },
+					content: [
+						{
+							block: 'pt-avatar',
+							content: [
+							{
+								elem: 'photo',
+								elemMods: { size: 'm' },
+								content: []
+							}]
+						}
+					]
+				}]
+			},
+			{
+				block: 'example',
+				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxl' } }],
+				content: [
+				{
+					elem: 'col',
+					elemMods: { type: 'code' },
+					content: [
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						content: '{'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'l' } },
+						content: 'block: \'pt-avatar\','
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'l' } },
+						content: 'content: ['
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'l' } },
+						content: '{'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
+						content: 'elem: \'photo\','
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'primary' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
+						content: 'elemMods: { size: \'l\' },'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
+						content: 'content: []'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						mix: { block: 'decorator', mods: { 'indent-l': 'l' } },
+						content: '}]'
+					},
+					{
+						block: 'text',
+						mods: { size: 'm', font: 'mono', view: 'ghost' },
+						content: '}'
+					}]
+				},
+				{
+					elem: 'col',
+					elemMods: { type: 'interface' },
+					content: [
+						{
+							block: 'pt-avatar',
+							content: [
+							{
+								elem: 'photo',
+								elemMods: { size: 'l' },
+								content: []
+							}]
+						}
+					]
 				}]
 			},
 			// <--- PT-AVATAR__PHOTO MODIFICATORS //
