@@ -419,7 +419,49 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block: 'pt-informer',
+							mods: { view: 'success' },
+							content: [
+								{
+									elem: 'content',
+									elemMods: { 'space-a': 'l' },
+									content: [
+										{
+											block: 'pt-icon-plus',
+											mods: { 'vertical-align': 'center' },
+											content: [
+												{
+													elem: 'icon',
+													elemMods: { 'indent-right': 's' },
+													attrs: {
+														'style': 'padding: 8px; border-radius: 50%; background: #FFFFFF;'
+													},
+													content: [
+														{
+															block: 'icon',
+															mods: { check: 's-success' },
+														}
+													]
+												},
+												{
+													elem: 'block',
+													content: [
+														{
+															block: 'text',
+															mods: { view: 'inverse', size: 'm' },
+															content: 'Success message'
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
 				}]
 			},
 			{
@@ -467,7 +509,49 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block: 'pt-informer',
+							mods: { view: 'success', border: 'all' },
+							content: [
+								{
+									elem: 'content',
+									elemMods: { 'space-a': 'l' },
+									content: [
+										{
+											block: 'pt-icon-plus',
+											mods: { 'vertical-align': 'center' },
+											content: [
+												{
+													elem: 'icon',
+													elemMods: { 'indent-right': 's' },
+													attrs: {
+														'style': 'padding: 8px; border-radius: 50%; background: #FFFFFF;'
+													},
+													content: [
+														{
+															block: 'icon',
+															mods: { check: 's-success' },
+														}
+													]
+												},
+												{
+													elem: 'block',
+													content: [
+														{
+															block: 'text',
+															mods: { view: 'inverse', size: 'm' },
+															content: 'Success message'
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
 				}]
 			},
 			// <--- PT-INFORMER MODIFICATORS //
@@ -531,7 +615,7 @@ module.exports = {
 						block: 'text',
 						mods: { size: 'm', font: 'mono', view: 'primary' },
 						mix: { block: 'decorator', mods: { 'indent-l': 'xxxl' } },
-						content: 'elemMods: { \'space-a\': \'l\' },'
+						content: 'elemMods: { \'space-a\': \'xl\' },'
 					},
 					{
 						block: 'text',
@@ -554,7 +638,49 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block: 'pt-informer',
+							mods: { view: 'success' },
+							content: [
+								{
+									elem: 'content',
+									elemMods: { 'space-a': 'xl' },
+									content: [
+										{
+											block: 'pt-icon-plus',
+											mods: { 'vertical-align': 'center' },
+											content: [
+												{
+													elem: 'icon',
+													elemMods: { 'indent-right': 'l' },
+													attrs: {
+														'style': 'padding: 8px; border-radius: 50%; background: #FFFFFF;'
+													},
+													content: [
+														{
+															block: 'icon',
+															mods: { check: 'm-success' },
+														}
+													]
+												},
+												{
+													elem: 'block',
+													content: [
+														{
+															block: 'text',
+															mods: { view: 'inverse', size: 'l' },
+															content: 'Success message'
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
 				}]
 			},
 			{
@@ -626,7 +752,51 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block: 'pt-informer',
+							mods: { view: 'success', border: 'all' },
+							content: [
+								{
+									elem: 'content',
+									elemMods: { 'space-a': 'l', distribute: 'between' },
+									content: [
+										{
+											block: 'text',
+											mods: { view: 'inverse', size: 'm' },
+											content: 'Online users'
+										},
+										{
+											block: 'pt-icon-plus',
+											mods: { 'vertical-align': 'center' },
+											content: [
+												{
+													elem: 'icon',
+													elemMods: { 'indent-right': 'xs' },
+													content: [
+														{
+															block: 'icon',
+															mods: { user: 's-inverse' },
+														}
+													]
+												},
+												{
+													elem: 'block',
+													content: [
+														{
+															block: 'text',
+															mods: { view: 'inverse', size: 'm' },
+															content: '940'
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
 				}]
 			},
 			// <--- PT-INFORMER__CONTENT MODIFICATORS //
@@ -713,7 +883,31 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block: 'pt-informer',
+							mods: { view: 'success', border: 'all' },
+							content: [
+								{
+									elem: 'action',
+									elemMods: { 'space-a': 'l', distribute: 'between' },
+									content: [
+										{
+											block: 'pt-icon-plus',
+											mods: { 'vertical-align': 'center' },
+											content: [
+												{
+													block: 'text',
+													mods: { view: 'inverse', size: 'm', type: 'link' },
+													content: 'Learn more'
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
 				}]
 			},
 			// <--- PT-INFORMER__ACTION MODIFICATORS //
