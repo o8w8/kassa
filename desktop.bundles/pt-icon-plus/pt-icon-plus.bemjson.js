@@ -320,7 +320,7 @@ module.exports = {
 						block: 'text',
 						mods: { size: 'm', font: 'mono', view: 'primary' },
 						mix: { block: 'decorator', mods: { 'indent-l': 'l' } },
-						content: 'mods: { \'vertical-align\': \'top\' },'
+						content: 'mods: { \'vertical-align\': \'center\' },'
 					},
 					{
 						block: 'text',
@@ -337,7 +337,32 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block : 'pt-icon-plus',
+							mods : { 'vertical-align' : 'center' },
+							content : [
+								{
+									elem : 'icon',
+									elemMods : { 'indent-right' : 'xs' },
+									content : [
+									{
+										block : 'icon',
+										mods : { lock: 's-primary' }
+									}]
+								},
+								{
+									elem : 'block',
+									content : [
+									{
+										block : 'text',
+										mods : { view : 'primary', size : 'm', display : 'inline' },
+										content : 'Private channel'
+									}]
+								}
+							]
+						}
+					]
 				}]
 			},
 			{
@@ -385,7 +410,32 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block : 'pt-icon-plus',
+							mods : { 'vertical-align' : 'center' },
+							content : [
+								{
+									elem : 'icon',
+									elemMods : { 'indent-right' : 'l' },
+									content : [
+									{
+										block : 'icon',
+										mods : { lock: 's-primary' }
+									}]
+								},
+								{
+									elem : 'block',
+									content : [
+									{
+										block : 'text',
+										mods : { view : 'primary', size : 'm', display : 'inline' },
+										content : 'Private channel'
+									}]
+								}
+							]
+						}
+					]
 				}]
 			},
 			{
@@ -433,7 +483,32 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block : 'pt-icon-plus',
+							mods : { 'vertical-align' : 'center', distribute: 'between' },
+							content : [
+								{
+									elem : 'icon',
+									elemMods : { 'indent-right' : 'l' },
+									content : [
+									{
+										block : 'icon',
+										mods : { lock: 's-primary' }
+									}]
+								},
+								{
+									elem : 'block',
+									content : [
+									{
+										block : 'text',
+										mods : { view : 'primary', size : 'm', display : 'inline' },
+										content : 'Private channel'
+									}]
+								}
+							]
+						}
+					]
 				}]
 			},
 			// <--- PT-ICON-PLUS MODIFICATORS //
@@ -520,7 +595,34 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+
+						{
+							block : 'pt-icon-plus',
+							mods : { 'vertical-align' : 'center', distribute: 'between' },
+							content : [
+								{
+									elem : 'icon',
+									elemMods : { 'indent-right' : 'l' },
+									content : [
+									{
+										block : 'icon',
+										mods : { lock: 's-primary' }
+									}]
+								},
+								{
+									elem : 'block',
+									content : [
+									{
+										block : 'text',
+										mods : { view : 'primary', size : 'm', display : 'inline' },
+										content : 'Private channel'
+									}]
+								}
+							]
+						}
+
+					]
 				}]
 			},
 			{
@@ -592,7 +694,32 @@ module.exports = {
 				{
 					elem: 'col',
 					elemMods: { type: 'interface' },
-					content: []
+					content: [
+						{
+							block : 'pt-icon-plus',
+							mods : { 'vertical-align' : 'center' },
+							content : [
+								{
+									elem : 'block',
+									content : [
+									{
+										block : 'text',
+										mods : { view : 'primary', size : 'm', display : 'inline' },
+										content : 'Private channel'
+									}]
+								},
+								{
+									elem : 'icon',
+									elemMods : { 'indent-left' : 'l' },
+									content : [
+									{
+										block : 'icon',
+										mods : { lock: 's-primary' }
+									}]
+								},
+							]
+						}
+					]
 				}]
 			},
 			// <--- PT-ICON-PLUS__ICON MODIFICATORS //
