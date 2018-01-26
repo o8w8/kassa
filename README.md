@@ -16,9 +16,9 @@ enb make
 ## Порядок создания визуала
   1 шаг: в BEMJSON описывается основная структура блока;  
   2 шаг: во внутрь насыпается сожержимое/контент (текст, графика, контролы);  
-  3 шаг: к узлам блока миксуется паттерн (список, форма, карточка, ...);
-  4 шаг: по необходимоси дописываются уникальные стили (к основному блоку);
-  5 шаг: блок занимает свое место в обвязке/сетке.
+  3 шаг: к узлам блока миксуется паттерн (список, форма, карточка, ...);  
+  4 шаг: по необходимоси дописываются уникальные стили (к основному блоку);  
+  5 шаг: блок занимает свое место в обвязке/сетке.  
 
   Если уникальные стили начинают повторятся, они выносятся на уровень паттернов
 
@@ -26,9 +26,9 @@ enb make
 ## Библиотеки
 
 ## Тема
-  Документация: http://bem.design/themes.html
-  Репозиторий: https://github.com/bemdesign/bem-themes
-  Пакет: https://www.npmjs.com/package/bem-themes
+  Документация: http://bem.design/themes.html  
+  Репозиторий: https://github.com/bemdesign/bem-themes  
+  Пакет: https://www.npmjs.com/package/bem-themes  
 
 ### Переменные
 
@@ -46,9 +46,9 @@ enb make
 
 Для легкой манипуляции внешним видом блоков любой текст в интерфейсе выводится в блоке text. Мы вынесли блок text с модификаторами для цвета, размера, регистра, жирности, межбуквенного интервала. Их можно использовать в различных комбинациях, это помогает получить все необходимые вариации текста.
 
-  Документация: http://bem.design/typo.html
-  Репозиторий: https://github.com/bemdesign/bem-typo
-  Пакет: https://www.npmjs.com/package/bem-typo
+  Документация: http://bem.design/typo.html  
+  Репозиторий: https://github.com/bemdesign/bem-typo  
+  Пакет: https://www.npmjs.com/package/bem-typo  
 
 
 
@@ -56,22 +56,22 @@ enb make
 
 Для отображения иконок используется блок icon.
 
-  Примеры: http://bem.design/icons.html
-  Гайд: http://bem.design/article-icons.html
-  Репозиторий: https://github.com/bemdesign/bem-icons
-  Пакет: https://www.npmjs.com/package/bem-icons
+  Примеры: http://bem.design/icons.html  
+  Гайд: http://bem.design/article-icons.html  
+  Репозиторий: https://github.com/bemdesign/bem-icons  
+  Пакет: https://www.npmjs.com/package/bem-icons  
 
 
 ## Крупные (маркерные иконки)
-  Документация: http://bem.design/vectors.html
-  Репозиторий: https://github.com/bemdesign/bem-vectors
-  Пакет: https://www.npmjs.com/package/bem-vectors
+  Документация: http://bem.design/vectors.html  
+  Репозиторий: https://github.com/bemdesign/bem-vectors  
+  Пакет: https://www.npmjs.com/package/bem-vectors  
 
 
 ## Логотипы
-  Документация: http://bem.design/logotypes.html
-  Репозиторий: https://github.com/bemdesign/bem-logos
-  Пакет: https://www.npmjs.com/package/bem-logos
+  Документация: http://bem.design/logotypes.html  
+  Репозиторий: https://github.com/bemdesign/bem-logos  
+  Пакет: https://www.npmjs.com/package/bem-logos  
 
 ### LEGO
 https://ru.bem.info/platform/libs/bem-components/6.0.0/
@@ -81,9 +81,9 @@ https://ru.bem.info/platform/libs/bem-components/6.0.0/
 
 Все бесконечное многообразие интерфейсных множеств сводится к числу понятных/базовых/фундаментальных конструкций, на основе которых можно получить практически любой визуал.
 
-  Документация: http://bem.design/patterns.html
-  Репозиторий: https://github.com/bemdesign/bem-patterns
-  Пакет: https://www.npmjs.com/package/bem-patterns
+  Документация: http://bem.design/patterns.html  
+  Репозиторий: https://github.com/bemdesign/bem-patterns  
+  Пакет: https://www.npmjs.com/package/bem-patterns  
 
 
 ## Таблицы
@@ -117,9 +117,9 @@ http://bem.design/pt-avatar.html
 
 Шаблоны позволяют занять смысловым сущностям свое место в интерфейсе.
 
-  Документация: http://bem.design/layouts.html
-  Репозиторий: https://github.com/bemdesign/bem-layouts
-  Пакет: https://www.npmjs.com/package/bem-layouts
+  Документация: http://bem.design/layouts.html  
+  Репозиторий: https://github.com/bemdesign/bem-layouts  
+  Пакет: https://www.npmjs.com/package/bem-layouts  
 
 ### Обвязка
 
