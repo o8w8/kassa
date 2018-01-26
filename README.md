@@ -25,27 +25,31 @@ https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney
 ## Контент
 ### Типографика
 Текст — фундамент практически любой визуальной сущности. Для легкой манипуляции внешним видом блоков любой текст в интерфейсе выводится в блоке text. Мы вынесли блок text с модификаторами для цвета, размера, регистра, жирности, межбуквенного интервала. Их можно использовать в различных комбинациях. В итоге мы получаем все необходимые вариации текста при помощи небольшого количества комбинаций.
-https://bitbucket-public.yamoney.ru/pages/~MEEQ/prototype/master/browse/bundles/desktop/demo/typo/typo.ru.html
 
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/text
-
-
+Документация: http://bem.design/typo.html
+Репозиторий: https://github.com/bemdesign/bem-typo
+Пакет: https://www.npmjs.com/package/bem-typo
 
 
 
 ### Иконки
 Любая иконка, которая отрисовывается для вашей задачи, должны быть должна быть подготовлена во всех размерах и цветовых модификациях. 
 
-https://bitbucket-public.yamoney.ru/pages/~MEEQ/prototype/master/browse/bundles/desktop/demo/icons/icons.ru.html
+Документация: http://bem.design/icons.html
+Репозиторий: https://github.com/bemdesign/bem-icons
+Пакет: https://www.npmjs.com/package/bem-icons
 
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/icon
 
-Крупные (маркерные иконки)
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/pull-requests/61/overview
+## Крупные (маркерные иконки)
+Документация: http://bem.design/vectors.html
+Репозиторий: https://github.com/bemdesign/bem-vectors
+Пакет: https://www.npmjs.com/package/bem-vectors
 
-https://bitbucket-public.yamoney.ru/pages/~MEEQ/prototype/master/browse/bundles/desktop/demo/article-vectors/article-vectors.ru.html
-Логотипы
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/pull-requests/18/overview
+
+## Логотипы
+Документация: http://bem.design/logotypes.html
+Репозиторий: https://github.com/bemdesign/bem-logos
+Пакет: https://www.npmjs.com/package/bem-logos
 
 ### LEGO
 https://ru.bem.info/platform/libs/bem-components/6.0.0/
@@ -54,34 +58,37 @@ https://ru.bem.info/platform/libs/bem-components/6.0.0/
 ## Паттерны
 Все бесконечное многообразие интерфейсных множеств сводится к числу понятных/базовых/фундаментальных конструкций, на основе которых можно получить практически любой визуал
 
-https://bitbucket-public.yamoney.ru/pages/~MEEQ/prototype/master/browse/bundles/desktop/demo/patterns/patterns.ru.html
-Таблицы
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/pt-table
+Документация: http://bem.design/patterns.html
+Репозиторий: https://github.com/bemdesign/bem-patterns
+Пакет: https://www.npmjs.com/package/bem-patterns
 
+
+## Таблицы
+http://bem.design/pt-table.html
 
 ### Списки
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/pt-list
+http://bem.design/pt-list.html
 
 ### Информеры
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/pt-informer
+http://bem.design/pt-informer.html
 
 ### Иконка + Любой блок
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/pt-icon-plus
+http://bem.design/pt-icon-plus.html
 
 ### Форма
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/pt-form
-
-### Гибкие Секции
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/pt-flex
+http://bem.design/pt-form.html
 
 ### Карточки
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/pt-card
+http://bem.design/pt-cards.html
 
 ### Бейджи
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/pt-bage
+http://bem.design/pt-badge.html
 
 ### Аватар
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/browse/common.blocks/pt-avatar
+http://bem.design/pt-avatar.html
+
+
+
 
 ## Шаблоны(Обвязки)
 ### Обвязка
