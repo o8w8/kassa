@@ -1,22 +1,13 @@
-# Stub to start a new BEM project
+# BEM DESIGN STUB
 
-### Build the project
-
+## Установка
 ```bash
-./node_modules/.bin/enb make
+npm i
 ```
-or
-```bash
-./node_modules/.bin/gulp
-```
-
-To be able to run commands without typing a full path to an executable file (`./node_modules/.bin/enb`), use:
 
 ```bash
 export PATH=./node_modules/.bin:$PATH
 ```
-
-Now you can use `enb` or `gulp` from the root of your project.
 
 ```bash
 enb make
