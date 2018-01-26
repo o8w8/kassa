@@ -91,13 +91,17 @@ http://bem.design/pt-avatar.html
 
 
 ## Шаблоны(Обвязки)
+hДокументация: http://bem.design/layouts.html
+Репозиторий: https://github.com/bemdesign/bem-layouts
+Пакет: https://www.npmjs.com/package/bem-layouts
+
 ### Обвязка
 .tpl-layout содержит в себе необходимые элементы в различных модификациях для реализации общих обвязок каркаса/проектов
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/pull-requests/64/overview
+https://github.com/bemdesign/bem-layouts/tree/master/common.blocks/tpl-layout
 
 ### Сетка
 .tpl-grid управляет ритмом и композицией (расположением блоков) внутри секций
-https://bitbucket-public.yamoney.ru/projects/FRONTEND-YAMONEY-LIBS/repos/yamoney-guidelines/pull-requests/65/overview
+https://github.com/bemdesign/bem-layouts/tree/master/common.blocks/tpl-grid
 
 
 
