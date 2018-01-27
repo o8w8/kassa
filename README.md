@@ -25,7 +25,7 @@ enb make
 
 
 ## Библиотеки
-Все библиотеки делятся на четыре смысловых уровная:
+Все библиотеки делятся на 4 смысловых уровная:
   - тема;
   - контент;
   - паттерн;
@@ -61,7 +61,7 @@ enb make
 
 ### Иконки
 
-Для отображения иконок используется блок icon.
+Для отображения иконок используется блок **icon**.
 
   Примеры: http://bem.design/icons.html  
   Гайд: http://bem.design/article-icons.html  
@@ -80,8 +80,9 @@ enb make
   Репозиторий: https://github.com/bemdesign/bem-logos  
   Пакет: https://www.npmjs.com/package/bem-logos  
 
-### LEGO
-https://ru.bem.info/platform/libs/bem-components/6.0.0/
+### bem-components
+это [библиотека](https://ru.bem.info/platform/libs/bem-components/6.0.0/) с открытым кодом, которая предоставляет набор готовых визуальных компонентов (блоков). Содержит контролы форм и другие базовые компоненты для построения интерфейсов.
+
 
 
 ## Паттерны
@@ -94,28 +95,30 @@ https://ru.bem.info/platform/libs/bem-components/6.0.0/
 
 
 ## Таблицы
-http://bem.design/pt-table.html
+Паттерн [.pt-table](http://bem.design/pt-table.html) используется для представления табличной информации во различных пропорциях, имеет модификации для статусов.
 
 ### Списки
-http://bem.design/pt-list.html
+Паттерн [.pt-list](http://bem.design/pt-list.html) используется для представления вертикально повторяющихся пунктов с любым содержимым.
 
 ### Информеры
-http://bem.design/pt-informer.html
+Паттерн [.pt-informer](http://bem.design/pt-informer.html) используется блоков информирующих об успехе/ошибке или предупреждающих/информирующих о чем либо.
+
 
 ### Иконка + Любой блок
-http://bem.design/pt-icon-plus.html
+Паттерн [.pt-icon-plus](http://bem.design/pt-icon-plus.html) используется для представления связки графической и любой другой информации.
 
 ### Форма
-http://bem.design/pt-form.html
+Паттерн [.pt-form](http://bem.design/pt-form.html) используется для представления любой информации требующей ввода данных (или выбора настроек) поользователем для дальнейшей отправки.
 
 ### Карточки
-http://bem.design/pt-cards.html
+Паттерн [.pt-card](http://bem.design/pt-card.html) используется для отображения любых модификаций карточной информации.
 
 ### Бейджи
-http://bem.design/pt-badge.html
+Паттерн [.pt-badge](http://bem.design/pt-badge.html) используется для отображения статусов.
 
 ### Аватар
-http://bem.design/pt-avatar.html
+Паттерн [.pt-badge](http://bem.design/pt-avatar.html) используется для отображения фотографий пользователей и может быть дополнен дополнительными элементами, такими как статус или счетчик.
+
 
 
 
