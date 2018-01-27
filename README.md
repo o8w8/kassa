@@ -13,7 +13,7 @@ export PATH=./node_modules/.bin:$PATH
 enb make
 ```
 
-## Порядок создания визуала
+## Порядок работы с визуалом
   **1 шаг:** блок с нужной темой примиксовывается на верхний уровень бандла;  
   **2 шаг:** в BEMJSON описывается основная структура блока;  
   **3 шаг:** во внутрь насыпается содержимое/контент (текст, графика, контролы);  
@@ -29,7 +29,7 @@ enb make
   - тема;
   - контент;
   - паттерн;
-  - обвязка;
+  - обвязка.
   
 
 ## Тема
@@ -53,9 +53,9 @@ enb make
 
 Для легкой манипуляции внешним видом блоков любой текст в интерфейсе выводится в блоке text. Мы вынесли блок text с модификаторами для цвета, размера, регистра, жирности, межбуквенного интервала. Их можно использовать в различных комбинациях, это помогает получить все необходимые вариации текста.
 
-  Документация: http://bem.design/typo.html  
-  Репозиторий: https://github.com/bemdesign/bem-typo  
-  Пакет: https://www.npmjs.com/package/bem-typo  
+- [Документация](http://bem.design/typo.html)  
+- [Репозиторий](https://github.com/bemdesign/bem-typo)  
+- [Пакет](https://www.npmjs.com/package/bem-typo)  
 
 
 
@@ -63,22 +63,22 @@ enb make
 
 Для отображения иконок используется блок **icon**.
 
-  Примеры: http://bem.design/icons.html  
-  Гайд: http://bem.design/article-icons.html  
-  Репозиторий: https://github.com/bemdesign/bem-icons  
-  Пакет: https://www.npmjs.com/package/bem-icons  
+- [Примеры](http://bem.design/icons.html) 
+- [Гайд](http://bem.design/article-icons.html)  
+- [Репозиторий](https://github.com/bemdesign/bem-icons)  
+- [Пакет](https://www.npmjs.com/package/bem-icons)  
 
 
 ## Крупные (маркерные иконки)
-  Документация: http://bem.design/vectors.html  
-  Репозиторий: https://github.com/bemdesign/bem-vectors  
-  Пакет: https://www.npmjs.com/package/bem-vectors  
+- [Документация](http://bem.design/vectors.html)  
+- [Репозиторий](https://github.com/bemdesign/bem-vectors)  
+- [Пакет](https://www.npmjs.com/package/bem-vectors)  
 
 
 ## Логотипы
-  Документация: http://bem.design/logotypes.html  
-  Репозиторий: https://github.com/bemdesign/bem-logos  
-  Пакет: https://www.npmjs.com/package/bem-logos  
+- [Документация](http://bem.design/logotypes.html)  
+- [Репозиторий](https://github.com/bemdesign/bem-logos)  
+- [Пакет](https://www.npmjs.com/package/bem-logos) 
 
 ### bem-components
 это [библиотека](https://ru.bem.info/platform/libs/bem-components/6.0.0/) с открытым кодом, которая предоставляет набор готовых визуальных компонентов (блоков). Содержит контролы форм и другие базовые компоненты для построения интерфейсов.
@@ -89,41 +89,39 @@ enb make
 
 Все бесконечное многообразие интерфейсных множеств сводится к числу понятных/базовых/фундаментальных конструкций, на основе которых можно получить практически любой визуал.
 
-  Документация: http://bem.design/patterns.html  
-  Репозиторий: https://github.com/bemdesign/bem-patterns  
-  Пакет: https://www.npmjs.com/package/bem-patterns  
+- [Документация](http://bem.design/patterns.html)  
+- [Репозиторий](https://github.com/bemdesign/bem-patterns)  
+- [Пакет](https://www.npmjs.com/package/bem-patterns)  
 
 
-## Таблицы
-Паттерн [.pt-table](http://bem.design/pt-table.html) используется для представления табличной информации во различных пропорциях, имеет модификации для статусов.
+### Таблицы
+Паттерн [**.pt-table**](http://bem.design/pt-table.html) используется для представления табличной информации во различных пропорциях, имеет модификации для статусов.
 
 ### Списки
-Паттерн [.pt-list](http://bem.design/pt-list.html) используется для представления вертикально повторяющихся пунктов с любым содержимым.
+Паттерн [**.pt-list**](http://bem.design/pt-list.html) используется для представления вертикально повторяющихся пунктов с любым содержимым.
 
 ### Информеры
-Паттерн [.pt-informer](http://bem.design/pt-informer.html) используется блоков информирующих об успехе/ошибке или предупреждающих/информирующих о чем либо.
+Паттерн [**.pt-informer**](http://bem.design/pt-informer.html) используется блоков информирующих об успехе/ошибке или предупреждающих/информирующих о чем либо.
 
 
 ### Иконка + Любой блок
-Паттерн [.pt-icon-plus](http://bem.design/pt-icon-plus.html) используется для представления связки графической и любой другой информации.
+Паттерн [**.pt-icon-plus**](http://bem.design/pt-icon-plus.html) используется для представления связки графической и любой другой информации.
 
 ### Форма
-Паттерн [.pt-form](http://bem.design/pt-form.html) используется для представления любой информации требующей ввода данных (или выбора настроек) поользователем для дальнейшей отправки.
+Паттерн [**.pt-form**](http://bem.design/pt-form.html) используется для представления любой информации требующей ввода данных (или выбора настроек) поользователем для дальнейшей отправки.
 
 ### Карточки
-Паттерн [.pt-card](http://bem.design/pt-card.html) используется для отображения любых модификаций карточной информации.
+Паттерн [**.pt-card**](http://bem.design/pt-card.html) используется для отображения любых модификаций карточной информации.
 
 ### Бейджи
-Паттерн [.pt-badge](http://bem.design/pt-badge.html) используется для отображения статусов.
+Паттерн [**.pt-badge**](http://bem.design/pt-badge.html) используется для отображения статусов.
 
 ### Аватар
-Паттерн [.pt-badge](http://bem.design/pt-avatar.html) используется для отображения фотографий пользователей и может быть дополнен дополнительными элементами, такими как статус или счетчик.
+Паттерн [**.pt-badge**](http://bem.design/pt-avatar.html) используется для отображения фотографий пользователей и может быть дополнен дополнительными элементами, такими как статус или счетчик.
 
 
 
-
-
-## Шаблоны(Обвязки)
+## Шаблоны
 
 Шаблоны позволяют занять смысловым сущностям свое место в интерфейсе.
 
