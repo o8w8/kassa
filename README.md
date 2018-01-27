@@ -33,9 +33,7 @@ enb make
   
 
 ## Тема
-  [Документация](http://bem.design/themes.html)  
-  [Репозиторий](https://github.com/bemdesign/bem-themes)  
-  [Пакет](https://www.npmjs.com/package/bem-themes)  
+[Документация](http://bem.design/themes.html) [Репозиторий](https://github.com/bemdesign/bem-themes) [Пакет](https://www.npmjs.com/package/bem-themes)  
 
 ### Переменные
 
