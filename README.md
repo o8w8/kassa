@@ -58,7 +58,6 @@ enb make
 - [Пакет](https://www.npmjs.com/package/bem-typo)  
 
 
-
 ### Иконки
 
 Для отображения иконок используется блок **icon**.
@@ -101,7 +100,7 @@ enb make
 Паттерн [**.pt-list**](http://bem.design/pt-list.html) используется для представления вертикально повторяющихся пунктов с любым содержимым.
 
 ### Информеры
-Паттерн [**.pt-informer**](http://bem.design/pt-informer.html) используется блоков информирующих об успехе/ошибке или предупреждающих/информирующих о чем либо.
+Паттерн [**.pt-informer**](http://bem.design/pt-informer.html) используется для представления блоков информирующих об успехе/ошибке или предупреждающих/информирующих о чем либо.
 
 
 ### Иконка + Любой блок
@@ -125,9 +124,9 @@ enb make
 
 Шаблоны позволяют занять смысловым сущностям свое место в интерфейсе.
 
-  Документация: http://bem.design/layouts.html  
-  Репозиторий: https://github.com/bemdesign/bem-layouts  
-  Пакет: https://www.npmjs.com/package/bem-layouts  
+- [Документация](http://bem.design/layouts.html)  
+- [Репозиторий](https://github.com/bemdesign/bem-layouts)  
+- [Пакет](https://www.npmjs.com/package/bem-layouts)  
 
 ### Обвязка
 
