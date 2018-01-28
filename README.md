@@ -196,7 +196,6 @@ mix : {
 Блок [**tpl-layout**](https://github.com/bemdesign/bem-layouts/tree/master/common.blocks/tpl-layout) содержит в себе необходимые элементы в различных модификациях для реализации общих обвязок каркаса/проектов.
 
 
-
 ```javascript
 {
 	block: 'tpl-layout',
@@ -205,7 +204,7 @@ mix : {
 		{
 			elem: 'col',
 			content: [
-                /* Меню */
+        /* Раскрытое меню */
 			]
 		},
 		{
@@ -214,19 +213,28 @@ mix : {
 				{
 					elem: 'panel',
 					content: [
-                        /* Панель */
+            /* Панель */
 					]
 				},
 				{
 					elem: 'heading',
 					content: [
-                        /* Заголовок с дополнительной информацией */
+            /* Заголовок с дополнительной информацией */
 					]
 				},
 				{
 					elem: 'content',
 					content: [
-                        /* Секции с контентом */
+          
+            /* Секции с контентом */
+            {
+              elem: 'section',
+              content: [
+              
+                /* Любые смысловые блоки */
+              
+              ]
+            }
 					]
 				}
 			]
