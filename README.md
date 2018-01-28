@@ -141,7 +141,7 @@ mix : {
 
 ```bash
 {
-	block: 'history',
+    block: 'history',
     mix: { block: 'pt-list', mods: { view: 'default' } },
 	content: [
         {
