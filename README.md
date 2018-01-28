@@ -248,6 +248,32 @@ mix : {
 
 Блок [**tpl-grid**](https://github.com/bemdesign/bem-layouts/tree/master/common.blocks/tpl-grid) управляет ритмом и композицией (расположением блоков) внутри секций.
 
+```javascript
+{
+	{
+		block: 'tpl-grid', 
+		mods: { 'col-gap': 'xxl', 'col-size': '12-45' },
+		content: [
+			{
+				elem: 'fraction', 
+				elemMods: { 'col': '1-7' },
+				content: [
 
+					/* Любой смысловой блок */
+					
+				]
+			},
+			{
+				elem: 'fraction', 
+				elemMods: { 'col': '7-13' },
+				content: [
 
+					/* Любой смысловой блок */
+
+				]
+			}
+		]
+	}
+}
+```
 
