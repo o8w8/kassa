@@ -223,7 +223,10 @@
 										  'indent-l': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'] } },
 
 
-			{ block: 'theme', mods: { color: 'default', space: 'default', size: 'default' } }
+			{ block: 'theme', mods: { color: 'default', space: 'default', size: 'default' } },
+
+			{ block: 'brand-logo', mods: { size: ['xxs', 'xs', 's', 'm', 'l', 'xl'],
+											view: ['bape', 'beeline', 'fallon', 'itunes', 'megafon', 'monument-valley-2', 'monument-valley', 'mts', 'ok', 'tele2', 'ustwo', 'vk', 'yota'] } }
 		]
 	}
 ])
