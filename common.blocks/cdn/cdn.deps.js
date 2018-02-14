@@ -20,6 +20,7 @@
 															 'space-r': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 															 'space-t': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 															 'space-v': ['xs', 's', 'm', 'l', 'xl', 'xxl'] } },
+			{ block: 'pt-card', elem: 'footer' }, 
 			{ block: 'pt-card', elem: 'footer', elemMods: { 'align': ['between'], 
 															'space-a': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 															'space-b': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
@@ -219,7 +220,10 @@
 										  'indent-t': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
 										  'indent-r': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
 										  'indent-b': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
-										  'indent-l': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'] } }
+										  'indent-l': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'] } },
+
+
+			{ block: 'theme', mods: { color: 'default', space: 'default', size: 'default' } }
 		]
 	}
 ])

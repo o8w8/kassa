@@ -1893,7 +1893,7 @@ module.exports = {
 							block: 'promo-cards',
 							elem: 'new-team-member',
 							mix: { block: 'text', mods: { size: 'xl', font: 'mono', weight: 'bold', transform: 'uppercase' } },
-							content: 'JOIN TO Our TEAM'
+							content: 'JOIN Our TEAM'
 						}]
 					}]
 				}]

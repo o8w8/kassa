@@ -1,0 +1,98 @@
+.pt-card__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  box-sizing: border-box;
+}
+
+.pt-card__footer_align_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pt-card__footer_space-a_l {
+  padding: var(--space-l);
+}
+.pt-card__footer_space-a_m {
+  padding: var(--space-m);
+}
+.pt-card__footer_space-a_s {
+  padding: var(--space-s);
+}
+.pt-card__footer_space-a_xl {
+  padding: var(--space-xl);
+}
+.pt-card__footer_space-a_xs {
+  padding: var(--space-xs);
+}
+.pt-card__footer_space-a_xxl {
+  padding: var(--space-xxl);
+}
+.pt-card__footer_space-b_l {
+  padding-bottom: var(--space-l);
+}
+.pt-card__footer_space-b_m {
+  padding-bottom: var(--space-m);
+}
+.pt-card__footer_space-b_s {
+  padding-bottom: var(--space-s);
+}
+.pt-card__footer_space-b_xl {
+  padding-bottom: var(--space-xl);
+}
+.pt-card__footer_space-b_xs {
+  padding-bottom: var(--space-xs);
+}
+.pt-card__footer_space-b_xxl {
+  padding-bottom: var(--space-xxl);
+}
+.pt-card__footer_space-h_l {
+  padding-left: var(--space-l);
+  padding-right: var(--space-l);
+}
+.pt-card__footer_space-h_m {
+  padding-left: var(--space-m);
+  padding-right: var(--space-m);
+}
+.pt-card__footer_space-h_s {
+  padding-left: var(--space-s);
+  padding-right: var(--space-s);
+}
+.pt-card__footer_space-h_xl {
+  padding-left: var(--space-xl);
+  padding-right: var(--space-xl);
+}
+.pt-card__footer_space-h_xs {
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+}
+.pt-card__footer_space-h_xxl {
+  padding-left: var(--space-xxl);
+  padding-right: var(--space-xxl);
+}
+.pt-card__footer_space-v_l {
+  padding-top: var(--space-l);
+  padding-bottom: var(--space-l);
+}
+.pt-card__footer_space-v_m {
+  padding-top: var(--space-m);
+  padding-bottom: var(--space-m);
+}
+.pt-card__footer_space-v_s {
+  padding-top: var(--space-s);
+  padding-bottom: var(--space-s);
+}
+.pt-card__footer_space-v_xl {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+}
+.pt-card__footer_space-v_xs {
+  padding-top: var(--space-xs);
+  padding-bottom: var(--space-xs);
+}
+.pt-card__footer_space-v_xxl {
+  padding-top: var(--space-xxl);
+  padding-bottom: var(--space-xxl);
+}
