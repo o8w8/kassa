@@ -82,11 +82,11 @@
 
 
 			{ block: 'pt-icon-plus', mods: { distribute: ['between', 'default'],
+											 'vertical-align': ['center', 'top', 'bottom'],
 											 indent: ['l', 'm', 's', 'xs', 'xxs'] } },
 			{ block: 'pt-icon-plus', elem: 'block' },
 			{ block: 'pt-icon-plus', elem: 'icon', mods: { 'indent-right': ['l', 'm', 's', 'xs', 'xxs'],
-														   'indent-left': ['l', 'm', 's', 'xs', 'xxs'],
-														   'vertical-align': ['center', 'top'] } },
+														   'indent-left': ['l', 'm', 's', 'xs', 'xxs'] } },
 
 
 
