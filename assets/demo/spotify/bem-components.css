@@ -194,13 +194,13 @@
 }
 .button_theme_spotify.button_view_pseudo {
 	overflow: hidden;
-	background: none;
+	background: var(--color-default);
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 1px solid var(--color-border-control);
 }
 .button_theme_spotify.button_view_pseudo:before {
-	background: var(--color-default);
+	background: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
