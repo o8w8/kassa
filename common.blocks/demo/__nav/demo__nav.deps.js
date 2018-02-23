@@ -1,7 +1,7 @@
 ([
 	{
 		shouldDeps: [
-			{ block: 'demo', elem: 'menu-close', elemMods: { state: 'hidden' } },
+			{ block: 'demo', elem: 'menu-close', mods: { state: 'hidden' } },
 			{ block: 'demo', elem: 'nav-list' },
 			{ block: 'demo', elem: 'nav-item' },
 

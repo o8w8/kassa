@@ -7,12 +7,12 @@
 			{ block: 'demo', elem: 'plug-description' },
 			{ block: 'demo', elem: 'plug-action' },
 			{ block: 'demo', elem: 'plug-button' },
-			{ block: 'demo', elem: 'plug-soclink', elemMods: { icon: ['telegram', 'twitter'] } },
+			{ block: 'demo', elem: 'plug-soclink', mods: { icon: ['telegram', 'twitter'] } },
 
 			{ block: 'pt-card' },
-			{ block: 'pt-card', elem: 'content', elemMods: { 'space-a': 'xl' } },
+			{ block: 'pt-card', elem: 'content', mods: { 'space-a': 'xl' } },
 			{ block: 'pt-card', elem: 'image' },
-			{ block: 'pt-card', elem: 'footer', elemMods: {'space-a': 'xl', 'align': 'between' } },
+			{ block: 'pt-card', elem: 'footer', mods: {'space-a': 'xl', 'align': 'between' } },
 
 			{ block: 'decorator', mods: {'indent-b': 'xxl'} },
 
