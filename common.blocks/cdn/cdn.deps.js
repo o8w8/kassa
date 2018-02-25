@@ -16,7 +16,7 @@
 														  'xxl-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'] } },
 
 
-			{ block: 'tpl-layout', mods: ['10-90', '20-60-20', '30-70', '50-50', '70-30', '90-10', 'fold-100', 'fold-25-50-25', 'fold-30-70', 'fold-50-50', 'fold-70-30', 'unfold-100', 'unfold-25-50-25', 'unfold-30-70', 'unfold-50-50', 'unfold-70-30'] },
+			{ block: 'tpl-layout', mods: { col: ['10-90', '20-60-20', '30-70', '50-50', '70-30', '90-10', 'fold-100', 'fold-25-50-25', 'fold-30-70', 'fold-50-50', 'fold-70-30', 'unfold-100', 'unfold-25-50-25', 'unfold-30-70', 'unfold-50-50', 'unfold-70-30'] } },
 			{ block: 'tpl-layout', elem: 'container', mods: { distribute: 'center',
 															  size: ['full', 'm', 's', 'xs'] } },
 			{ block: 'tpl-layout', elem: 'content' },
