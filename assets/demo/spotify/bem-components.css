@@ -186,8 +186,6 @@
 }
 .button_theme_spotify.button_view_action.button_hovered {
 	background: var(--color-hover);
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
 }
 .button_theme_spotify.button_view_action.button_pressed {
 	background: var(--color-action);
@@ -206,8 +204,6 @@
 }
 .button_theme_spotify.button_view_pseudo.button_hovered {
 	border: 1px solid var(--color-inverse);
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
 }
 .button_theme_spotify.button_view_pseudo.button_pressed:before {
 	border: 1px solid var(--color-inverse);
