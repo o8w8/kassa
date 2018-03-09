@@ -1,0 +1,10 @@
+.pt-badge {
+	line-height: 15px;
+	&_view {
+		&_spirit {
+			opacity: 0.5;
+			border: 1px solid #fff;
+			color: #fff !important;
+		}
+	}
+}
