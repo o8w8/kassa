@@ -1,7 +1,7 @@
 ([
 	{
 		shouldDeps: [
-			{ block: 'theme', mods: { color: 'default', space: 'default', size: 'default' } },
+			{ block: 'theme', mods: { color: 'default', space: 'default', size: 'default', gap: [ 'large', 'medium', 'small' ], menu: 'default', breakpoint: 'default',   } },
 
 
 			{ block: 'tpl-grid', mods: { 'col-gap': ['full', 'half', 'none', 'third', 'two-thirds'],
@@ -9,15 +9,15 @@
 										 'ratio': ['1-1-1-1-1-1', '1-1-1-1', '1-1-1', '1-1'],
 										 'row-gap': ['full', 'half', 'none', 'third', 'two-thirds'] } },
 			{ block: 'tpl-grid', elem: 'fraction', mods: { col: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
-														  /*'l-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+														  's-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
 														  'm-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
 														  'row': ['1', '2', '3', '4'],
-														  'xl-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
-														  'xxl-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']*/ } },
+														  'l-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+														  'xl-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'] } },
 
 
-			{ block: 'tpl-layout', mods: { col: ['10-90', '20-60-20', '30-70', '50-50', '70-30', '90-10', 'fold-100', 'fold-25-50-25', 'fold-30-70', 'fold-50-50', 'fold-70-30', 'unfold-100', 'unfold-25-50-25', 'unfold-30-70', 'unfold-50-50', 'unfold-70-30'] } },
-			{ block: 'tpl-layout', elem: 'container', mods: { distribute: 'center',
+			{ block: 'tpl-layout', mods: { structure: ['10-90', '20-60-20', '30-70', '50-50', '70-30', '90-10', 'fold-100', 'fold-25-50-25', 'fold-30-70', 'fold-50-50', 'fold-70-30', 'unfold-100', 'unfold-25-50-25', 'unfold-30-70', 'unfold-50-50', 'unfold-70-30'] } },
+			{ block: 'tpl-layout', elem: 'container', mods: { align: 'center',
 															  size: ['full', 'm', 's', 'xs'] } },
 			{ block: 'tpl-layout', elem: 'content' },
 			{ block: 'tpl-layout', elem: 'heading' },
@@ -34,18 +34,18 @@
 
 
 
-			{ block: 'pt-card', mods: { border: ['all'], 
-										shadow: ['cloud'], 
+			{ block: 'pt-card', mods: { border: ['all'],
+										shadow: ['cloud'],
 										view: ['default', 'inverse'] } },
-			{ block: 'pt-card', elem: 'content', mods: { 'space-a': ['xs', 's', 'm', 'l', 'xl', 'xxl'], 
+			{ block: 'pt-card', elem: 'content', mods: { 'space-a': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														 'space-b': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														 'space-h': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														 'space-l': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														 'space-r': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														 'space-t': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														 'space-v': ['xs', 's', 'm', 'l', 'xl', 'xxl'] } },
-			{ block: 'pt-card', elem: 'footer' }, 
-			{ block: 'pt-card', elem: 'footer', mods: { 'align': ['between'], 
+			{ block: 'pt-card', elem: 'footer' },
+			{ block: 'pt-card', elem: 'footer', mods: { 'align': ['between'],
 														'space-a': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														'space-b': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														'space-h': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
@@ -60,8 +60,8 @@
 
 
 
-			{ block: 'pt-dialog', mods: { align: ['action'], 
-										  border: ['all'], 
+			{ block: 'pt-dialog', mods: { align: ['action'],
+										  border: ['all'],
 										  view: ['default', 'inverse', 'ghost'] } },
 			{ block: 'pt-dialog', elem: 'action' },
 			{ block: 'pt-dialog', elem: 'content' },
@@ -268,7 +268,7 @@
 										  'indent-b': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
 										  'indent-l': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'] } },
 
-			
+
 
 			{ block: 'brand-logo', mods: { size: ['xxs', 'xs', 's', 'm', 'l', 'xl'],
 										   view: ['bape', 'beeline', 'fallon', 'itunes', 'megafon', 'monument-valley-2', 'monument-valley', 'mts', 'ok', 'tele2', 'ustwo', 'vk', 'yota'] } }
