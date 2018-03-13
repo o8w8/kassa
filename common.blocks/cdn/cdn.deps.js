@@ -6,7 +6,7 @@
 
 			{ block: 'tpl-grid', mods: { 'col-gap': ['full', 'half', 'none', 'third', 'two-thirds'],
 										 'columns': ['10', '12'],
-										 'ratio': ['1-1-1-1-1-1', '1-1-1-1', '1-1-1', '1-1'],
+										 'ratio': ['1-1-1-1-1-1', '1-1-1-1-1', '1-1-1-1', '1-1-1', '1-1'],
 										 'row-gap': ['full', 'half', 'none', 'third', 'two-thirds'] } },
 			{ block: 'tpl-grid', elem: 'fraction', mods: { col: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
 														's-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
