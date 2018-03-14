@@ -35,20 +35,46 @@ module.exports = {
 							content: [
 								{
 									block: 'tpl-grid',
-									mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'full' },
+									mods: { columns: '12', 'col-gap': 'full', 'row-gap': 'full' },
 									content: [
 										{
 											elem: 'fraction',
 											elemMods: { col: '12' },
+											attrs: {
+												'style': 'display: flex; align-items: center; justify-content: center;'
+											},
 											content: [
 												{
-													block: 'text',
-													mods: { view: 'primary', size: 'xxxl', weight: 'bold' },
-													attrs: { 'style': 'font-size: 200px;' },
-													content: 'Platform'
+													block: 'pt-icon-plus',
+													mods: { 'vertical-align': 'center' },
+													content: [
+														{
+															elem: 'icon',
+															elemMods: { 'indent-right': 'l' },
+															content: [
+																{
+																	block: 'skrskr',
+																	attrs: {
+																		'style': 'width: 200px; height: 200px; background: #494949;'
+																	}
+																}
+															]
+														},
+														{
+															elem: 'block',
+															content: [
+																{
+																	block: 'text',
+																	mods: { view: 'primary', size: 'xxxl', weight: 'bold' },
+																	attrs: { 'style': 'font-size: 200px;' },
+																	content: 'Platform'
+																}
+															]
+														}
+													]
 												}
 											]
-										}	
+										}
 									]
 								}
 							]
@@ -70,7 +96,7 @@ module.exports = {
 							content: [
 								{
 									block: 'tpl-grid',
-									mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'full' },
+									mods: { columns: '12', 'col-gap': 'full', 'row-gap': 'full' },
 									content: [
 										{
 											elem: 'fraction',
@@ -253,7 +279,7 @@ module.exports = {
 															block: 'text',
 															mods: { size: 'l', view: 'primary' },
 															mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-															content: 'Паттерны позволяют представить контент в осмысленной форме для целостного восприятия смысловой сущности'
+															content: 'Паттерны позволяют представить контент в осмысленной форме для целостного восприятия интерфейса'
 														},
 														{
 															block: 'pt-list',
@@ -482,7 +508,7 @@ module.exports = {
 							content: [
 								{
 									block: 'tpl-grid',
-									mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'full' },
+									mods: { columns: '12', 'col-gap': 'two-thirds', 'row-gap': 'full' },
 									content: [
 										{
 											elem: 'fraction',
@@ -524,6 +550,10 @@ module.exports = {
 												{
 													block: 'pt-card',
 													mix: { block: 'article' },
+													tag: 'a',
+													attrs: {
+														'href': 'http://bem.design'
+													},
 													content: [
 														{
 															elem: 'image',
@@ -565,7 +595,7 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { view: 'inverse', size: 'm' },
-																	content: 'мы сделали БЭМ-платформу основным инструментом дизайнеров для построения интерфейсов, дополнив ее всем необходимым арсеналом для масштабирования'
+																	content: 'Мы сделали БЭМ-платформу основным инструментом дизайнеров для построения интерфейсов, дополнив ее всем необходимым арсеналом для масштабирования'
 																}
 															]
 														}
@@ -580,8 +610,10 @@ module.exports = {
 												{
 													block: 'pt-card',
 													mix: { block: 'article' },
+													tag: 'a',
 													attrs: {
-														'style': 'background: #011D27;'
+														'style': 'background: #011D27;',
+														'href': 'http://bem.design'
 													},
 													content: [
 														{
@@ -630,6 +662,11 @@ module.exports = {
 												{
 													block: 'pt-card',
 													mix: { block: 'article' },
+													tag: 'a',
+													attrs: {
+														'style': 'background: #011D27;',
+														'href': 'http://bem.design'
+													},
 													content: [
 														{
 															elem: 'image',
@@ -774,7 +811,7 @@ module.exports = {
 							content: [
 								{
 									block: 'tpl-grid',
-									mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'full'  },
+									mods: { columns: '12', 'col-gap': 'two-thirds', 'row-gap': 'full'  },
 									content: [
 										{
 											elem: 'fraction',
@@ -810,6 +847,10 @@ module.exports = {
 												{
 													block: 'event',
 													mix: { block: 'pt-card' },
+													tag: 'a',
+													attrs: {
+														'href': 'http://bem.design'
+													},
 													content: [
 														{
 															elem: 'image',
@@ -895,6 +936,10 @@ module.exports = {
 											content: [
 												{
 													block: 'event',
+													tag: 'a',
+													attrs: {
+														'href': 'http://bem.design'
+													},
 													mix: { block: 'pt-card' },
 													content: [
 														{
@@ -996,7 +1041,7 @@ module.exports = {
 							content: [
 								{
 									block: 'tpl-grid',
-									mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'full'  },
+									mods: { columns: '12', 'col-gap': 'two-thirds', 'row-gap': 'full'  },
 									content: [
 										{
 											elem: 'fraction',
@@ -1025,6 +1070,9 @@ module.exports = {
 												},
 												{
 													block: 'input',
+													attrs: {
+														'style': 'width: 300px;'
+													},
 													mix: { block: 'decorator', mods: { 'indent-r': 'xs' } },
 													mods: {
 															theme: 'islands',
@@ -1061,15 +1109,15 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { size: 'm', align: 'center' },
 							content: [
 								{
 									block: 'tpl-grid',
-									mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'full' },
+									mods: { columns: '12', 'col-gap': 'full', 'row-gap': 'full' },
 									content: [
 										{
 											elem: 'fraction',
-											elemMods: { col: '4'},
+											elemMods: { col: '3'},
 											content: [
 												{
 													block: 'pt-list',
@@ -1081,6 +1129,11 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
 																	content: 'Твиттер'
 																}
 															]
@@ -1092,6 +1145,11 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
 																	content: 'Репозиторий'
 																}
 															]
@@ -1103,6 +1161,11 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
 																	content: 'Дрибббл'
 																}
 															]
@@ -1113,7 +1176,7 @@ module.exports = {
 										},
 										{
 											elem: 'fraction',
-											elemMods: { col: '4'},
+											elemMods: { col: '3'},
 											content: [
 												{
 													block: 'pt-list',
@@ -1125,6 +1188,11 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
 																	content: 'Карточный Кит'
 																}
 															]
@@ -1136,6 +1204,11 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
 																	content: 'Сообщество в Телеграм'
 																}
 															]
@@ -1147,6 +1220,11 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
 																	content: 'Бренд гайдлайны'
 																}
 															]
@@ -1157,7 +1235,7 @@ module.exports = {
 										},
 										{
 											elem: 'fraction',
-											elemMods: { col: '4'},
+											elemMods: { col: '3'},
 											content: [
 												{
 													block: 'pt-list',
@@ -1169,6 +1247,11 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
 																	content: 'Подписка'
 																}
 															]
@@ -1180,6 +1263,11 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
 																	content: 'Написать нам'
 																}
 															]
@@ -1191,6 +1279,70 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
+																	content: 'Команда'
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											elem: 'fraction',
+											elemMods: { col: '3'},
+											content: [
+												{
+													block: 'pt-list',
+													content: [
+														{
+															elem: 'item',
+															elemMods: { 'space-b': 'l' },
+															content: [
+																{
+																	block: 'text',
+																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
+																	content: 'Подписка'
+																}
+															]
+														},
+														{
+															elem: 'item',
+															elemMods: { 'space-b': 'l' },
+															content: [
+																{
+																	block: 'text',
+																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
+																	content: 'Написать нам'
+																}
+															]
+														},
+														{
+															elem: 'item',
+															elemMods: { 'space-b': 'l' },
+															content: [
+																{
+																	block: 'text',
+																	mods: { size: 'm', view: 'inverse' },
+																	tag: 'a',
+																	attrs: {
+																		'style': 'text-decoration: none;',
+																		'href': 'http://bem.info'
+																	},
 																	content: 'Команда'
 																}
 															]

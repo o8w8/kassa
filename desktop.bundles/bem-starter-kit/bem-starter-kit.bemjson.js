@@ -30,7 +30,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -47,7 +50,7 @@ module.exports = {
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: 'history'
+															content: '.history'
 														},
 														{
 															block: 'text',
@@ -73,7 +76,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -156,7 +162,7 @@ module.exports = {
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: 'payment (payment method)'
+															content: '.payment (payment method)'
 														},
 														{
 															block: 'text',
@@ -226,7 +232,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -291,7 +300,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -308,7 +320,7 @@ module.exports = {
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.media (goods)'
+															content: '.media'
 														},
 														{
 															block: 'text',
@@ -330,17 +342,17 @@ module.exports = {
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.media (goods)'
+															content: '.product'
 														},
 														{
 															block: 'text',
 															mods: { view: 'alert', 'size': 'm' },
-															content: '.pt-list'
+															content: '.card'
 														}
 													]
 												}
 											]
-										},
+										}
 									]
 								}
 							]
@@ -356,7 +368,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -443,7 +458,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -482,7 +500,7 @@ module.exports = {
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.friend-actions'
+															content: '.actions'
 														},
 														{
 															block: 'text',
@@ -508,7 +526,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -573,7 +594,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -660,7 +684,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -699,7 +726,7 @@ module.exports = {
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.comments'
+															content: '.comment'
 														},
 														{
 															block: 'text',
@@ -747,7 +774,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -834,7 +864,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -920,7 +953,10 @@ module.exports = {
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 's', align: 'center' },
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
 							content: [
 								{
 									block: 'tpl-grid',
@@ -937,7 +973,7 @@ module.exports = {
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.auth(sign-in)'
+															content: '.auth (sign-in)'
 														},
 														{
 															block: 'text',
@@ -959,7 +995,7 @@ module.exports = {
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.auth(sign-up)'
+															content: '.auth (sign-up)'
 														},
 														{
 															block: 'text',
@@ -981,7 +1017,7 @@ module.exports = {
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.auth(forgot)'
+															content: '.auth (forgot)'
 														},
 														{
 															block: 'text',
@@ -997,7 +1033,7 @@ module.exports = {
 							]
 						}
 					]
-				},
+				}
 				/* /Авторизация */
 
 			]

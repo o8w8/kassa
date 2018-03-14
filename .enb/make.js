@@ -38,6 +38,7 @@ const techs = {
         { path: 'node_modules/bem-core/common.blocks', check: false },
         { path: 'node_modules/bem-core/desktop.blocks', check: false },
         'common.blocks',
+        'start.blocks',
         'desktop.blocks',
         { path: 'node_modules/bem-components/common.blocks', check: false },
         { path: 'node_modules/bem-components/desktop.blocks', check: false },
