@@ -500,7 +500,7 @@ module.exports = {
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.actions'
+															content: '.activities'
 														},
 														{
 															block: 'text',
