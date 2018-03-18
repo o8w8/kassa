@@ -44,7 +44,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'history',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -90,7 +91,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'payment',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -112,7 +114,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'payment',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -134,7 +137,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'payment',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -156,7 +160,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'payment',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -178,7 +183,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'payment',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -200,7 +206,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'payment',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -246,7 +253,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'vitrina',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -268,7 +276,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'vitrina',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -284,7 +293,7 @@ module.exports = {
 													]
 												}
 											]
-										},
+										}
 									]
 								}
 							]
@@ -314,7 +323,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'media',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -336,7 +346,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'product',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -382,13 +393,14 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'play-list',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.playlist'
+															content: '.play-list'
 														},
 														{
 															block: 'text',
@@ -404,7 +416,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'album',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -426,7 +439,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'song',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -442,7 +456,7 @@ module.exports = {
 													]
 												}
 											]
-										},
+										}
 									]
 								}
 							]
@@ -472,7 +486,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'friendlist',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -494,7 +509,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'activities',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -540,13 +556,14 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'meetup',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.event'
+															content: '.meetup'
 														},
 														{
 															block: 'text',
@@ -562,7 +579,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'place',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -608,7 +626,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'articles',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -630,13 +649,14 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'publication',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
 															mods: { view: 'inverse', 'size': 'm' },
 															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.article'
+															content: '.publication'
 														},
 														{
 															block: 'text',
@@ -652,7 +672,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'cover',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -668,7 +689,7 @@ module.exports = {
 													]
 												}
 											]
-										},
+										}
 									]
 								}
 							]
@@ -698,7 +719,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'answer',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -720,7 +742,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'comment',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -742,7 +765,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'comments',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -758,7 +782,7 @@ module.exports = {
 													]
 												}
 											]
-										},
+										}
 									]
 								}
 							]
@@ -788,7 +812,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'informer',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -810,7 +835,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'informer',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -832,7 +858,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'informer',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -878,7 +905,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'ecommerce',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -900,7 +928,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'ecommerce',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -922,7 +951,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'ecommerce',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -945,11 +975,12 @@ module.exports = {
 						}
 					]
 				},
-				/* /Коммерцеская */
+				/* /Коммерческая */
 
 				/* Авторизация */
 				{
 					elem: 'section',
+					mix: { block: 'decorator',mods: { 'indent-b': 'xxxxxxl' } },
 					content: [
 						{
 							elem: 'container',
@@ -967,7 +998,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'auth',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -989,7 +1021,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'auth',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -1011,7 +1044,8 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
-													block: 'unit',
+													block: 'auth',
+													mix: { block: 'unit' },
 													content: [
 														{
 															block: 'text',
@@ -1033,8 +1067,148 @@ module.exports = {
 							]
 						}
 					]
-				}
+				},
 				/* /Авторизация */
+
+				/* Настройки карты */
+				{
+					elem: 'section',
+					mix: { block: 'decorator',mods: { 'indent-b': 'xxxxxxl' } },
+					content: [
+						{
+							elem: 'container',
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
+							content: [
+								{
+									block: 'tpl-grid',
+									mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'full' },
+									content: [
+										{
+											elem: 'fraction',
+											elemMods: { col: '4'},
+											content: [
+												{
+													block: 'auth',
+													mix: { block: 'unit' },
+													content: [
+														{
+															block: 'text',
+															mods: { view: 'inverse', 'size': 'm' },
+															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
+															content: '.auth (sign-in)'
+														},
+														{
+															block: 'text',
+															mods: { view: 'alert', 'size': 'm' },
+															content: '.pt-list'
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				/* /Настройки карты */
+
+				/* Тариф */
+				{
+					elem: 'section',
+					mix: { block: 'decorator',mods: { 'indent-b': 'xxxxxxl' } },
+					content: [
+						{
+							elem: 'container',
+							elemMods: { align: 'center' },
+							attrs: {
+								'style': 'width: 936px;'
+							},
+							content: [
+								{
+									block: 'tpl-grid',
+									mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'full' },
+									content: [
+										{
+											elem: 'fraction',
+											elemMods: { col: '4'},
+											content: [
+												{
+													block: 'tariff',
+													mix: { block: 'unit' },
+													content: [
+														{
+															block: 'text',
+															mods: { view: 'inverse', 'size': 'm' },
+															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
+															content: '.tariff (default)'
+														},
+														{
+															block: 'text',
+															mods: { view: 'alert', 'size': 'm' },
+															content: '.pt-card / .pt-list'
+														}
+													]
+												}
+											]
+										},
+										{
+											elem: 'fraction',
+											elemMods: { col: '4'},
+											content: [
+												{
+													block: 'tariff',
+													mix: { block: 'unit' },
+													content: [
+														{
+															block: 'text',
+															mods: { view: 'inverse', 'size': 'm' },
+															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
+															content: '.tariff (inverse)'
+														},
+														{
+															block: 'text',
+															mods: { view: 'alert', 'size': 'm' },
+															content: '.pt-card / .pt-list'
+														}
+													]
+												}
+											]
+										},
+										{
+											elem: 'fraction',
+											elemMods: { col: '4'},
+											content: [
+												{
+													block: 'tarif',
+													mix: { block: 'unit' },
+													content: [
+														{
+															block: 'text',
+															mods: { view: 'inverse', 'size': 'm' },
+															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
+															content: '.tarif (photo)'
+														},
+														{
+															block: 'text',
+															mods: { view: 'alert', 'size': 'm' },
+															content: '.pt-card / .pt-list'
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				/* /Тариф */
 
 			]
 		}
