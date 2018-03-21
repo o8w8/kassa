@@ -643,7 +643,7 @@ module.exports = {
 						{
 							elem: 'action',
 							mix: [
-								{ block: 'pt-card', elem: 'footer', elemMods: { 'space-v': 'xl' } },
+								{ block: 'pt-card', elem: 'footer', elemMods: { 'space-v': 'xl', align: 'center' } },
 								{ block: 'promo-cards', elem: 'offer-goods-action'},
 							],
 							content: [
@@ -743,15 +743,12 @@ module.exports = {
 						{
 							elem: 'title',
 							mix: [
-								{ block: 'pt-card', elem: 'header', elemMods: { 'space-v': 'xxl' } },
+								{ block: 'pt-card', elem: 'header', elemMods: { 'space-v': 'xxl', align: 'center' } },
 								{ block: 'promo-cards', elem: 'offer-service-title'},
 							],
 							content: [
 							{
 								block: 'text',
-								attrs: {
-									'style': 'margin: auto'
-								},
 								mods: { view: 'inverse', size: 'xl', font: 'serif', weight: 'bold', transform: 'uppercase', align: 'center', display: 'block' },
 								content: 'Brabus'
 							}]
@@ -1581,38 +1578,42 @@ module.exports = {
 						},
 						{
 							elem: 'event-header',
-							mix: { block: 'pt-card', elem: 'header' },
+							mix: { block: 'pt-card', elem: 'header', elemMods: { align: 'center' } },
 							content: [
 							{
-								elem: 'event-avatar-wrapper',
-								mix: { block: 'promo-cards', elem: 'donate-event-avatar', },
-								content: {
-									elem: 'event-avatar',
-								}
-							},
-							{
-								block: 'text',
-								mods: { view: 'primary', size: 'xxxl', weight: 'bold', style: 'italic', align: 'center', transform: 'uppercase' },
-								mix: [
-									{ block: 'decorator', mods: { 'indent-b': 'xxs' } },
-									{ block: 'promo-cards', elem: 'donate-event-title'},
-								],
-								content: 'Ann’s B-day'
-							},
-							{
-								block: 'text',
-								mods: { view: 'primary', size: 's', align: 'center' },
-								mix: { block: 'promo-cards', elem: 'donate-event-subtitle'},
+								elem: 'wrap',
 								content: [
 								{
-									block: 'text',
-									mods: { view: 'primary', size: 's', weight: 'bold', display: 'inline' },
-									content: '25:12:08:43 '
+									elem: 'event-avatar-wrapper',
+									mix: { block: 'promo-cards', elem: 'donate-event-avatar', },
+									content: {
+										elem: 'event-avatar',
+									}
 								},
 								{
 									block: 'text',
-									mods: { view: 'primary', size: 's', display: 'inline' },
-									content: 'until the end'
+									mods: { view: 'primary', size: 'xxxl', weight: 'bold', style: 'italic', align: 'center', transform: 'uppercase' },
+									mix: [
+										{ block: 'decorator', mods: { 'indent-b': 'xxs' } },
+										{ block: 'promo-cards', elem: 'donate-event-title'},
+									],
+									content: 'Ann’s B-day'
+								},
+								{
+									block: 'text',
+									mods: { view: 'primary', size: 's', align: 'center' },
+									mix: { block: 'promo-cards', elem: 'donate-event-subtitle'},
+									content: [
+									{
+										block: 'text',
+										mods: { view: 'primary', size: 's', weight: 'bold', display: 'inline' },
+										content: '25:12:08:43 '
+									},
+									{
+										block: 'text',
+										mods: { view: 'primary', size: 's', display: 'inline' },
+										content: 'until the end'
+									}]
 								}]
 							}]
 						},
