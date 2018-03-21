@@ -136,16 +136,20 @@ module.exports = {
 								mods: { view: 'inverse', size: 'xxxl', weight: 'bold' },
 								content: [
 								{
-									elem: 'row',
-									content: 'Mad Lib'
-								},
-								{
-									elem: 'row',
-									content: 'Theater with'
-								},
-								{
-									elem: 'row',
-									content: 'John Cena'
+									elem: 'wrap',
+									content: [
+									{
+										elem: 'row',
+										content: 'Mad Lib'
+									},
+									{
+										elem: 'row',
+										content: 'Theater with'
+									},
+									{
+										elem: 'row',
+										content: 'John Cena'
+									}]
 								}]
 							}]
 						},
@@ -291,17 +295,22 @@ module.exports = {
 								elem: 'name',
 								mix: [{ block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'l' } }],
 								content: [
-								{
-									block: 'text',
-									mods: { view: 'inverse', size: 'xxxl', align: 'center', weight: 'bold' },
-									mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-									content: 'Pitchfork\'s Best New Music',
-								},
-								{
-									block: 'text',
-									mods: { view: 'inverse', size: 'm', align: 'center', font: 'mono', style: 'italic' },
-									content: 'Pitchfork',
-								}]
+									{
+										elem: 'wrap',
+										content: [
+										{
+											block: 'text',
+											mods: { view: 'inverse', size: 'xxxl', align: 'center', weight: 'bold' },
+											mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+											content: 'Pitchfork\'s Best New Music',
+										},
+										{
+											block: 'text',
+											mods: { view: 'inverse', size: 'm', align: 'center', font: 'mono', style: 'italic' },
+											content: 'Pitchfork',
+										}]
+									}
+								]
 							}]
 						},
 						{
@@ -639,9 +648,13 @@ module.exports = {
 							],
 							content: [
 							{
-								block: 'text',
-								mods: { view: 'secondary', size: 'm', weight: 'bold', align: 'center', },
-								content: 'Shop Now'
+								elem: 'wrap',
+								content: [
+								{
+									block: 'text',
+									mods: { view: 'secondary', size: 'm', weight: 'bold', align: 'center', },
+									content: 'Shop Now'
+								}]
 							}]
 						}]
 					},
@@ -698,6 +711,9 @@ module.exports = {
 							content: [
 							{
 								block: 'text',
+								attrs: {
+									'style': 'margin: auto'
+								},
 								mods: { view: 'primary', size: 'm', align: 'center', weight: 'bold' },
 								content: 'Learn More'
 							}]
@@ -733,7 +749,10 @@ module.exports = {
 							content: [
 							{
 								block: 'text',
-								mods: { view: 'inverse', size: 'xl', font: 'serif', weight: 'bold', transform: 'uppercase', align: 'center' },
+								attrs: {
+									'style': 'margin: auto'
+								},
+								mods: { view: 'inverse', size: 'xl', font: 'serif', weight: 'bold', transform: 'uppercase', align: 'center', display: 'block' },
 								content: 'Brabus'
 							}]
 						},
@@ -742,27 +761,31 @@ module.exports = {
 							mix: { block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'l' } },
 							content: [
 							{
-								block: 'text',
-								mix: [
-									{ block: 'decorator', mods: { 'indent-b': 'xl'} },
-									{ block: 'promo-cards', elem: 'offer-service-desc'},
-								],
-								mods: { view: 'inverse', size: 'm', weight: 'semibold' },
-								content: 'Luxury and comfort never comprised. The BRABUS GLE 700 Coupe will lead to an unforgettable journey'
-							},
-							{
-								elem: 'price',
-								mix: { block: 'promo-cards', elem: 'offer-service-price'},
+								elem: 'wrap',
 								content: [
 								{
 									block: 'text',
-									mods: { view: 'inverse', size: 's', weight: 'semibold' },
-									content: 'from'
+									mix: [
+										{ block: 'decorator', mods: { 'indent-b': 'xl'} },
+										{ block: 'promo-cards', elem: 'offer-service-desc'},
+									],
+									mods: { view: 'inverse', size: 'm', weight: 'semibold' },
+									content: 'Luxury and comfort never comprised. The BRABUS GLE 700 Coupe will lead to an unforgettable journey'
 								},
 								{
-									block: 'text',
-									mods: { view: 'inverse', size: 'xxxl', weight: 'semibold' },
-									content: '$1200'
+									elem: 'price',
+									mix: { block: 'promo-cards', elem: 'offer-service-price'},
+									content: [
+									{
+										block: 'text',
+										mods: { view: 'inverse', size: 's', weight: 'semibold' },
+										content: 'from'
+									},
+									{
+										block: 'text',
+										mods: { view: 'inverse', size: 'xxxl', weight: 'semibold' },
+										content: '$1200'
+									}]
 								}]
 							}]
 						}]
@@ -933,88 +956,95 @@ module.exports = {
 							mix: [  { block: 'promo-cards', elem: 'apps-developer-list' }, { block: 'pt-list' }, { block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'xl' } }],
 							content: [
 							{
-								elem: 'item',
-								mix: [{ block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', distribute: 'between' }}, { block: 'pt-card', elem: 'item' }],
+								elem: 'wrap',
+								attrs: {
+									'style': 'width: 100%'
+								},
 								content: [
 								{
-									block: 'pt-icon-plus',
-									mods: { 'vertical-align': 'center' },
+									elem: 'item',
+									mix: [{ block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', distribute: 'between' }}, { block: 'pt-card', elem: 'item' }],
 									content: [
 									{
-										elem: 'icon',
-										elemMods: { 'indent-right': 's' },
+										block: 'pt-icon-plus',
+										mods: { 'vertical-align': 'center' },
 										content: [
 										{
-											block: 'brand-logo',
-											mods: { 'view': 'monument-valley', size: 's', form: 'mask' }
+											elem: 'icon',
+											elemMods: { 'indent-right': 's' },
+											content: [
+											{
+												block: 'brand-logo',
+												mods: { 'view': 'monument-valley', size: 's', form: 'mask' }
+											}]
+										},
+										{
+											elem: 'block',
+											content: [
+											{
+												block: 'text',
+												mods: { size: 's', view: 'inverse' },
+												content: 'Monument Vallet'
+											},
+											{
+												block: 'text',
+												mods: { size: 's', view: 'ghost-inverse' },
+												content: 'by ustwo games'
+											}]
 										}]
 									},
 									{
-										elem: 'block',
+										block: 'pt-badge',
+										mods: { view: 'ghost-inverse' },
 										content: [
 										{
 											block: 'text',
 											mods: { size: 's', view: 'inverse' },
-											content: 'Monument Vallet'
-										},
-										{
-											block: 'text',
-											mods: { size: 's', view: 'ghost-inverse' },
-											content: 'by ustwo games'
+											content: '$99'
 										}]
 									}]
 								},
 								{
-									block: 'pt-badge',
-									mods: { view: 'ghost-inverse' },
+									elem: 'item',
+									mix: [{ block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', distribute: 'between' }}, { block: 'pt-card', elem: 'item' }],
 									content: [
 									{
-										block: 'text',
-										mods: { size: 's', view: 'inverse' },
-										content: '$99'
-									}]
-								}]
-							},
-							{
-								elem: 'item',
-								mix: [{ block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', distribute: 'between' }}, { block: 'pt-card', elem: 'item' }],
-								content: [
-								{
-									block: 'pt-icon-plus',
-									mods: { 'vertical-align': 'center' },
-									content: [
-									{
-										elem: 'icon',
-										elemMods: { 'indent-right': 's' },
+										block: 'pt-icon-plus',
+										mods: { 'vertical-align': 'center' },
 										content: [
 										{
-											block: 'brand-logo',
-											mods: { 'view': 'monument-valley-2', size: 's', form: 'mask'}
+											elem: 'icon',
+											elemMods: { 'indent-right': 's' },
+											content: [
+											{
+												block: 'brand-logo',
+												mods: { 'view': 'monument-valley-2', size: 's', form: 'mask'}
+											}]
+										},
+										{
+											elem: 'block',
+											content: [
+											{
+												block: 'text',
+												mods: { size: 's', view: 'inverse' },
+												content: 'Monument Valley 2'
+											},
+											{
+												block: 'text',
+												mods: { size: 's', view: 'ghost-inverse' },
+												content: 'by ustwo games'
+											}]
 										}]
 									},
 									{
-										elem: 'block',
+										block: 'pt-badge',
+										mods: { view: 'ghost-inverse' },
 										content: [
 										{
 											block: 'text',
 											mods: { size: 's', view: 'inverse' },
-											content: 'Monument Valley 2'
-										},
-										{
-											block: 'text',
-											mods: { size: 's', view: 'ghost-inverse' },
-											content: 'by ustwo games'
+											content: '$99'
 										}]
-									}]
-								},
-								{
-									block: 'pt-badge',
-									mods: { view: 'ghost-inverse' },
-									content: [
-									{
-										block: 'text',
-										mods: { size: 's', view: 'inverse' },
-										content: '$99'
 									}]
 								}]
 							}]
@@ -1051,7 +1081,9 @@ module.exports = {
 								elem: 'about',
 								mix: { block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'xl' }},
 								content: [
-
+								{
+									block: 'wrap',
+									content: [
 									{
 										block: 'text',
 										mods: { size: 'xxxl', view: 'inverse', align: 'center', weight: 'bold' },
@@ -1063,8 +1095,8 @@ module.exports = {
 										mix: { block: 'promo-cards', elem: 'apps-recommendation-info' },
 										mods: { size: 'm', view: 'ghost-inverse', align: 'center' },
 										content: 'Enjoy beautiful levels filled with illusory, meditative puzzles'
-									}
-								]
+									}]
+								}]
 							}]
 						},
 						{
