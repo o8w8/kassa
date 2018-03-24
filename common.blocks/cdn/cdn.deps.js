@@ -255,6 +255,22 @@
 									 'wait-2': ['m-action', 'm-inverse', 'm-link', 'm-primary', 's-action', 's-disable', 's-ghost', 's-inverse', 's-link', 's-primary', 's-secondary'] } },
 
 
+			{ block: 'vector', mods: { '_1': 'm-primary-action',
+									   '_2': 'm-primary-action',
+									   '_3': 'm-primary-action',
+									   '_4': 'm-primary-action',
+									   '_5': 'm-primary-action',
+									   '_6': 'm-primary-action',
+									   '_7': 'm-primary-action',
+									   '_8': 'm-primary-action',
+									   '_9': 'm-primary-action',
+									   '_10': 'm-primary-action',
+									   '_11': 'm-primary-action',
+									   '_12': 'm-primary-action',
+									   '_13': 'm-primary-action',
+									   '_14': 'm-primary-action',
+									   '_15': 'm-primary-action' } },
+
 
 			{ block: 'decorator', mods: { 'space-a': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl'],
 										  'space-v': ['xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl'],
