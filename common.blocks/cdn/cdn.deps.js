@@ -1,7 +1,12 @@
 ([
 	{
 		shouldDeps: [
-			{ block: 'theme', mods: { color: 'default', space: 'default', size: 'default', gap: [ 'large', 'medium', 'small' ], menu: 'default', breakpoint: 'default',   } },
+			{ block: 'theme', mods: { color: 'default',
+									  space: 'default', 
+									  size: 'default', 
+									  gap: [ 'large', 'medium', 'small' ], 
+									  menu: 'default', 
+									  breakpoint: 'default' } },
 
 
 			{ block: 'tpl-grid', mods: { 'col-gap': ['full', 'half', 'none', 'third', 'two-thirds'],
@@ -14,9 +19,7 @@
 										'm-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
 										'row': ['1', '2', '3', '4'],
 										'l-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
-										'xl-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
-									}
-			},
+										'xl-col': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'] }},
 
 
 			{ block: 'tpl-layout', mods: { structure: ['10-90', '20-60-20', '30-70', '50-50', '70-30', '90-10', 'fold-100', 'fold-25-50-25', 'fold-30-70', 'fold-50-50', 'fold-70-30', 'unfold-100', 'unfold-25-50-25', 'unfold-30-70', 'unfold-50-50', 'unfold-70-30'] } },
@@ -33,14 +36,15 @@
 
 
 
-			{ block: 'pt-badge', mods: { view: ['alert', 'default', 'inverse', 'success', 'warning'] } },
+			{ block: 'pt-badge', mods: { view: ['alert', 'default', 'success', 'warning'] } },
 
 
 
 			{ block: 'pt-card', mods: { border: ['all'],
 										shadow: ['cloud'],
 										view: ['default', 'inverse'] } },
-			{ block: 'pt-card', elem: 'content', mods: { 'space-a': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
+			{ block: 'pt-card', elem: 'content', mods: { 'align': ['center'],
+														 'space-a': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														 'space-b': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														 'space-h': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														 'space-l': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
@@ -48,14 +52,15 @@
 														 'space-t': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														 'space-v': ['xs', 's', 'm', 'l', 'xl', 'xxl'] } },
 			{ block: 'pt-card', elem: 'footer' },
-			{ block: 'pt-card', elem: 'footer', mods: { 'align': ['between'],
+			{ block: 'pt-card', elem: 'footer', mods: { 'align': ['between', 'center', 'right'],
 														'space-a': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														'space-b': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														'space-h': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														'space-v': ['xs', 's', 'm', 'l', 'xl', 'xxl'] } },
 			{ block: 'pt-card', elem: 'header', mods: { 'space-a': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
 														'space-h': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
-														'space-v': ['xs', 's', 'm', 'l', 'xl', 'xxl'] } },
+														'space-v': ['xs', 's', 'm', 'l', 'xl', 'xxl'],
+														'align': ['center', 'right'] } },
 			{ block: 'pt-card', elem: 'image', mods: { 'shadow': ['bottom-default', 'bottom-inverse', 'top-default', 'top-inverse'],
 													   'size': ['cover'] } },
 			{ block: 'pt-card', elem: 'item' },
@@ -89,6 +94,7 @@
 			{ block: 'pt-form', elem: 'event' },
 			{ block: 'pt-form', elem: 'item', mods: { border: ['all', 'bottom', 'top'],
 													  distribute: ['between', 'default'],
+													 'vertical-align': ['center', 'default'],
 													 'indent-a': ['l', 'm', 's', 'xl', 'xs', 'xxl', 'xxxl'],
 													 'indent-b': ['l', 'm', 's', 'xl', 'xs', 'xxl', 'xxxl'],
 													 'indent-h': ['l', 'm', 's', 'xl', 'xs', 'xxl', 'xxxl'],
@@ -113,7 +119,8 @@
 											 indent: ['l', 'm', 's', 'xs', 'xxs'] } },
 			{ block: 'pt-icon-plus', elem: 'block' },
 			{ block: 'pt-icon-plus', elem: 'icon', mods: { 'indent-right': ['l', 'm', 's', 'xs', 'xxs'],
-														   'indent-left': ['l', 'm', 's', 'xs', 'xxs'] } },
+														   'indent-left': ['l', 'm', 's', 'xs', 'xxs'],
+														   'offset': ['no'] } },
 
 
 
@@ -121,7 +128,8 @@
 			{ block: 'pt-informer', elem: 'action', mods: { 'space-a': ['l', 'm', 's', 'xl', 'xxl'],
 															'space-b': ['l', 'm', 's', 'xl', 'xxl'],
 															'space-h': ['l', 'm', 's', 'xl', 'xxl'],
-															'space-v': ['l', 'm', 's', 'xl', 'xxl'] } },
+															'space-v': ['l', 'm', 's', 'xl', 'xxl'],
+															'align': ['center', 'right'] } },
 			{ block: 'pt-informer', elem: 'col' },
 			{ block: 'pt-informer', elem: 'content', mods: { align: 'center',
 															 distribute: ['between', 'default'],
@@ -131,9 +139,12 @@
 
 
 
-			{ block: 'pt-list', mods: { border: 'all', shadow: 'cloud', view: ['default', 'ghost', 'inverse'] } },
+			{ block: 'pt-list', mods: { border: 'all', 
+										shadow: 'cloud', 
+										view: ['default', 'ghost', 'inverse'] } },
 			{ block: 'pt-list', elem: 'item', mods: { border: ['bottom', 'left', 'right', 'top'],
 													  distribute: ['between', 'default'],
+													 '_vertical-align': ['center', 'top'],
 													 'indent-a': ['l', 'm', 's', 'xl', 'xs', 'xxl', 'xxxl'],
 													 'indent-b': ['l', 'm', 's', 'xl', 'xs', 'xxl', 'xxxl'],
 													 'indent-h': ['l', 'm', 's', 'xl', 'xs', 'xxl', 'xxxl'],
@@ -151,7 +162,7 @@
 
 
 
-			{ block: 'pt-surface' },
+			{ block: 'pt-surface', mods: { view: ['tone', 'soft'] } },
 			{ block: 'pt-surface', elem: 'close', mods: { view: ['desktop', 'mobile'] } },
 			{ block: 'pt-surface', elem: 'content', mods: { size: ['full', 'm', 's', 'xs'],
 														   'space-a': ['l', 'm', 's', 'xl'],
@@ -163,7 +174,6 @@
 														   'space-v': ['l', 'm', 's', 'xl'],
 															view: ['default', 'inverse'] } },
 			{ block: 'pt-surface', elem: 'window' },
-			{ block: 'pt-surface', elem: 'window', mods: { view: ['tone', 'soft'] } },
 
 
 
@@ -174,11 +184,16 @@
 										stripe: ['even', 'odd'],
 										view: ['default', 'ghost', 'inverse'] } },
 			{ block: 'pt-table', elem: 'col', mods: { align: 'right',
+													  grow: 'evenly',
 													  width: ['5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55', '60', '65', '70', '75', '80', '85', '90', '95', '100'] } },
 			{ block: 'pt-table', elem: 'row', mods: { border: ['bottom', 'top'],
 													  status: ['default', 'error', 'success', 'warning'],
 													  view: 'head' } },
 
+
+			{ block: 'pt-tag', mods: { view: ['default', 'disable', 'link'],
+									   size: ['s', 'm'] } },
+			{ block: 'pt-tag', elem: 'text' },
 
 
 
