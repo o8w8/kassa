@@ -11,7 +11,7 @@ module.exports = {
 	scripts: [{ elem: 'js', url: 'bem-design.min.js' }],
 	mix: {
 		block: 'theme',
-		mods: { color: 'default', space: 'default', size: 'default', breakpoint: 'default', gap: 'medium', menu: 'default' }
+		mods: { color: 'default', space: 'default', size: 'default', breakpoint: 'default', gap: 'medium', menu: 'default', font: 'ibm' }
 	},
 	content: [
 	{
