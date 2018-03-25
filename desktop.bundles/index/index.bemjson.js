@@ -7,14 +7,13 @@ module.exports = {
 		{ elem: 'meta', attrs: { name: 'description', content: '' } },
 		{ elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
 		{ elem: 'css', url: 'index.min.css' },
-		{ elem: 'css', url: '/assets/ibm-type/css/ibm-type.css' },
 		{ elem: 'js', url: 'https://code.jquery.com/jquery-3.2.1.js' },
 	],
 	scripts: [{ elem: 'js', url: 'index.min.js' }],
 	mods: { type: 'full-screen', theme: 'islands' },
 	mix: {
 		block: 'theme',
-		mods: { color: 'default', space: 'default', size: 'default' }
+		mods: { color: 'default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'ibm' }
 	},
 	content: [
 	{

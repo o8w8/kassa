@@ -7,12 +7,11 @@ module.exports = {
 			{ elem: 'meta', attrs: { name: 'description', content: '' } },
 			{ elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
 			{ elem: 'css', url: 'illustrations.min.css' },
-			{ elem: 'css', url: '/assets/ibm-type/css/ibm-type.css' },
 			{ elem: 'js', url: 'https://code.jquery.com/jquery-3.2.1.js' },
 	],
 	mix: {
-			block: 'theme',
-			mods: { color: 'default', space: 'default', size: 'default' }
+		block: 'theme',
+		mods: { color: 'default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'ibm' }
 	},
 	scripts: [{ elem: 'js', url: 'illustrations.min.js' }],
 	mods: { theme: 'islands' },
