@@ -27,11 +27,11 @@
 ```html
 <!-- Блок `box` -->
 <div class="box">
-    <!-- Вложенный блок `cat` -->
-    <div class="cat"></div>
+	<!-- Вложенный блок `cat` -->
+	<div class="cat"></div>
 
-    <!-- Вложенный блок `dog` -->
-    <div class="dog"></div>
+	<!-- Вложенный блок `dog` -->
+	<div class="dog"></div>
 </div>
 ```
 
@@ -49,11 +49,11 @@
 ```html
 <!-- Блок `cat` -->
 <div class="cat">
-    <!-- Элемент `head` блока `cat` -->
-    <div class="cat__head"></div>
+	<!-- Элемент `head` блока `cat` -->
+	<div class="cat__head"></div>
 
-    <!-- Элемент `tail` блока `cat` -->
-    <div class="cat__tail"></div>
+	<!-- Элемент `tail` блока `cat` -->
+	<div class="cat__tail"></div>
 </div>
 ```
 
@@ -64,18 +64,18 @@
 ```html
 <!-- Блок `cat` -->
 <div class="cat">
-    <!-- Элемент `head` блока `cat` -->
-    <div class="cat__head">
-        <!-- Элемент `nose` блока `cat` -->
-        <div class="cat__nose"></div>
-    </div>
+	<!-- Элемент `head` блока `cat` -->
+	<div class="cat__head">
+		<!-- Элемент `nose` блока `cat` -->
+		<div class="cat__nose"></div>
+	</div>
 
-    <!-- Элемент `tail` блока `cat` -->
-    <div class="cat__tail"></div>
+	<!-- Элемент `tail` блока `cat` -->
+	<div class="cat__tail"></div>
 </div>
 ```
 
-# Модификатор
+## Модификатор
 
 Cущность, определяющая внешний вид, состояние или поведение блока либо элемента.
 
@@ -95,19 +95,19 @@ Cущность, определяющая внешний вид, состоян�
 ```html
 <!-- модификатор ключ-значение у блока -->
 <div class="cat cat_size_small">
-    <div class="cat__head">
-        <div class="cat__nose"></div>
-        <!-- булев модификатор у элемента -->
-        <div class="cat__whiskers cat__whiskers_disable"></div>
-    </div>
+	<div class="cat__head">
+		<div class="cat__nose"></div>
+		<!-- булев модификатор у элемента -->
+		<div class="cat__whiskers cat__whiskers_disable"></div>
+	</div>
 
-    <div class="cat__tail"></div>
+	<div class="cat__tail"></div>
 </div>
 ```
 
 > С точки зрения БЭМ-методологии модификатор не может использоваться в отрыве от модифицируемого блока или элемента. Модификатор должен изменять вид, поведение или состояние сущности, а не заменять ее.
 
-# Микс
+## Микс
 
 Прием, позволяющий использовать разные БЭМ-сущности на одном DOM-узле.
 
@@ -117,8 +117,15 @@ Cущность, определяющая внешний вид, состоян�
 
 ```html
 <div class="tab-menu">
-    <div class="tab-menu__item tab-menu__item_active link">Главная</div>
-    <div class="tab-menu__item link">Новости</div>
-    <div class="tab-menu__item link">Команда</div>
+	<div class="tab-menu__item tab-menu__item_active link">Главная</div>
+	<div class="tab-menu__item link">Новости</div>
+	<div class="tab-menu__item link">Команда</div>
 </div>
 ```
+
+## Задание
+
+Задай классы для каждой сущности согласно БЭМ-неймингу и комментариям.
+
+<iframe height='500' scrolling='no' title='Нейминг. Задание 1' src='//codepen.io/bem_design/embed/c5e063fcec26185979811b63556f67f5/?height=265&theme-id=0&default-tab=html,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/bem_design/pen/c5e063fcec26185979811b63556f67f5/'>Нейминг. Задание 1</a> by BEM DESIGN (<a href='https://codepen.io/bem_design'>@bem_design</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
