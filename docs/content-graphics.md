@@ -38,7 +38,7 @@
 
 ## Задание
 
-Добавить текстовую и графическую часть с иконкой и вектором, используя блоки `text`, `icon` и `vector`
+Добавь текстовую и графическую часть с иконкой и вектором, используя блоки `text`, `icon` и `vector`
 
 <iframe height='500' scrolling='no' title='Графика. Задание 1' src='//codepen.io/bem_design/embed/ee23a502ae8a8b97c97f40c2d0d750aa/?height=265&theme-id=0&default-tab=js,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/bem_design/pen/ee23a502ae8a8b97c97f40c2d0d750aa/'>Графика. Задание 1</a> by BEM DESIGN (<a href='https://codepen.io/bem_design'>@bem_design</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>

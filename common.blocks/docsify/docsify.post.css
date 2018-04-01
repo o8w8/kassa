@@ -692,8 +692,8 @@ section.cover {
 	}
 
 	& code, & pre {
-		background-color: var(--color-ghost);
 		font-family: 'ibm-plex-mono', Monaco, courier, monospace;
+		background-color: var(--color-ghost);
 	}
 
 	& pre {
@@ -705,6 +705,7 @@ section.cover {
 		padding: 0 1.4rem; /* TODO */
 		position: relative;
 		word-wrap: normal;
+		background-color: var(--color-ghost);
 	}
 
 	& pre > code {
@@ -720,6 +721,7 @@ section.cover {
 		overflow: inherit;
 		padding: var(--space-xxl) var(--space-xxs);
 		white-space: inherit;
+		background-color: transparent;
 	}
 }
 
