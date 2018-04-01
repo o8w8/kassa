@@ -144,7 +144,7 @@
 										view: ['default', 'ghost', 'inverse'] } },
 			{ block: 'pt-list', elem: 'item', mods: { border: ['bottom', 'left', 'right', 'top'],
 													  distribute: ['between', 'default'],
-													 '_vertical-align': ['center', 'top'],
+													 'vertical-align': ['center', 'top'],
 													 'indent-a': ['l', 'm', 's', 'xl', 'xs', 'xxl', 'xxxl'],
 													 'indent-b': ['l', 'm', 's', 'xl', 'xs', 'xxl', 'xxxl'],
 													 'indent-h': ['l', 'm', 's', 'xl', 'xs', 'xxl', 'xxxl'],
