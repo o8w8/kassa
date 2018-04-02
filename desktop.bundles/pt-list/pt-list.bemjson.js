@@ -14,7 +14,7 @@ module.exports = {
 	mods: { theme: 'islands' },
 	mix: {
 		block: 'theme',
-		mods: { color: 'default', space: 'default', size: 'default' }
+		mods: { color: 'custom', space: 'default', size: 'default' }
 	},
 	content: [
 	{

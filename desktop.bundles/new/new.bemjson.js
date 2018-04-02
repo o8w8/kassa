@@ -13,7 +13,7 @@ module.exports = {
 	mods: { theme: 'islands' },
 	mix: {
 		block: 'theme',
-		mods: { color: 'default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'museo' },
+		mods: { color: 'custom', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'museo' },
 	},
 	content: [
 		{
@@ -579,21 +579,26 @@ module.exports = {
 															elemMods: { 'space-a': 'xxl' },
 															content: [
 																{
-																	block: 'image',
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	width: 69,
-																	url: '../../assets/i/prototyping-tool.svg'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'xxxl', weight: 'light' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	content: 'BEM Design'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'm' },
-																	content: 'Мы сделали БЭМ-платформу основным инструментом дизайнеров для построения интерфейсов, дополнив ее всем необходимым арсеналом для масштабирования'
+																	elem: 'info',
+																	content: [
+																		{
+																			block: 'image',
+																			mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																			width: 69,
+																			url: '../../assets/i/prototyping-tool.svg'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'xxxl', weight: 'light' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																			content: 'BEM Design'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'm' },
+																			content: 'Мы сделали БЭМ-платформу основным инструментом дизайнеров для построения интерфейсов, дополнив ее всем необходимым арсеналом для масштабирования'
+																		}
+																	]
 																}
 															]
 														}
@@ -630,21 +635,26 @@ module.exports = {
 															elemMods: { 'space-a': 'xxl' },
 															content: [
 																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'xxxl', weight: 'light' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	content: 'Telegram'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'm' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
-																	content: 'Мы эксперементируем над форматами работы и ищем людей заинтересованных в работе и развитие наших продуктов.'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'm' },
-																	content: 'Мы уверены что сильное комьюните создает мощные продукты'
+																	elem: 'info',
+																	content: [
+																		{
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'xxxl', weight: 'light' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																			content: 'Telegram'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'm' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
+																			content: 'Мы эксперементируем над форматами работы и ищем людей заинтересованных в работе и развитие наших продуктов.'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'm' },
+																			content: 'Мы уверены что сильное комьюните создает мощные продукты'
+																		}
+																	]
 																}
 															]
 														}
@@ -692,21 +702,26 @@ module.exports = {
 															elemMods: { 'space-a': 'xxl' },
 															content: [
 																{
-																	block: 'image',
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	width: 53,
-																	url: '../../assets/i/bem-design-inverse.svg'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'xxxl', weight: 'light' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	content: 'Instrument'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'm' },
-																	content: 'О будущем платформы'
+																	elem: 'info',
+																	content: [
+																		{
+																			block: 'image',
+																			mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																			width: 53,
+																			url: '../../assets/i/bem-design-inverse.svg'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'xxxl', weight: 'light' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																			content: 'Instrument'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'm' },
+																			content: 'О будущем платформы'
+																		}
+																	]
 																}
 															]
 														}
@@ -865,57 +880,62 @@ module.exports = {
 															mix: { block: 'pt-card', elem: 'header', elemMods: { 'space-a': 'xxl' } },
 															content: [
 																{
-																	elem: 'speaker',
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
+																	elem: 'info',
 																	content: [
 																		{
-																			elem: 'persone',
+																			elem: 'speaker',
+																			mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
 																			content: [
 																				{
-																					block: 'pt-avatar',
+																					elem: 'persone',
 																					content: [
 																						{
-																							elem: 'photo',
+																							block: 'pt-avatar',
 																							content: [
 																								{
-																									block: 'image',
-																									width: 60,
-																									url: '../../assets/i/julia.jpg'
+																									elem: 'photo',
+																									content: [
+																										{
+																											block: 'image',
+																											width: 60,
+																											url: '../../assets/i/julia.jpg'
+																										}
+																									]
 																								}
 																							]
+																						}
+																					]
+																				},
+																				{
+																					elem: 'event',
+																					content: [
+																						{
+																							block: 'brand-logo',
+																							mods: { view: 'pitercss', size: 'm' },
 																						}
 																					]
 																				}
 																			]
 																		},
 																		{
-																			elem: 'event',
-																			content: [
-																				{
-																					block: 'brand-logo',
-																					mods: { view: 'pitercss', size: 'm' },
-																				}
-																			]
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'xxxl', weight: 'light' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
+																			content: 'PiterCSS'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'l', weight: 'light' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
+																			content: 'Ежемесячные встречи по фронтенду в Петербурге. Декларативный дизайн. Юлия Музафарова'
 																		}
 																	]
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'xxxl', weight: 'light' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
-																	content: 'PiterCSS'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'l', weight: 'light' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
-																	content: 'Ежемесячные встречи по фронтенду в Петербурге. Декларативный дизайн. Юлия Музафарова'
 																}
 															]
 														},
 														{
 															elem: 'footer',
-															mix: { block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'xxl' } },
+															mix: { block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'xxl', align: 'center' } },
 															content: [
 																{
 																	block: 'text',
@@ -955,57 +975,62 @@ module.exports = {
 															mix: { block: 'pt-card', elem: 'header', elemMods: { 'space-a': 'xxl' } },
 															content: [
 																{
-																	elem: 'speaker',
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
+																	elem: 'info',
 																	content: [
 																		{
-																			elem: 'persone',
+																			elem: 'speaker',
+																			mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
 																			content: [
 																				{
-																					block: 'pt-avatar',
+																					elem: 'persone',
 																					content: [
 																						{
-																							elem: 'photo',
+																							block: 'pt-avatar',
 																							content: [
 																								{
-																									block: 'image',
-																									width: 60,
-																									url: '../../assets/i/misha.jpg'
+																									elem: 'photo',
+																									content: [
+																										{
+																											block: 'image',
+																											width: 60,
+																											url: '../../assets/i/misha.jpg'
+																										}
+																									]
 																								}
 																							]
+																						}
+																					]
+																				},
+																				{
+																					elem: 'event',
+																					content: [
+																						{
+																							block: 'brand-logo',
+																							mods: { view: 'wsd', size: 'm' },
 																						}
 																					]
 																				}
 																			]
 																		},
 																		{
-																			elem: 'event',
-																			content: [
-																				{
-																					block: 'brand-logo',
-																					mods: { view: 'wsd', size: 'm' },
-																				}
-																			]
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'xxxl', weight: 'light' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
+																			content: 'Веб-стандарты'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'inverse', size: 'l', weight: 'light' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
+																			content: 'Конференция по фронтенду. Прототипирование на продакшн технологиях. Михаил Колосков'
 																		}
 																	]
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'xxxl', weight: 'light' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
-																	content: 'Веб-стандарты'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'inverse', size: 'l', weight: 'light' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
-																	content: 'Конференция по фронтенду. Прототипирование на продакшн технологиях. Михаил Колосков'
 																}
 															]
 														},
 														{
 															elem: 'footer',
-															mix: { block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'xxl' } },
+															mix: { block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'xxl', align: 'center' } },
 															content: [
 																{
 																	block: 'text',
