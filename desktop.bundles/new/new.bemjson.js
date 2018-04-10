@@ -13,7 +13,7 @@ module.exports = {
 	mods: { theme: 'islands' },
 	mix: {
 		block: 'theme',
-		mods: { color: 'custom', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'museo' },
+		mods: { color: 'default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'museo' },
 	},
 	content: [
 		{
