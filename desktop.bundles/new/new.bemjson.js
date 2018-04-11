@@ -366,7 +366,22 @@ module.exports = {
 																			attrs: {
 																				'href': '/layouts.html'
 																			},
-																			content: 'Шаблоны'
+																			content: 'Какрас'
+																		}
+																	]
+																},
+																{
+																	elem: 'item',
+																	elemMods: { 'space-v': 'm', border: 'bottom'  },
+																	content: [
+																		{
+																			block: 'text',
+																			mods: { size: 'm', view: 'link' },
+																			tag: 'a',
+																			attrs: {
+																				'href': '/layouts.html'
+																			},
+																			content: 'Сетка'
 																		}
 																	]
 																}
