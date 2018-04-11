@@ -1,6 +1,6 @@
 module.exports = {
 	block: 'page',
-	title: 'BEM Vectors',
+	title: 'BEM Design',
 	favicon: '/favicon.ico',
 	lang: 'ru',
 	head: [
@@ -13,7 +13,7 @@ module.exports = {
 	mods: { theme: 'islands' },
 	mix: {
 		block: 'theme',
-		mods: { color: 'default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'museo' },
+		mods: { color: 'bem', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'museo' },
 	},
 	content: [
 		{
@@ -39,7 +39,7 @@ module.exports = {
 											elem: 'fraction',
 											elemMods: { col: '12' },
 											attrs: {
-												'style': 'display: flex; align-items: center; justify-content: center;'
+												'style': 'display: flex; align-items: center;'
 											},
 											content: [
 												{
