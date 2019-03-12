@@ -44,7 +44,7 @@ const techs = {
         { path: 'node_modules/bem-components-custom/desktop.blocks', check: false },
         { path: 'node_modules/bem-components-custom/design/common.blocks', check: false },
         { path: 'node_modules/bem-components-custom/design/desktop.blocks', check: false },
-        { path: 'node_modules/bem-themes/common.blocks', check: false },
+        //{ path: 'node_modules/bem-themes/common.blocks', check: false },
         { path: 'node_modules/bem-animations/common.blocks', check: false },
         { path: 'node_modules/bem-icons/common.blocks', check: false },
         { path: 'node_modules/bem-layouts/common.blocks', check: false },

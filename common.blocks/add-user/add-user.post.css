@@ -1,0 +1,8 @@
+.add-user {
+    background: var(--color-bg-brand);
+    box-shadow: 0 4px 16px 0 rgba(0,65,141,0.10), 0 6px 20px -20px rgba(0,0,0,0.50);
+    border-radius: 4px;
+    width: auto;
+    height: 72px;
+    
+}

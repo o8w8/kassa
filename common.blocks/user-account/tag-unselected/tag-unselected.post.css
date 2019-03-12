@@ -1,0 +1,10 @@
+.tag-unselected {
+    text-align: center;
+    line-height: 48px;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    line-height: 48px;
+    &_default {
+        color: var(--color-bg-link);
+    }
+}

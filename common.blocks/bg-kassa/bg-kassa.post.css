@@ -1,0 +1,6 @@
+.bg-kassa {
+    box-shadow:0 4px 32px 0 rgba(0,65,141,0.16), 0 12px 20px -12px rgba(0,0,0,0.50);
+    background: var(--color-bg-brand);
+    border-radius: 4px;
+    padding: var(--space-xxxxl);
+}

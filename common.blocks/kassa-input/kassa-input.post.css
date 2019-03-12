@@ -1,0 +1,11 @@
+.kassa-input {
+    border: 1px solid #778A9B;
+    border-radius: 4px;
+    font-size: var(--size-typo-m);
+    line-height: var(--line-height-typo-m);
+    padding-left: var(--space-m);
+    padding-top: 13px;
+    padding-bottom: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}

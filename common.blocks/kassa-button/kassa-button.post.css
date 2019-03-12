@@ -1,0 +1,10 @@
+.kassa-button {
+    background: rgba(119,138,155,0.12);
+    border-radius: 4px;
+    width:100%;
+    font-size: var(--size-typo-l);
+    line-height: 48px;
+    text-align: center;
+    //padding-right: 5%;
+    //padding-left: 5%;
+}

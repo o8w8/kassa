@@ -1,0 +1,44 @@
+$color-base-base: #000;
+$color-base-essential: #fff;
+$color-base-path: #02BE96;
+$color-base-phantom: #778A9B;
+$color-base-success: #009965;
+$color-base-alert: #ff3333;
+$color-base-warning: #f90;
+
+
+$color-bg-brand: $color-base-essential;
+$color-bg-action: $color-base-path;
+$color-bg-hover: color($color-base-path a(57%));
+$color-bg-border: $color-base-phantom;
+$color-bg-link: $color-base-path;
+$color-bg-disabled: color($color-base-phantom a(12%));
+$color-border: $color-base-base;
+
+$color-typo-primary: $color-base-base;
+$color-typo-secondary: $color-base-phantom;
+$color-typo-disable: color($color-base-base a(38%));
+$color-typo-placehoder: color ($color-base-base a(20%));
+
+
+$color-link: $color-base-path;
+$color-link-hover:color($color-base-path a(57%));
+
+.theme_color_kassa {
+
+  --color-bg-brand: $color-base-essential;
+  --color-bg-hover: $color-base-path;
+  --color-bg-action: $color-bg-hover;
+  --color-bg-border: $color-bg-border;
+  --color-bg-link: $color-bg-link;
+  --color-bg-disabled: $color-bg-disabled;
+  --color-border:$color-border;
+
+  --color-typo-primary: $color-typo-primary;
+  --color-typo-secondary: $color-base-phantom;
+  --color-typo-disable: $color-typo-disable;
+
+  --color-link: $color-base-path;
+  --color-link-hover: $color-link-hover;
+  --color-typo-placehoder: $color-link-hover;
+}
